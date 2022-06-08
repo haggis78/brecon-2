@@ -29,6 +29,7 @@
                     <msDesc xml:id="C">
                         <!-- This is witness C -->
                         <msIdentifier>
+                            <country>United Kingdom</country>
                             <settlement>Cambridge</settlement>
                             <repository>St John's College</repository>
                             <idno>MS. H.12</idno>
@@ -38,30 +39,77 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
-                            <msItem>
-                                <title>Statutes of St Davids</title>
-                                <title>Brecon Charter</title>
+                            <!--whc June 7 2022: as here, in other witnesses with both stats and Brecon, 
+                                    subdivide this msItem into two msItem elements, add locus for pp/folios; might want to add rubric, incipit, explicit-->
+                            <msItem n="1" class="statutes" defective="false">
+                                <locus from="1" to="254">pp. 1-254</locus> 
+                                <title type="supplied">Statutes of St Davids Cathedral</title>
                                 <textLang mainLang="lat">Latin</textLang>
+                                <incipit>Hæc sunt Acta et Statuta in Ecclesia Meneven'</incipit>
+                                <explicit><!--June 8 2022: asked online for help with the Greek words that appear at the end of all Statutes copies--></explicit>
+                            </msItem>   
+                            <msItem n="2" class="Letters Patent" defective="false">
+                                <locus from="255" to="265">pp. 255-265</locus>
+                                <note placement="top margin" hand="Thomas Baker">Subsequentes Literæ Patentes aliunde desumuntur, non occurrunt in Libro Statutorum Meneven.</note>
+                                <title type="supplied">Brecon Charter</title>
+                                <textLang mainLang="lat">Latin</textLang>
+                                <incipit>Henricus Octavus</incipit>
+                                <explicit>Per Breve de Privato Sigillo et de Dat' prædict' &amp; c./</explicit>
                             </msItem>
 
                         </msContents>
                         <physDesc>
-                            <p>
-                                <material>Paper</material>: ff iii + 265 pp + ff xi. Cover 25 cm x
-                                37.7 cm; pages 23.5 cm x 36.5 cm; ruled area 17.2 cm x 31.7 cm.
-                                Brown soft leather cover, but red soft leather spine; pencil note
-                                inside back cover reads “Re-backed &amp; repaired by J. P. Gray May
-                                1972 for £7.50.” Written in one clear hand throughout, similar but
-                                not identical to main hand of D, with annotations in the hand of
-                                Thomas Baker and one or more others.</p>
+                            <objectDesc form="codex">
+                                <supportDesc material="chart"><!-- "chart" is used for paper, "perg" for parchment -->
+                                <support>
+                                    <num type="front-flyleaf" value="3"/>
+                                    <num type="book-block" value="133"/>
+                                    <num type="end-flyleaf" value="11"/>
+                                    <dimensions type="leaf">
+                                        <height unit="mm" quantity="365"/>
+                                        <width unit="mm" quantity="235"/>
+                                    </dimensions>
+                                    <dimensions type="cover">
+                                        <height unit="mm" quantity="377"/>
+                                        <width unit="mm" quantity="250"/>
+                                    </dimensions>
+                                </support>
+                                <foliation>Flyleaves and endleaves not foliated or paginated; main text block paginated in hand roughly contemporary with text</foliation>
+                                <collation>(not determined)</collation>    
+                                    <condition>Excellent condition overall, except that iron-gall ink has burned its way into the paper where large, broad-stroked letters are used at the
+                                    beginning of sections of the text; visible sometimes as show-through to other side of folio and/or offset on facing folio</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" ruledLines="41"></layout>
+                                    <dimensions type="written">
+                                        <height unit="mm" quantity="317"/>
+                                        <width unit="mm" quantity="172"/> 
+                                    </dimensions>
+                                    <catchwords>Plain catchwords appear at the bottom right corner of most pages, either inserted within the writing frame below
+                                    the last line or added just below the writing frame in the bottom margin.</catchwords>
+                                    <signatures>No obvious quire signature marks.</signatures>
+                                    <secFol>Magister Robertus de Mora</secFol>
+                                    </layoutDesc>
+                            </objectDesc>
+                            <handDesc>Main text written in one clear hand throughout; some notes in distinctive hand of Thomas Baker<handNote></handNote></handDesc>
+                            <scriptDesc><!--different scripts, general type--></scriptDesc>
+                            <decoDesc>One or more initial word(s) of each document written in broad-stroked, larger (approx. two lines) imitation Gothic quadrata hand; 
+                                each subsection of the text begins with one word in a medium-sized imitation Gothic quadrata hand, larger than main text hand but
+                            written so as to extend above and below writing lines and thus not occupy a two-line space.</decoDesc>
+                            <additions><p>There are marginal annotations on most pages.</p></additions>
+                            <bindingDesc>Brown soft leather cover, but red soft leather spine; pencil note
+                                inside back cover reads "Re-backed &amp; repaired by J. P. Gray May
+                                1972 for £7.50." Binding is tight enough that it can be difficult to read marginalia in gutter margin.</bindingDesc>
+                             
+                            
                         </physDesc>
                         <history>
                             <provenance>
                                 <p>Given to St John's College by Bishop Thomas Watson of St Davids (bishop
                                     1687-1699), a benefactor of the College (Yardley, _Menevia
                                     Sacra_ pp. 118-19, 384). Written <origDate>before 1717, when
-                                        Watson died, and possibly before 1699, when he was deprived
-                                        of his bishopric, as it my have been difficult for him to
+                                        Watson died, and probably before 1699, when he was deprived
+                                        of his bishopric, as it may have been difficult for him to
                                         acquire it thereafter.</origDate> Remains in Old Library at
                                     St Johns College. Consulted by Yardley in compiling _Menevia
                                     Sacra_ (1739-1769); page numbers align with those given in his
@@ -233,7 +281,7 @@
                         <!--  WHC October 24 2019: This is witness R. -->
                         <msIdentifier>
                             <settlement>London</settlement>
-                            <repository>the National Archives</repository>
+                            <repository>The National Archives</repository>
                             <idno>C 66/709</idno>
                         </msIdentifier>
                         <msContents>
@@ -256,12 +304,90 @@
                                     Tower of London; moved to the new Public Record Office building
                                     in Chancery Lane in the 1850s and thence to the second Public
                                     Record Office building in Kew in the 1990s. The Public Record
+                                    Office became The National Archives in 2003. <origDate>January
+                                        32 Henry VIII: 1540 (Old Style) / 1541 (New
+                                        Style)</origDate>, according to date on document, though enrolled among documents of 33 Henry VIII.</p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                    
+                    <msDesc xml:id="Z">
+                        <!--  WHC June 7 2022: This is witness Z. -->
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository>The National Archives</repository>
+                            <idno>C 82/776</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>Warrants for the Great Seal, January, 32 Henry VIII (1541 N.S.)</title>
+                                <title>Brecon Charter</title>
+                                <textLang mainLang="lat">Latin</textLang>
+                            </msItem>
+                            
+                        </msContents>
+                        <physDesc>
+                            <p>
+                                <material>Parchment</material>; bundle of several dozen membranes, joined by tag at upper left corner, not individually catalogued. The document of interest
+                                is the second-last membrane in the bundle. Badly soiled, wrinkled, and abraded, especially in upper left corner near where tag joins the membranes together 
+                                and thus leads to most abrasion with the dorse of the previous document; that area is legible only under ultraviolet light. Written in abbreviated Latin in a 
+                                standard cursive Chancery hand.</p>
+                        </physDesc>
+                        <history>
+                            <provenance>
+                                <p>Produced by Chancery, the office that issued and enrolled Letters Patent 
+                                    (for details of the process, see https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1). 
+                                    The 'original' against which it was checked (see note at end of text) was not the Letter Patent that had been issued, 
+                                    but rather the Warrant in Chancery, the authorised draft from which the Letter itself was prepared. 
+                                    This may survive in The National Archives in the file C 82/776, which contains the surviving Warrants in Chancery for 
+                                    January of 32 Henry VIII (1541). Initially stored in the Rolls Chapel in the
+                                    Tower of London; moved to the new Public Record Office building
+                                    in Chancery Lane in the 1850s and thence to the second Public
+                                    Record Office building in Kew in the 1990s. The Public Record
+                                    Office became The National Archives in 2003. <origDate>January,
+                                        32 Henry VIII: 1540 (Old Style) / 1541 (New
+                                        Style).</origDate></p>
+                            </provenance>
+                        </history>
+                    </msDesc>
+                    
+                    <msDesc xml:id="Y">
+                        <!--  WHC June 7 2022: This is witness Y. -->
+                        <msIdentifier>
+                            <settlement>London</settlement>
+                            <repository>The National Archives</repository>
+                            <idno>PSO 2/5</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <title>Privy Seal Warrants, 32 Henry VIII</title>
+                                <title>Brecon Charter</title>
+                                <textLang mainLang="lat">Latin</textLang>
+                            </msItem>
+                            
+                        </msContents>
+                        <physDesc>
+                            <p>
+                                <material>Parchment</material>; bundle of several dozen membranes, joined by tag at upper left corner, not individually catalogued. Written in abbreviated Latin in a 
+                                standard cursive Chancery hand.</p>
+                        </physDesc>
+                        <history>
+                            <provenance>
+                                <p>Warrant under signet, sent to Privy Seal Office, to prepare Warrant in Chancery (now C 82/776, and our Witness Z) 
+                                    (for details of the process, see https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1). 
+                                    This was the earliest draft stage of the process.
+                                    <!-- WHC 7 June 2022: Need to check if provenance/custody of PSO docs is same as Chancery docs described here: -->
+                                    The Patent Rolls were initially stored in the Rolls Chapel in the
+                                    Tower of London; moved to the new Public Record Office building
+                                    in Chancery Lane in the 1850s and thence to the second Public
+                                    Record Office building in Kew in the 1990s. The Public Record
                                     Office became The National Archives in 2003. <origDate>January,
                                         33 Henry VIII: 1540 (Old Stye) / 1541 (New
                                         Style).</origDate></p>
                             </provenance>
                         </history>
                     </msDesc>
+                    
                 </listBibl>
             </sourceDesc>
         </fileDesc>

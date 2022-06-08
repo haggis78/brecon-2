@@ -64,10 +64,16 @@
                   <desc versionDate="2019-09-07" xml:lang="en">points to Theophilus Jones, A History of the County of Brecknock Vol. II (Brecknock, 1809; 2nd edn., 1898), Appendix doc. IX </desc>
                 </valItem>
                 <valItem mode="add" ident="#R">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C66/709</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to National Archives, Chancery Patent Rolls, C 66/709</desc>
+                </valItem>
+                <valItem mode="add" ident="#Y">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Privy Seal Warrants, PSO 2/5</desc>
+                </valItem>
+                <valItem mode="add" ident="#Z">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Warrants in Chancery, C 82/776</desc>
                 </valItem>
                 <valItem mode="add" ident="#C">
-                  <desc versionDate="2019-09-07" xml:lang="en">points to St. John’s College, Cambridge MS H.12</desc>
+                  <desc versionDate="2019-09-07" xml:lang="en">points to St John’s College, Cambridge MS H.12</desc>
                 </valItem>
                 <valItem mode="add" ident="#O"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 1249</desc></valItem>
                 <valItem mode="add" ident="#D"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/23</desc></valItem>
