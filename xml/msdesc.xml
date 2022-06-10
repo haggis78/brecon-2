@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ODD/out/tei_brecon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="BreconSchematron1.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD/out/tei_brecon.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD/BreconSchematron1.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+
+<!-- this would be the more boilerplate declarations if I weren't using my own ODD and Schematron:
+  <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?%>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -39,18 +45,18 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
-                            <!--whc June 7 2022: as here, in other witnesses with both stats and Brecon, 
-                                    subdivide this msItem into two msItem elements, add locus for pp/folios; might want to add rubric, incipit, explicit-->
                             <msItem n="1" class="statutes" defective="false">
                                 <locus from="1" to="254">pp. 1-254</locus> 
                                 <title type="supplied">Statutes of St Davids Cathedral</title>
                                 <textLang mainLang="lat">Latin</textLang>
                                 <incipit>Hæc sunt Acta et Statuta in Ecclesia Meneven'</incipit>
-                                <explicit><!--June 8 2022: asked online for help with the Greek words that appear at the end of all Statutes copies--></explicit>
+                                <explicit>ταῦτα μέν δὴ ταῦτα</explicit>
+                                <!--whc 9 June 2022: If Greek in explicit here isn't showing up properly in oXygen, change font to Palatino Linotype. Options- preferences- font. I turned that font back off because it's harder on the eyes on 
+                                    a computer screen even if it's more aesthetically pleasing. -->
                             </msItem>   
                             <msItem n="2" class="Letters Patent" defective="false">
                                 <locus from="255" to="265">pp. 255-265</locus>
-                                <note placement="top margin" hand="Thomas Baker">Subsequentes Literæ Patentes aliunde desumuntur, non occurrunt in Libro Statutorum Meneven.</note>
+                                <note place="top margin" hand="Thomas Baker">Subsequentes Literæ Patentes aliunde desumuntur, non occurrunt in Libro Statutorum Meneven.</note>
                                 <title type="supplied">Brecon Charter</title>
                                 <textLang mainLang="lat">Latin</textLang>
                                 <incipit>Henricus Octavus</incipit>
@@ -80,26 +86,28 @@
                                     beginning of sections of the text; visible sometimes as show-through to other side of folio and/or offset on facing folio</condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1" ruledLines="41"></layout>
+                                    <layout columns="1" ruledLines="41">
                                     <dimensions type="written">
                                         <height unit="mm" quantity="317"/>
                                         <width unit="mm" quantity="172"/> 
                                     </dimensions>
-                                    <catchwords>Plain catchwords appear at the bottom right corner of most pages, either inserted within the writing frame below
+                                    
+                                    <catchwords>Plain catchwords appear at the bottom right corner of almost every page, either inserted within the writing frame below
                                     the last line or added just below the writing frame in the bottom margin.</catchwords>
                                     <signatures>No obvious quire signature marks.</signatures>
                                     <secFol>Magister Robertus de Mora</secFol>
+                                    </layout>
                                     </layoutDesc>
                             </objectDesc>
-                            <handDesc>Main text written in one clear hand throughout; some notes in distinctive hand of Thomas Baker<handNote></handNote></handDesc>
-                            <scriptDesc><!--different scripts, general type--></scriptDesc>
-                            <decoDesc>One or more initial word(s) of each document written in broad-stroked, larger (approx. two lines) imitation Gothic quadrata hand; 
+                            <handDesc><handNote>Main text written in one clear hand throughout; some notes in distinctive hand of Thomas Baker</handNote></handDesc>
+                            <scriptDesc><p><!--different scripts, general type--></p></scriptDesc>
+                            <decoDesc><decoNote>One or more initial word(s) of each document written in broad-stroked, larger (approx. two lines) imitation Gothic quadrata hand; 
                                 each subsection of the text begins with one word in a medium-sized imitation Gothic quadrata hand, larger than main text hand but
-                            written so as to extend above and below writing lines and thus not occupy a two-line space.</decoDesc>
+                                written so as to extend above and below writing lines and thus not occupy a two-line space.</decoNote></decoDesc>
                             <additions><p>There are marginal annotations on most pages.</p></additions>
-                            <bindingDesc>Brown soft leather cover, but red soft leather spine; pencil note
+                            <bindingDesc><p>Brown soft leather cover, but red soft leather spine; pencil note
                                 inside back cover reads "Re-backed &amp; repaired by J. P. Gray May
-                                1972 for £7.50." Binding is tight enough that it can be difficult to read marginalia in gutter margin.</bindingDesc>
+                                1972 for £7.50." Binding is tight enough that it can be difficult to read marginalia in gutter margin.</p></bindingDesc>
                              
                             
                         </physDesc>
