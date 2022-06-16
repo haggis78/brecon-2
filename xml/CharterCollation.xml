@@ -441,22 +441,28 @@
          <!--whc got this far on Y 6/8/2022-->
          
          <ab n="4">Cumque etiam subditi et ligei nostri in dictis partibus australibus Walliæ
-            commorantes, summa egestate oppressi filios suos in bonis literis educare non <app>
+            commorantes, summa egestate oppressi filios suos in bonis literis 
+            <!--WHC NB CHECK: Y has litteris, R has l'ris, W has literis; 
+               litteris is correct; do other witnesses really say literis? --> 
+            educare non <app>
                <rdg wit="#R #W #I #J #C #O #D">possunt:</rdg>
-               <rdg wit="#S">possint:</rdg>
-            </app> Et in dictis partibus australibus Walliæ nullus ludus literarius habetur, per
+               <rdg wit="#S #Y">possint:</rdg>
+            </app> Et in dictis partibus australibus Walliæ nullus ludus literarius 
+            <!--WHC NB CHECK: Y has litterarius, R has l'rarius, W has literarius; 
+               litterarius is correct; do other witnesses really say literarius? -->
+            habetur, per
             quod non solum et clerici et laici omnis ætatis et conditionis rudes et ignari <app>
-               <rdg wit="#W #R #I #J #C #O #D">redduntur,</rdg>
+               <rdg wit="#W #R #I #J #C #O #D #Y">redduntur,</rdg>
                <rdg wit="#S">reddenter</rdg>
             </app>
             <app>
-               <rdg wit="#R #W #I #C #O #D">tam</rdg>
+               <rdg wit="#R #W #I #C #O #D #Y">tam</rdg>
                <rdg wit="#S">tem</rdg>
                <rdg wit="#J">tum</rdg>
             </app> sui officii
             <!-- W: a small dot at the lower right of the initial o of officii in the Google Books image makes it look like an a. -->
             erga Deum, quam debitæ suæ obedientiæ erga nos; sed etiam linguæ vulgaris <app>
-               <rdg wit="#W #S #R #J #D">Angliæ</rdg>
+               <rdg wit="#W #S #R #J #D #Y">Angliæ</rdg>
                <rdg wit="#C"><add>^</add><add place="above">Angliæ</add></rdg>
                <!-- WHC: In C this is an interlinear insertion in Thomas Baker's hand -->
                <rdg wit="#I #O"/>
@@ -468,23 +474,24 @@
             <!-- WHC: #D originally had different letters in the middle and was overwritten to correct the word to debuerunt. However this made it impossible to see what
                those overwritten letters were. -->
             et tenentur facere secundum formam et effectum dictorum statutorum, intelligere non <app>
-               <rdg wit="#R #W #I #J #C #O #D">possunt</rdg>
+               <rdg wit="#R #W #I #J #C #O #D #Y">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app> propter ignorantiam dictæ linguæ Anglicanæ. </ab>
          <ab n="5">Cumque etiam in dicto <app>
-               <rdg wit="#W #S #J #R #I #C #O">Collegio</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y">Collegio</rdg>
                <rdg wit="#D">Collegis</rdg>
             </app> de <app>
                <rdg wit="#W #I #J #O">Abergwilly</rdg>
                <rdg wit="#S">Abergwilli</rdg>
                <rdg wit="#C">Abergwylly</rdg>
                <rdg wit="#D">Aberguylly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Y">Alberguylly</rdg>
             </app> pro Cantatoribus in eodem Collegio stipendia atque <app>
                <rdg wit="#W #S #J">sallaria</rdg>
-               <rdg wit="#R #I #C #O #D">salaria</rdg>
-            </app> ad summam quinquaginta trium librarum <!-- W gives a footnote here: “So in the copy.” This likely indicates that he was indeed working from someone else’s transcript and not the original Letters
-            Patent; else he probably would have used some term other than “copy”. -->
+               <rdg wit="#R #I #C #O #D #Y">salaria</rdg>
+            </app> ad summam quinquaginta trium librarum <!-- W gives a footnote here: “So in the copy.” This may indicate that he was indeed working from someone else’s transcript and not the original Letters
+            Patent; else he probably would have used some term other than “copy”. 
+            Though the asterisk is between librarum and stirlingorum, it may pertain to the latter word.-->
             <app>
                <rdg wit="#W #S">stirlingorum</rdg>
                <rdg wit="#R #I #J #C #O #D">sterlingorum</rdg>
@@ -494,75 +501,91 @@
                <rdg wit="#S #J">annuatim</rdg>
             </app> attingentia providentur. Quæ quidem summa quinquaginta trium librarum in meliores
             usus potest disponi, utpote in adolescentibus et aliis juvenibus in bonis literis
+            <!--WHC NB CHECK: Y has litteris, R has l'ris, W has literis; 
+               litteris is correct; do other witnesses really say literis? --> 
             instruendis et <app>
                <rdg wit="#W #S #I #J #C #O #D">quotidiana</rdg>
-               <rdg wit="#R">cotidiana</rdg>
+               <rdg wit="#R #Y">cotidiana</rdg>
             </app> lectura per aliquem virum pium et eruditum dictanda, unde <app>
                <rdg wit="#W #S #I #J #C #O #D">possint</rdg>
                <!-- WHC: the subjunctive is doubtless correct here. -->
-               <rdg wit="#R">possunt</rdg>
+               <rdg wit="#R #Y">possunt</rdg>
             </app> veritatem callere et quid Deo et Regi faciendum foret <pb ed="#D" n="176"/>satius <app>
                <rdg wit="#W #S #I #J #C #O #D">possint</rdg>
                <!-- WHC: really #D has possunt but with a dot over it, so possint with an extra minim. -->
-               <rdg wit="#R">possunt</rdg>
+               <rdg wit="#R #Y">possunt</rdg>
             </app> intelligere, in maximum <app>
-               <rdg wit="#W #S #I #R #J #C">commodum</rdg>
+               <rdg wit="#W #S #I #R #J #C #Y">commodum</rdg>
                <rdg wit="#O #D">comodum</rdg>
             </app> totius <app>
-               <rdg wit="#W #S #J #R #I #C #O">populi</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y">populi</rdg>
                <rdg wit="#D">poppuli</rdg>
             </app><pb ed="#O" n="290"/> nostri <pb ed="#C" n="257"/> ibidem commoraturi, sicut per
             relationem dilecti nobis in Christo Willielmi Episcopi Menevensis plenius <app>
-               <rdg wit="#W #R #I #C #O #D">ac</rdg>
+               <rdg wit="#W #R #I #C #O #D #Y">ac</rdg>
                <rdg wit="#S #J">et</rdg>
             </app> planius accepimus. </ab>
          <!-- CRC: in #O, as below, "Barlow" is written in left margin next to this last line. This one is in the same hand as the text-->
          <!-- WHC: That's a good thing to know: it may indicate that #O is copied from #C! -->
          <ab n="6">Nos igitur volentes ex intima charitate nostra <app>
-               <rdg wit="#W #R #I #S #C #O #D">qua</rdg>
+               <rdg wit="#W #R #I #S #C #O #D #Y">qua</rdg>
                <rdg wit="#J">quam</rdg>
             </app> erga Deum et <app>
-               <rdg wit="#W #R #I #C #O #D">cunctum</rdg>
+               <rdg wit="#W #R #I #C #O #D #Y">cunctum</rdg>
                <rdg wit="#S">totum</rdg>
                <rdg wit="#J">tortum</rdg>
             </app> populum nostrum gerimus, congruum remedium in hac parte providere, et in <app>
-               <rdg wit="#W #S #R #J">multo</rdg>
+               <rdg wit="#R #Y">mult'</rdg><!--WHC: lack of ending in chancery mss makes it indeterminate
+                  as to which of the competing endings in other MSS was intended, and may indeed explain the 
+                  deviation in the later copies, as they were attempting to expand abbreviation-->
+               <rdg wit="#W #S #J">multo</rdg>
                <rdg wit="#I #C #O #D">multos</rdg>
             </app> meliores usus quam nunc disponuntur convertere <app>
                <rdg wit="#W #S #J #C #O #D">,</rdg>
-               <rdg wit="#R">et transmutare,</rdg>
+               <rdg wit="#R #Y">et transmutare,</rdg>
                <rdg wit="#I"><add place="leftMargin">et transmutare,</add></rdg>
                <!-- AMP: testing a system of adding footnotes in witnesses! -->
                <!-- WHC: Great, but how will it be distinguished on the website? -->
                <!-- WHC: This is a really important datum: it shows that someone corrected I by checking it against something that was NOT any of our other witnesses with the possible exception of R! -->
             </app> clare percipientes <pb ed="#I" n="271"/>quod præmissa omnia et singula melius
             disponi <app>
-               <rdg wit="#W #R #I #J #C #O #D">possunt</rdg>
+               <rdg wit="#W #R #I #J #C #O #D #Y">possunt</rdg>
                <rdg wit="#S">possint</rdg>
-            </app><!-- CRC: paragraph break here in #O only. WHC: Mild paragraph break; no heavy caps.-->
+            </app>. <!-- CRC: paragraph break here in #O only. WHC: Mild paragraph break; no heavy caps.-->
             Volentesque
             <!-- WHC: #D has voluntesque with an e superscribed to correct it to volentesque.-->
-            multum statum <pb ed="#W" n="305"/> subditorum nostrorum melius consulere, de gratia
+            multum statum 
+            <!--WHC: Y has stat!!! with a dot over the last minim, as if it could be statui, but
+               that doesn't make grammatical sense (dative), so I am interpreting it as actually statum and the 
+               dot is either meaningless or a suspension mark representing the u. (A suspension mark for a u is
+               unusual but a similar dot is used elsewhere as a general suspension mark. )Note that R has 
+            stat!!! with no mark over it. -->
+            <pb ed="#W" n="305"/> subditorum 
+            <app><rdg wit="#W #R #I #J #C #S #D #O">nostrorum</rdg>
+               <rdg wit="#Y"><add>^</add><add place="above">nostrorum</add></rdg></app>
+             melius consulere, de gratia
             nostra speciali ac ex certa scientia et mero motu nostris dedimus concessimus et
             confirmavimus, ac per præsentes damus concedimus et confirmamus præfato Willielmo nunc
             Episcopo
             <!-- WHC in #C an unknown hand (not Thomas Baker's!) has noted "Barlow" in the margin here:  not a textual addition as such, just an annotation. How to show this? -->
             totam illam domum sive Prioratum fratrum prædicatorum, ac totum <app>
-               <rdg wit="#W #R #I #J #C #S #D"> solum et fundum,</rdg>
+               <rdg wit="#W #R #I #J #C #S #D #Y"> solum et fundum,</rdg>
                <rdg wit="#O"> fundum et Solum,</rdg>
             </app> præcinctum, et ambitum, dicti nuper Prioratus, ac omnia ædificia, terras et
             tenementa, redditus reversiones et servitia, <!-- WHC: #D has sevitia with a superscript r inserted via a caret.-->
             <app>
                <rdg wit="#W #S #I #J #C #O #D">messuagia,</rdg>
-               <rdg wit="#R">mesuagia,</rdg>
+               <rdg wit="#R #Y">mesuagia,</rdg>
             </app> sola, funda, proficua commoditates advantagia et hæreditamenta <app>
                <rdg wit="#W #I #C #O #D">quæcunque</rdg>
                <rdg wit="#S #R #J">quæcumque</rdg>
+               <rdg wit="#Y">quaecu'que</rdg> <!--WHC: suspension mark makes it unclear which 
+                  the scribe intended and thus what the more "correct" original reading was -->
             </app>, dicto nuper Prioratui <app>
                <rdg wit="#W #S #R #J">quoquo modo</rdg>
-               <rdg wit="#I #C #O #D">quoquomodo</rdg>
+               <rdg wit="#I #C #O #D #Y">quoquomodo</rdg>
             </app> spectantia sive pertinentia. </ab>
-
+<!--WHC: Got this far on Y 6/16/2022 -->
 
          <ab n="7"><app>
                <rdg wit="#W #S #I #J #C #O #D">Ac etiam</rdg>

@@ -45,7 +45,7 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
-                            <msItem n="1" class="statutes" defective="false">
+                            <msItem n="1" class="statutes" defective="true">
                                 <locus from="1" to="254">pp. 1-254</locus> 
                                 <title type="supplied">Statutes of St Davids Cathedral</title>
                                 <textLang mainLang="lat">Latin</textLang>
@@ -62,7 +62,6 @@
                                 <incipit>Henricus Octavus</incipit>
                                 <explicit>Per Breve de Privato Sigillo et de Dat' prædict' &amp; c./</explicit>
                             </msItem>
-
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
@@ -91,7 +90,6 @@
                                         <height unit="mm" quantity="317"/>
                                         <width unit="mm" quantity="172"/> 
                                     </dimensions>
-                                    
                                     <catchwords>Plain catchwords appear at the bottom right corner of almost every page, either inserted within the writing frame below
                                     the last line or added just below the writing frame in the bottom margin.</catchwords>
                                     <signatures>No obvious quire signature marks.</signatures>
