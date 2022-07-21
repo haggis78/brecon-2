@@ -13,17 +13,17 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
+                <link rel="stylesheet" type="text/css" href="../../css/brecon.css" />
                 <title>Analysis</title>
             </head>
             <body>
                 <h1>Analysis of textual relationships among witnesses</h1>
 <h2> Introduction and methodology</h2>
-                <p>No two manuscripts of a text will ever be quite identical. Each scribe will introduce variant readings, whether he is adding information, making a mistake, or trying to correct a mistake he sees in the exemplar from which he is copying. Carefully tracking these variants is central to editing a text that appears in multiple 'witnesses' (manuscripts and printings), especially where the original copy is lost. This enables the creation of a <em>stemma</em>, or family tree, showing which copies were made from which other copies, and can be used to determine which variants likely appeared in the lost original manuscript.</p> 
-                <p>Thanks to our XML encoding, we can automatically count the frequency with which each witness agrees with each other witness. There are many different ways in which this could be calculated. We might either include or exclude morphological (spelling) differences, or might include some but not others. Where a whole phrase is present in some witnesses but absent in others, we might count that either as a single point of difference or as one difference per word. We could even count the differences on a letter-by-letter basis.</p>
+                <p>No two manuscripts of a text will ever be quite identical. Each scribe will introduce variant readings, whether he is adding information, making a mistake, or trying to correct a mistake he thinks he sees in the exemplar from which he is copying. Carefully tracking these variants is central to editing a text that appears in multiple 'witnesses' (manuscripts and printings), especially where the original copy is lost. This enables the creation of a <em>stemma</em>, or family tree, showing which copies were made from which other copies, and can be used to determine which variants likely appeared in the lost original manuscript.</p> 
+                <p>Thanks to our XML encoding, we can automatically count the frequency with which each witness agrees with each other witness. There are many different ways in which this could be calculated. We might either include or exclude morphological (spelling) differences, or might include some that we decide are meaningful while omitting others we decide are not. Where a whole phrase is present in some witnesses but absent in others, we might count that either as a single point of difference or as one difference per word. We could even count the differences on a letter-by-letter basis using the string-length() function.</p>
                 <p>The need for absolute precision is mitigated by the fact that we are not trying to generate our stemma in a purely mathematical fashion. Our purpose here is less ambitious: to get an impressionistic sense of the accuracy of scribes, to determine which witness or witnesses are closest to the lost original, and to generate hypotheses about the relationships among the copies. Such hypotheses can then be checked in the conventional way, by looking at individual examples of variations.</p>
                 <p>Procedurally, it has been simplest to count all variations noted in the XML document, whether they are matters of syntax or word choice (<em>vel</em>, <em>seu</em>, <em>aut</em>, and <em>et</em> being interchanged, for example); certain spelling differences that we judged to be significant (especially different spellings of place names); and whole words or passages that are present in some witnesses and absent in others. Where a whole phrase is absent or present, we have encoded that as a single point of difference rather than counting the number of words or letters and treating each one as an individual point of difference. By looking at the comparison of texts, the reader can quickly see the type of variations we found and identified. </p>
-                <p>We elected from the start to ignore certain other differences, particularly with regard to Witness R, the earliest copy we surveyed (the Patent Roll, c. 1541). This copy, though technically post-medieval, bore certain characteristics of medieval rather than classical/Renaissance-neoclassical Latin. Two in particular stand out. The first is the use of -e- alone where classical and neoclassical Latin would use -ae- or the ligatured -æ-. (The two times the scribe of R uses -ae- is in the context of the word <em>escaetorum</em>, a word borrowed from medieval French, and in the Welsh place-name <em>Ymaendny</em>.) The other relates to the appearence of -c- or -t- in the middle of a word, especially where followed by an -i-. Not only did many medieval scribes interchange these letters: the similarity in their appearance in many hands (the c was often made with a horizontal cross-stroke and a separate vertical stroke which may or may not include a rightward curve at the bottom, similar to the way we write a -t- today) can make it impossible for the modern reader to tell which letter the scribe even intended, or even whether the scribe himself had a clear idea in each instance which letter he was writing. In the text of R that we prepared for comparison with the later witnesses, we re-inserted the -ae- and standardized c/t distinction. This is less than ideal in reconstructing the exact morphology and syntax of the lost originl Letters Patent, but because these differences occur so frequently, keeping them would have cluttered the data with nearly 600 essentially meaningless variant readings. Not only would this have concealed the smaller number of more important variants: it would have meant tripling the number of variants marked up in our XML, multiplying the opportunities for human error.</p>
+                <p>We elected from the start to ignore certain other differences, particularly with regard to Witnesses Y, Z, and R, the early copies that are closely contemporary with the official 1541 issue of the Letters Patent under the Great Seal, which we have described as the "original". These copies, though technically post-medieval, bore certain characteristics of medieval rather than classical/Renaissance-neoclassical Latin. Two in particular stand out. The first is the use of -e- alone where classical and neoclassical Latin would use -ae- or the ligatured -æ-. (The two times the Tudor scribes use -ae- are in the context of the word <em>escaetorum</em>, a word borrowed from medieval French, and in the Welsh place-name <em>Ymaendny</em>.) The other relates to the appearence of -c- or -t- in the middle of a word, especially where followed by an -i-. Not only did many medieval scribes interchange these letters: the similarity in their appearance in many hands (the c was often made with a horizontal cross-stroke and a separate vertical stroke which may or may not include a rightward curve at the bottom, similar to the way we write a -t- today) can make it impossible for the modern reader to tell which letter the scribe even intended, or even whether the scribe himself had a clear idea in each instance which letter he was writing. In the texts of YZR that we prepared for comparison with the later witnesses, we re-inserted the -æ- and standardized the c/t distinction. This is less than ideal in reconstructing the exact morphology and syntax of the lost originl Letters Patent, but because these differences occur so frequently, keeping them would have cluttered the data with approximately 600 essentially meaningless variant readings. Not only would this have concealed the smaller number of more important variants: it would have meant more than doubling the number of variants marked up in our XML, multiplying the opportunities for human error.</p>
                 <p>Other differences that we chose not to encode include punctuation and capitalisation. These will vary naturally from one scribe to another based on personal preferences, so they do not help us determine who copied from whom. In the case of this particular text they also do not significantly influence the meaning of the Latin text. Further, in the period around 1700, when witnesses CDIO were written, scribes used multiple letter forms, and it is not always possible to determine whether a particular form was intended by the scribe to be a majuscule (capital) or miniscule (lower-case) letter. Finally, while all of the scribes (except that of witness D) used various forms of the ampersand rather than spelling out the word 'et', this too is a matter of scribal preference, and encoding these variants in our xml file would have been both tedious and unnecessary. We rendered all of these as 'et' in our XML file, as doing so is normally considered best practice in editing medieval and early modern Latin texts. This meant ignoring the handful of times that a scribe wrote out 'et' instead.</p>
                 <h2>Numerical analysis</h2>
                 
@@ -32,6 +32,7 @@
                 <table>
                     <tr>
                        <th>Witness</th> 
+                        <th>Y</th>
                         <th>R</th>
                         <th>W</th>
                         <th>S</th>
@@ -41,58 +42,81 @@
                         <th>I</th>
                         <th>O</th>
                     </tr>
+                    <!--whc 20-JUL-2022: I have added background color to the main table using inline CSS and attribute value templates, but not having
+                        determined yet which is the best, there are about four different schemes below. After figuring out which is preferable, standardize
+                        it, but perhaps save the others somewhere in case I change my mind. -->
                     <tr>
-                        <td>R</td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'R')])"></xsl:value-of></td>
-                        <td style="background-color: #ffff66;"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'W')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'S')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'J')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'C')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'D')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'I')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
+                        <th>Y</th>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'Y')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'Y')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'R')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'R')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'W')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'W')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'S')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'J')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'J')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'C')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'C')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'D')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'D')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'I')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'I')])"></xsl:value-of></td>
+                        <td style="background-color: hsl(147, 100%, {100 - (count(//rdg[contains(@wit, 'Y') and contains (@wit, 'O')]) div count(//app)) * 50}%"><xsl:value-of select="count(//rdg[contains(@wit, 'Y') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>W</td>
+                        <th>R</th>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'Y')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'Y')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'R')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'R')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'W')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'W')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'S')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'J')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'J')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'C')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'C')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'D')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'D')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'I')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'I')])"></xsl:value-of></td>
+                        <td style="background-color: rgba(255,0,255,{count(//rdg[contains(@wit, 'R') and contains (@wit, 'O')]) div count(//app)}"><xsl:value-of select="count(//rdg[contains(@wit, 'R') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
+                    <tr>
+                        <th>W</th>
+                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'Y')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'R')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'W')])"></xsl:value-of></td>
-                        <td style="background-color: #ff66cc;"><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'S')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'J')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'C')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'D')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'I')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'W') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>S</td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'R')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'W')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'S')])"></xsl:value-of></td>
-                        <td style="background-color: #ff66cc;"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'J')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'C')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'D')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'I')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
+                        <th>S</th>
+                        <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'Y')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'Y')])"></xsl:value-of></td>
+                            <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'R')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'R')])"></xsl:value-of></td>
+                            <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'W')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'W')])"></xsl:value-of></td>
+                            <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'S')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        
+                        <xsl:variable name="val" select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'J')])"/>
+                        <td><xsl:attribute name="style"><xsl:text>background-color: hsl(90, </xsl:text><xsl:value-of select="$val * 100 div 285"/><xsl:text>%, 50%)</xsl:text></xsl:attribute><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'J')])"></xsl:value-of></td>
+                        
+                        <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'C')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'C')])"></xsl:value-of></td>
+                         <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'D')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'D')])"></xsl:value-of></td>
+                            <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'I')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'I')])"></xsl:value-of></td>
+                            <td style="background-color: hsl(147, {count(//rdg[contains(@wit, 'S') and contains (@wit, 'O')]) div count(//app) * 100}%, 50%"><xsl:value-of select="count(//rdg[contains(@wit, 'S') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>J</td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'R')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'W')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'S')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'J')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'C')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'D')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'I')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
+                        <th>J</th>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'Y')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'Y')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'R')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'R')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'W')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'W')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'S')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'J')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'J')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'C')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'C')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'D')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'D')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'I')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'I')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'J') and contains (@wit, 'O')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'J') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>C</td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'R')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'W')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'S')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'J')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'C')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'D')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'I')])"></xsl:value-of></td>
-                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
+                        <th>C</th>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'Y')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'Y')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'R')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'R')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'W')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'W')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'S')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'S')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'J')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'J')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'C')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'C')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'D')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'D')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'I')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'I')])"></xsl:value-of></td>
+                        <td style="background-color: hsl({count(//rdg[contains(@wit, 'C') and contains (@wit, 'O')])}, 100%, 80%"><xsl:value-of select="count(//rdg[contains(@wit, 'C') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>D</td>
+                        <th>D</th>
+                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'Y')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'R')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'W')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'S')])"></xsl:value-of></td>
@@ -102,7 +126,8 @@
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'I')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'D') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>I</td>
+                        <th>I</th>
+                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'Y')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'R')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'W')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'S')])"></xsl:value-of></td>
@@ -112,7 +137,8 @@
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'I')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'I') and contains (@wit, 'O')])"></xsl:value-of></td>                                            </tr>
                     <tr>
-                        <td>O</td>
+                        <th>O</th>
+                        <td><xsl:value-of select="count(//rdg[contains(@wit, 'O') and contains (@wit, 'Y')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'O') and contains (@wit, 'R')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'O') and contains (@wit, 'W')])"></xsl:value-of></td>
                         <td><xsl:value-of select="count(//rdg[contains(@wit, 'O') and contains (@wit, 'S')])"></xsl:value-of></td>
@@ -188,26 +214,32 @@
                 <p>What can we conclude from this? As expressed above, CO are closer to R than DI, while CD and IO seem to be pairs. Our working hypothesis, then, is that D is a copy of C and O is a copy of I. Further analysis will be needed to determine whether either C or I might have copied the other, or whether C and I are both independent copies of some other exemplar, probably now lost. Whatever their exemplar, however, we can definitively say that it was not W - Browne Willis' <em>History of Abbies</em> vol. II, published 1719 - since CDIO include several passages at the beginning and end that are not printed by Willis.</p>
                 
                 <h2>Stemma codicum</h2>
-                <p>What follows is our hypothetical <em>stemma codicum</em>, or family tree, of the witnesses, both manuscript and in print. Relationships among CDIO are a working hypothesis. Pink circles represent the sources collated in this project.</p>
+                <p>What follows is our hypothetical <em>stemma codicum</em>, or family tree, of the witnesses, both manuscript and in print. Relationships among CDIO are a working hypothesis. Pink circles represent the extant witnesses collated in this project; white circles represent lost or hypothetical witnesses.</p>
                 
                 <div class="content">
                     <div class="stemma-svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" id="stemma-svg" width="100%" viewBox="0 0 1100 550">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="stemma-svg" width="100%" viewBox="0 0 1100 650">
                             <desc><!--Stemma for Brecon website.--></desc>
-                            <g transform="scale(.8) translate(0, 100)">
-                                <text x="1" y="1" font-family="sans-serif" font-size="50px" fill="black">Stemma Codicum</text>
+                            <g transform="scale(.8) translate(0, 200)">
+                                <text x="1" y="-100" font-family="sans-serif" font-size="50px" fill="black">Stemma Codicum</text>
                                 
                                 <g>
                                     <line x1="500" y1="25" x2="1000" y2="525" stroke="black" stroke-width="2"/>
-                                    <line x1="500" y1="25" x2="400" y2="125" stroke="black" stroke-width="2"/>
+                                    <line x1="600" y1="-75" x2="400" y2="125" stroke="black" stroke-width="2"/>
                                     <line x1="600" y1="125" x2="300" y2="425" stroke="black" stroke-width="2"/>
                                     <line x1="500" y1="225" x2="800" y2="525" stroke="black" stroke-width="2"/>
                                 </g>
                                 <g>
-                                    <circle cx="500" cy="25" r="30" stroke="black" stroke-width="2" fill="white" />
-                                    <text x="488" y="37" font-family="sans-serif" font-size="40px" fill="black">X</text>
+                                    <circle cx="600" cy="-75" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="588" y="-63" font-family="sans-serif" font-size="40px" fill="black">Y</text>
+                                    <text x="650" y="-65" font-family="sans-serif" font-size="30px" fill="black">Warrant under Signet: TNA PSO 5/2</text>
+                                    
+                                </g>
+                                <g>
+                                    <circle cx="500" cy="25" r="30" stroke="black" stroke-width="2" fill="pink" />
+                                    <text x="488" y="37" font-family="sans-serif" font-size="40px" fill="black">Z</text>
                                     <text x="550" y="35" font-family="sans-serif" font-size="30px" fill="black">Warrant in Chancery: TNA C 82/776</text>
-                                    <text x="595" y="60" font-family="sans-serif" font-size="30px" fill="black">(presumed to survive; not yet examined)</text>
+                                   
                                 </g>
                                 <g>
                                     <circle cx="600" cy="125" r="30" stroke="black" stroke-width="2" fill="white" />
@@ -217,7 +249,7 @@
                                 <g>
                                     <circle cx="700" cy="225" r="30" stroke="black" stroke-width="2" fill="white" />
                                     <text x="692" y="235" font-family="sans-serif" font-size="40px" fill="black">τ</text>
-                                    <text x="740" y="235" font-family="sans-serif" font-size="30px" fill="black">Transcript used by Willis (may be in Bodleian)</text>
+                                    <text x="740" y="235" font-family="sans-serif" font-size="30px" fill="black">Transcript used by Willis (not found in Bodleian)</text>
                                 </g>
                                 <g>
                                     <circle cx="800" cy="325" r="30" stroke="black" stroke-width="2" fill="pink" />
@@ -272,7 +304,7 @@
                 </div>
                     
                     <p><em>-William H. Campbell</em></p>
-                <p>December 2019 (last updated December 2020)</p>
+                <p>December 2019 (last updated July 2022)</p>
                 
                 
             </body>

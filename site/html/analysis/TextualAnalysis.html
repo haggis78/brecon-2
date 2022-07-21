@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
+      <link rel="stylesheet" type="text/css" href="../../css/brecon.css" />
       <title>Analysis</title>
    </head>
    <body>
@@ -12,18 +12,19 @@
       <h2> Introduction and methodology</h2>
       <p>No two manuscripts of a text will ever be quite identical. Each scribe will introduce
          variant readings, whether he is adding information, making a mistake, or trying to
-         correct a mistake he sees in the exemplar from which he is copying. Carefully tracking
-         these variants is central to editing a text that appears in multiple 'witnesses' (manuscripts
-         and printings), especially where the original copy is lost. This enables the creation
-         of a <em>stemma</em>, or family tree, showing which copies were made from which other copies, and can
+         correct a mistake he thinks he sees in the exemplar from which he is copying. Carefully
+         tracking these variants is central to editing a text that appears in multiple 'witnesses'
+         (manuscripts and printings), especially where the original copy is lost. This enables
+         the creation of a <em>stemma</em>, or family tree, showing which copies were made from which other copies, and can
          be used to determine which variants likely appeared in the lost original manuscript.</p>
       <p>Thanks to our XML encoding, we can automatically count the frequency with which each
          witness agrees with each other witness. There are many different ways in which this
          could be calculated. We might either include or exclude morphological (spelling) differences,
-         or might include some but not others. Where a whole phrase is present in some witnesses
-         but absent in others, we might count that either as a single point of difference or
-         as one difference per word. We could even count the differences on a letter-by-letter
-         basis.</p>
+         or might include some that we decide are meaningful while omitting others we decide
+         are not. Where a whole phrase is present in some witnesses but absent in others, we
+         might count that either as a single point of difference or as one difference per word.
+         We could even count the differences on a letter-by-letter basis using the string-length()
+         function.</p>
       <p>The need for absolute precision is mitigated by the fact that we are not trying to
          generate our stemma in a purely mathematical fashion. Our purpose here is less ambitious:
          to get an impressionistic sense of the accuracy of scribes, to determine which witness
@@ -39,25 +40,27 @@
          point of difference. By looking at the comparison of texts, the reader can quickly
          see the type of variations we found and identified. </p>
       <p>We elected from the start to ignore certain other differences, particularly with regard
-         to Witness R, the earliest copy we surveyed (the Patent Roll, c. 1541). This copy,
-         though technically post-medieval, bore certain characteristics of medieval rather
-         than classical/Renaissance-neoclassical Latin. Two in particular stand out. The first
-         is the use of -e- alone where classical and neoclassical Latin would use -ae- or the
-         ligatured -æ-. (The two times the scribe of R uses -ae- is in the context of the word
-         <em>escaetorum</em>, a word borrowed from medieval French, and in the Welsh place-name <em>Ymaendny</em>.) The other relates to the appearence of -c- or -t- in the middle of a word, especially
+         to Witnesses Y, Z, and R, the early copies that are closely contemporary with the
+         official 1541 issue of the Letters Patent under the Great Seal, which we have described
+         as the "original". These copies, though technically post-medieval, bore certain characteristics
+         of medieval rather than classical/Renaissance-neoclassical Latin. Two in particular
+         stand out. The first is the use of -e- alone where classical and neoclassical Latin
+         would use -ae- or the ligatured -æ-. (The two times the Tudor scribes use -ae- are
+         in the context of the word <em>escaetorum</em>, a word borrowed from medieval French, and in the Welsh place-name <em>Ymaendny</em>.) The other relates to the appearence of -c- or -t- in the middle of a word, especially
          where followed by an -i-. Not only did many medieval scribes interchange these letters:
          the similarity in their appearance in many hands (the c was often made with a horizontal
          cross-stroke and a separate vertical stroke which may or may not include a rightward
          curve at the bottom, similar to the way we write a -t- today) can make it impossible
          for the modern reader to tell which letter the scribe even intended, or even whether
          the scribe himself had a clear idea in each instance which letter he was writing.
-         In the text of R that we prepared for comparison with the later witnesses, we re-inserted
-         the -ae- and standardized c/t distinction. This is less than ideal in reconstructing
+         In the texts of YZR that we prepared for comparison with the later witnesses, we re-inserted
+         the -æ- and standardized the c/t distinction. This is less than ideal in reconstructing
          the exact morphology and syntax of the lost originl Letters Patent, but because these
-         differences occur so frequently, keeping them would have cluttered the data with nearly
+         differences occur so frequently, keeping them would have cluttered the data with approximately
          600 essentially meaningless variant readings. Not only would this have concealed the
-         smaller number of more important variants: it would have meant tripling the number
-         of variants marked up in our XML, multiplying the opportunities for human error.</p>
+         smaller number of more important variants: it would have meant more than doubling
+         the number of variants marked up in our XML, multiplying the opportunities for human
+         error.</p>
       <p>Other differences that we chose not to encode include punctuation and capitalisation.
          These will vary naturally from one scribe to another based on personal preferences,
          so they do not help us determine who copied from whom. In the case of this particular
@@ -81,6 +84,7 @@
       <table>
          <tr>
             <th>Witness</th>
+            <th>Y</th>
             <th>R</th>
             <th>W</th>
             <th>S</th>
@@ -91,99 +95,119 @@
             <th>O</th>
          </tr>
          <tr>
-            <td>R</td>
-            <td>270</td>
-            <td style="background-color: #ffff66;">135</td>
-            <td>112</td>
-            <td>109</td>
-            <td>111</td>
-            <td>99</td>
-            <td>120</td>
-            <td>101</td>
+            <th>Y</th>
+            <td style="background-color: hsl(147, 100%, 50.35087719298245615%">283</td>
+            <td style="background-color: hsl(147, 100%, 68.59649122807017545%">179</td>
+            <td style="background-color: hsl(147, 100%, 79.12280701754385965%">119</td>
+            <td style="background-color: hsl(147, 100%, 83.15789473684210525%">96</td>
+            <td style="background-color: hsl(147, 100%, 83.68421052631578945%">93</td>
+            <td style="background-color: hsl(147, 100%, 75.7894736842105263%">138</td>
+            <td style="background-color: hsl(147, 100%, 77.1929824561403509%">130</td>
+            <td style="background-color: hsl(147, 100%, 75.2631578947368421%">141</td>
+            <td style="background-color: hsl(147, 100%, 77.1929824561403509%">130</td>
          </tr>
          <tr>
-            <td>W</td>
+            <th>R</th>
+            <td style="background-color: rgba(255,0,255,0.628070175438596491">179</td>
+            <td style="background-color: rgba(255,0,255,1.003508771929824561">286</td>
+            <td style="background-color: rgba(255,0,255,0.498245614035087719">142</td>
+            <td style="background-color: rgba(255,0,255,0.414035087719298246">118</td>
+            <td style="background-color: rgba(255,0,255,0.403508771929824561">115</td>
+            <td style="background-color: rgba(255,0,255,0.428070175438596491">122</td>
+            <td style="background-color: rgba(255,0,255,0.389473684210526316">111</td>
+            <td style="background-color: rgba(255,0,255,0.463157894736842105">132</td>
+            <td style="background-color: rgba(255,0,255,0.4">114</td>
+         </tr>
+         <tr>
+            <th>W</th>
+            <td>119</td>
+            <td>142</td>
+            <td>285</td>
+            <td>251</td>
+            <td>232</td>
+            <td>160</td>
+            <td>138</td>
+            <td>176</td>
+            <td>156</td>
+         </tr>
+         <tr>
+            <th>S</th>
+            <td style="background-color: hsl(147, 33.6842105263157895%, 50%">96</td>
+            <td style="background-color: hsl(147, 41.4035087719298246%, 50%">118</td>
+            <td style="background-color: hsl(147, 88.0701754385964912%, 50%">251</td>
+            <td style="background-color: hsl(147, 100%, 50%">285</td>
+            <td style="background-color: hsl(90, 87.368421052631578947%, 50%)">249</td>
+            <td style="background-color: hsl(147, 46.6666666666666667%, 50%">133</td>
+            <td style="background-color: hsl(147, 38.9473684210526316%, 50%">111</td>
+            <td style="background-color: hsl(147, 52.6315789473684211%, 50%">150</td>
+            <td style="background-color: hsl(147, 47.3684210526315789%, 50%">135</td>
+         </tr>
+         <tr>
+            <th>J</th>
+            <td style="background-color: hsl(93, 100%, 80%">93</td>
+            <td style="background-color: hsl(115, 100%, 80%">115</td>
+            <td style="background-color: hsl(232, 100%, 80%">232</td>
+            <td style="background-color: hsl(249, 100%, 80%">249</td>
+            <td style="background-color: hsl(285, 100%, 80%">285</td>
+            <td style="background-color: hsl(133, 100%, 80%">133</td>
+            <td style="background-color: hsl(110, 100%, 80%">110</td>
+            <td style="background-color: hsl(145, 100%, 80%">145</td>
+            <td style="background-color: hsl(133, 100%, 80%">133</td>
+         </tr>
+         <tr>
+            <th>C</th>
+            <td style="background-color: hsl(138, 100%, 80%">138</td>
+            <td style="background-color: hsl(122, 100%, 80%">122</td>
+            <td style="background-color: hsl(160, 100%, 80%">160</td>
+            <td style="background-color: hsl(133, 100%, 80%">133</td>
+            <td style="background-color: hsl(133, 100%, 80%">133</td>
+            <td style="background-color: hsl(285, 100%, 80%">285</td>
+            <td style="background-color: hsl(210, 100%, 80%">210</td>
+            <td style="background-color: hsl(229, 100%, 80%">229</td>
+            <td style="background-color: hsl(234, 100%, 80%">234</td>
+         </tr>
+         <tr>
+            <th>D</th>
+            <td>130</td>
+            <td>111</td>
+            <td>138</td>
+            <td>111</td>
+            <td>110</td>
+            <td>210</td>
+            <td>285</td>
+            <td>188</td>
+            <td>184</td>
+         </tr>
+         <tr>
+            <th>I</th>
+            <td>141</td>
+            <td>132</td>
+            <td>176</td>
+            <td>150</td>
+            <td>145</td>
+            <td>229</td>
+            <td>188</td>
+            <td>285</td>
+            <td>250</td>
+         </tr>
+         <tr>
+            <th>O</th>
+            <td>130</td>
+            <td>114</td>
+            <td>156</td>
             <td>135</td>
-            <td>270</td>
-            <td style="background-color: #ff66cc;">236</td>
-            <td>217</td>
-            <td>146</td>
-            <td>124</td>
-            <td>162</td>
-            <td>141</td>
-         </tr>
-         <tr>
-            <td>S</td>
-            <td>112</td>
-            <td>236</td>
-            <td>270</td>
-            <td style="background-color: #ff66cc;">234</td>
-            <td>119</td>
-            <td>97</td>
-            <td>136</td>
-            <td>120</td>
-         </tr>
-         <tr>
-            <td>J</td>
-            <td>109</td>
-            <td>217</td>
+            <td>133</td>
             <td>234</td>
-            <td>270</td>
-            <td>119</td>
-            <td>96</td>
-            <td>131</td>
-            <td>118</td>
-         </tr>
-         <tr>
-            <td>C</td>
-            <td>111</td>
-            <td>146</td>
-            <td>119</td>
-            <td>119</td>
-            <td>270</td>
-            <td>195</td>
-            <td>214</td>
-            <td>218</td>
-         </tr>
-         <tr>
-            <td>D</td>
-            <td>99</td>
-            <td>124</td>
-            <td>97</td>
-            <td>96</td>
-            <td>195</td>
-            <td>270</td>
-            <td>173</td>
-            <td>168</td>
-         </tr>
-         <tr>
-            <td>I</td>
-            <td>120</td>
-            <td>162</td>
-            <td>136</td>
-            <td>131</td>
-            <td>214</td>
-            <td>173</td>
-            <td>270</td>
-            <td>234</td>
-         </tr>
-         <tr>
-            <td>O</td>
-            <td>101</td>
-            <td>141</td>
-            <td>120</td>
-            <td>118</td>
-            <td>218</td>
-            <td>168</td>
-            <td>234</td>
-            <td>270</td>
+            <td>184</td>
+            <td>250</td>
+            <td>285</td>
          </tr>
       </table>
       <h2>Discussion</h2>
       <p>One finding that immediately springs from these data is that W, S, and J, the three
          printings, form an independent branch of the tree. This is visible in the table where
          the squares are highlighted in pink: where there are variations among the witnesses,
-         W and S agree <span style="background-color: #ff66cc;">236</span> times, and S and J agree <span style="background-color: #ff66cc;">234</span> times.  Looking down the WSJ columns, we can see that these three agree with one
+         W and S agree <span style="background-color: #ff66cc;">251</span> times, and S and J agree <span style="background-color: #ff66cc;">249</span> times.  Looking down the WSJ columns, we can see that these three agree with one
          another more frequently than they agree with any of the manuscript witnesses. We had
          predicted this in advance, as the citations within these printed witnesses themselves
          establish their dependency: S cites W, and J cites S. Of the three, W is closest to
@@ -194,7 +218,7 @@
       <p>If we measure accuracy as closeness to R, we can also judge which is the most accurate
          witness. This is an important question, and one that we could not have predicted in
          advance. We find (highlighted in yellow) that the witness that shares the most readings
-         with R is W. These two witnesses agree <span style="background-color: #ffff66;">135</span> times. This means that Browne Willis' transcription, however he came by it, is almost
+         with R is W. These two witnesses agree <span style="background-color: #ffff66;">142</span> times. This means that Browne Willis' transcription, however he came by it, is almost
          certainly the most accurate of all the later copies. Even S and J, though they import
          additional variants due to typographical errors (and, in one case in J, a misguided
          attempt to add a phrase that the author <b>thought</b> should have been there), still show more fidelity to R than <em>any</em> of the CDIO manuscripts.</p>
@@ -247,43 +271,43 @@
          </tr>
          <tr>
             <td>R</td>
-            <td>270</td>
+            <td>286</td>
+            <td>122</td>
             <td>111</td>
-            <td>99</td>
-            <td>120</td>
-            <td>101</td>
+            <td>132</td>
+            <td>114</td>
          </tr>
          <tr>
             <td>C</td>
-            <td>111</td>
-            <td>270</td>
-            <td>195</td>
-            <td>214</td>
-            <td>218</td>
+            <td>122</td>
+            <td>285</td>
+            <td>210</td>
+            <td>229</td>
+            <td>234</td>
          </tr>
          <tr>
             <td>D</td>
-            <td>99</td>
-            <td>195</td>
-            <td>270</td>
-            <td>173</td>
-            <td>168</td>
+            <td>111</td>
+            <td>210</td>
+            <td>285</td>
+            <td>188</td>
+            <td>184</td>
          </tr>
          <tr>
             <td>I</td>
-            <td>120</td>
-            <td>214</td>
-            <td>173</td>
-            <td>270</td>
-            <td>234</td>
+            <td>132</td>
+            <td>229</td>
+            <td>188</td>
+            <td>285</td>
+            <td>250</td>
          </tr>
          <tr>
             <td>O</td>
-            <td>101</td>
-            <td>218</td>
-            <td>168</td>
+            <td>114</td>
             <td>234</td>
-            <td>270</td>
+            <td>184</td>
+            <td>250</td>
+            <td>285</td>
          </tr>
       </table>
       <p>There are patterns in these data as well. Numerically, C and I are closer to R than
@@ -295,18 +319,18 @@
          be the case that CD would agree and IO would agree. This is not an absolute rule,
          but the data in the table offer some support. </p>
       <p>Witnesses I and O have a very high match rate, agreeing with one another on no fewer
-         than 234 occasions. This is the closest relationship among any of the CDIO manuscripts, and
+         than 250 occasions. This is the closest relationship among any of the CDIO manuscripts, and
          it suggests that one of them was copied from the other. This is a hypothesis that
          can be tested by looking carefully not only at the texts encoded in the XML file but
          also at the manuscripts themselves.</p>
       <p>Witnesses C and D seem to go together as well, though not as closely, matching only
-         195 times. The best that can be said is that D matches C more often than it matches anything
-         else. C is in fact much closer to I and O than it is to D, matching I 214 times and O 218 times. One non-textual affinity that they share is that the hands are very similar,
+         210 times. The best that can be said is that D matches C more often than it matches anything
+         else. C is in fact much closer to I and O than it is to D, matching I 229 times and O 234 times. One non-textual affinity that they share is that the hands are very similar,
          though not identical. But the similarity suggests that one was copied from the other
          and that the scribe of the copy made a deliberate attempt to make his production <em>look like</em> his exemplar. </p>
       <p>As for its accuracy, however, witness D is particularly poor. The numbers suggest
          this, but the experience of reading and encoding the manuscript drives it home. Out
-         of approximately 270 variant readings, on 51 occasions, D stands alone against all other witnesses. These are transcription errors.
+         of approximately 285 variant readings, on 51 occasions, D stands alone against all other witnesses. These are transcription errors.
          In some cases, to be sure, another scribe has stepped in and corrected the text, by
          inserting missing words as superscriptions with a caret (^), writing directly over
          the original letters, or by striking through an erroneous word. In fact, there are
@@ -325,24 +349,28 @@
          end that are not printed by Willis.</p>
       <h2>Stemma codicum</h2>
       <p>What follows is our hypothetical <em>stemma codicum</em>, or family tree, of the witnesses, both manuscript and in print. Relationships among
-         CDIO are a working hypothesis. Pink circles represent the sources collated in this
-         project.</p>
+         CDIO are a working hypothesis. Pink circles represent the extant witnesses collated
+         in this project; white circles represent lost or hypothetical witnesses.</p>
       <div class="content">
-         <div class="stemma-svg"><svg xmlns="http://www.w3.org/2000/svg" id="stemma-svg" width="100%" viewBox="0 0 1100 550">
+         <div class="stemma-svg"><svg xmlns="http://www.w3.org/2000/svg" id="stemma-svg" width="100%" viewBox="0 0 1100 650">
                <desc></desc>
-               <g transform="scale(.8) translate(0, 100)">
-                  <text x="1" y="1" font-family="sans-serif" font-size="50px" fill="black">Stemma Codicum</text>
+               <g transform="scale(.8) translate(0, 200)">
+                  <text x="1" y="-100" font-family="sans-serif" font-size="50px" fill="black">Stemma Codicum</text>
                   <g>
                      <line x1="500" y1="25" x2="1000" y2="525" stroke="black" stroke-width="2"></line>
-                     <line x1="500" y1="25" x2="400" y2="125" stroke="black" stroke-width="2"></line>
+                     <line x1="600" y1="-75" x2="400" y2="125" stroke="black" stroke-width="2"></line>
                      <line x1="600" y1="125" x2="300" y2="425" stroke="black" stroke-width="2"></line>
                      <line x1="500" y1="225" x2="800" y2="525" stroke="black" stroke-width="2"></line>
                   </g>
                   <g>
-                     <circle cx="500" cy="25" r="30" stroke="black" stroke-width="2" fill="white"></circle>
-                     <text x="488" y="37" font-family="sans-serif" font-size="40px" fill="black">X</text>
+                     <circle cx="600" cy="-75" r="30" stroke="black" stroke-width="2" fill="pink"></circle>
+                     <text x="588" y="-63" font-family="sans-serif" font-size="40px" fill="black">Y</text>
+                     <text x="650" y="-65" font-family="sans-serif" font-size="30px" fill="black">Warrant under Signet: TNA PSO 5/2</text>
+                  </g>
+                  <g>
+                     <circle cx="500" cy="25" r="30" stroke="black" stroke-width="2" fill="pink"></circle>
+                     <text x="488" y="37" font-family="sans-serif" font-size="40px" fill="black">Z</text>
                      <text x="550" y="35" font-family="sans-serif" font-size="30px" fill="black">Warrant in Chancery: TNA C 82/776</text>
-                     <text x="595" y="60" font-family="sans-serif" font-size="30px" fill="black">(presumed to survive; not yet examined)</text>
                   </g>
                   <g>
                      <circle cx="600" cy="125" r="30" stroke="black" stroke-width="2" fill="white"></circle>
@@ -352,7 +380,7 @@
                   <g>
                      <circle cx="700" cy="225" r="30" stroke="black" stroke-width="2" fill="white"></circle>
                      <text x="692" y="235" font-family="sans-serif" font-size="40px" fill="black">τ</text>
-                     <text x="740" y="235" font-family="sans-serif" font-size="30px" fill="black">Transcript used by Willis (may be in Bodleian)</text>
+                     <text x="740" y="235" font-family="sans-serif" font-size="30px" fill="black">Transcript used by Willis (not found in Bodleian)</text>
                   </g>
                   <g>
                      <circle cx="800" cy="325" r="30" stroke="black" stroke-width="2" fill="pink"></circle>
@@ -402,7 +430,7 @@
                   </g>
                </g></svg></div>
       </div>
-      <p><em>-Dr. William H. Campbell</em></p>
-      <p>December 2019</p>
+      <p><em>-William H. Campbell</em></p>
+      <p>December 2019 (last updated July 2022)</p>
    </body>
 </html>

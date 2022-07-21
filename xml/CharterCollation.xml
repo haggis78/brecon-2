@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--whc 07-July-2022: Need to do some cleanup as follows.
+   XPath shows 285 apps, so each wit should appear 285 times. But 
+   //app/rdg/data(@wit)[contains(., "#Y")]=>count()  gives 281, and 
+   //app/rdg/data(@wit)[contains(., "#R")]=>count()  gives 286; check all wits this way, and locate and fix anomalies.    -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc><!--whc: Note that separate msdesc.xml has fuller, more up to date info than is provided here. June 23 2022-->
@@ -768,6 +771,7 @@
                <rdg wit="#D">habebere</rdg>
               </app> tenere seu <lb ed="#R" n="43"/>gaudere debuerunt vel deberent, debuit <pb ed="#W" n="306"/> sive
             deberet, <app>
+               <!--whc: check #R: cited as having both readings, which must be incorrect-->
                <rdg wit="#W #R #S #J">aut</rdg>
                <rdg wit="#I #C #O #D #R #Y">et</rdg>
             </app> adeo 
@@ -1130,9 +1134,9 @@
                <rdg wit="#I #C #O #D">actu</rdg>
             </app>
             <app>
-               <rdg wit="#W #R #S #J">ordinationibus vel provisionibus</rdg>
-               <rdg wit="R">ordinat' vel provisionibus</rdg><!-- WHC  #R: has ordinat' vel provisionibus, implying parallel construction and thus some grammatical form -->
-               <rdg wit="Y">ordinac' vel provisione</rdg>
+               <rdg wit="#W #S #J">ordinationibus vel provisionibus</rdg>
+               <rdg wit="#R">ordinat' vel provisionibus</rdg><!-- WHC  #R: has ordinat' vel provisionibus, implying parallel construction and thus some grammatical form -->
+               <rdg wit="#Y">ordinac' vel provisione</rdg>
                <rdg wit="#I #C #O #D">ordinatione vel provisione</rdg>
             </app>
             <app>
@@ -1210,13 +1214,14 @@
                      >e</add>s</rdg>
             </app>
             <app>
+               <!-- whc: check #Y, which is missing here -->
                <rdg wit="#W #R #S #I #J #C #D">ac</rdg>
                <rdg wit="#O"><del rend="strikethrough">et</del><add place="above">ac</add></rdg>
                <!-- CRC: in O, "et" was written here, struck out and replaced with "ac"-->
             </app> aliæ personæ <app>
                <rdg wit="#W #S #I #J #C #O #D">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-               <rdg wit="Y">quecu'que</rdg>
+               <rdg wit="#Y">quecu'que</rdg>
             </app>; illic pro <app>
                <rdg wit="#W #S #J #R #I #C #O #Y">tempore</rdg>
                <rdg wit="#D">tempor<add place="above">e</add></rdg>
@@ -1334,6 +1339,7 @@
             mero motu nostris, quod idem nunc Episcopus <app>
                <rdg wit="#W #S #J">Menevensis</rdg>
                <rdg wit="#R #I #C #O #D #R">Meneven'</rdg>
+               <!-- whc: Check #Y, which is missing here -->
             </app> et successores <lb ed="#Y" n="44"/>sui, ac omnes alii residentiarii præbendarii canonici vicarii
             choristæ, aliique ministri dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
