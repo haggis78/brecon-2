@@ -330,6 +330,36 @@
                      </provenance>
                   </history>
                </msDesc>
+               
+               <msDesc xml:id="B">
+                  <!--  WHC June 26 2026: This copy was scanned for me spring 2026 at NLW. -->
+                  <msIdentifier>
+                     <settlement>Aberystwyth</settlement>
+                     <repository>National Library of Wales</repository>
+                     <idno>SD/BC/1</idno>
+                     <altIdentifier>
+                        <idno/>
+                        <note>B</note>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <title>Brecon Charter</title>
+                        <textLang mainLang="lat">Latin</textLang>
+                     </msItem>
+                     
+                  </msContents>
+                  <physDesc>
+                     <p>
+                        <material>Paper</material>: ff. 3. Not ruled. Written in one italic/secretary hand of the 17th century with corrections in the same or a similar hand. Endorsed in a different 17th or 18th century hand: 'King Henry 8th Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 1541/2'</p>
+                  </physDesc>
+                  <history>
+                     <provenance>
+                        <p>Origin unknown. In the collection of the muniments of Christ College Brecon; placed on deposit at National Library of Wales. </p>
+                     </provenance>
+                  </history>
+               </msDesc>
+               
             </listBibl>
          </sourceDesc>
       </fileDesc>

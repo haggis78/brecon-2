@@ -27,21 +27,21 @@
     <xsl:template match="msDesc">
         <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
         <h4><xsl:apply-templates select="descendant::repository"/>, <xsl:apply-templates select="descendant::settlement"/></h4>
-        <p><b>Physical Description:</b></p><p><xsl:apply-templates select="descendant::physDesc"/></p>
-        <p><b>Original Date of Manuscript:</b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
-        <p><b>Source Description:</b></p><p><xsl:apply-templates select="descendant::provenance"/></p>
+        <p><b>Physical Description: </b></p><p><xsl:apply-templates select="descendant::physDesc"/></p>
+        <p><b>Original Date of Manuscript: </b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
+        <p><b>Source Description: </b></p><p><xsl:apply-templates select="descendant::provenance"/></p>
     </xsl:template>
     
     <xsl:template match="bibl">
         <h3><xsl:value-of select="@xml:id"/> : <xsl:value-of select="descendant::idno"/></h3>
         <p><b>Bibliographic Information</b></p>
-        <p><b>Author:</b> <xsl:apply-templates select="descendant::author"/></p>
-        <p><b>Title:</b> <em><xsl:apply-templates select="descendant::title"/></em></p>
-        <p><b>Place of Publication:</b> <xsl:apply-templates select="descendant::pubPlace"/></p>
-        <p><b>Date:</b> <xsl:apply-templates select="descendant::date"/></p>
-        <p><b>Pages:</b> <xsl:apply-templates select="descendant::biblScope"/></p>
-        <p><b>Note:</b> <xsl:apply-templates select="descendant::note"/></p>
-        <p><b>Available online at:</b> <xsl:apply-templates select="descendant::distributor"/></p>
+        <p><b>Author: </b> <xsl:apply-templates select="descendant::author"/></p>
+        <p><b>Title: </b> <em><xsl:apply-templates select="descendant::title"/></em></p>
+        <p><b>Place of Publication: </b> <xsl:apply-templates select="descendant::pubPlace"/></p>
+        <p><b>Date: </b> <xsl:apply-templates select="descendant::date"/></p>
+        <p><b>Pages: </b> <xsl:apply-templates select="descendant::biblScope"/></p>
+        <p><b>Note: </b> <xsl:apply-templates select="descendant::note"/></p>
+        <p><b>Available online at: </b> <xsl:apply-templates select="descendant::distributor"/></p>
             </xsl:template>
     
 </xsl:stylesheet>
