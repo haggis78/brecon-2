@@ -80,7 +80,7 @@
                 <valItem mode="add" ident="#H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
                 <valItem mode="add" ident="#I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
                 <valItem mode="add" ident="#M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
-                <valItem mode="add" ident="#Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#N"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
                 <valItem mode="add" ident="#B"><desc versionDate="2026-05-26" xml:lang="en">points to National Library of Wales, MS SD/BC/1 (17th or 18th cent. transcript of charter only, from muniments of Christ College Brecon)</desc></valItem>
                 <valItem mode="add" ident="#P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
                 <valItem mode="add" ident="#B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
@@ -89,7 +89,7 @@
                 <valItem mode="add" ident="#A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
                 <valItem mode="add" ident="#E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
                 <valItem mode="add" ident="#G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
-                <valItem mode="add" ident="#Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="#L"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
               </valList>
             </attDef>
           </attList>
@@ -119,7 +119,7 @@
                 <valItem mode="add" ident="H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
                 <valItem mode="add" ident="I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
                 <valItem mode="add" ident="M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
-                <valItem mode="add" ident="Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="N"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
                 <valItem mode="add" ident="B"><desc versionDate="2026-05-26" xml:lang="en">points to National Library of Wales, MS SD/BC/1 (17th or 18th cent. transcript of charter only, from muniments of Christ College Brecon)</desc></valItem>
                 <valItem mode="add" ident="P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
                 <valItem mode="add" ident="B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
@@ -128,7 +128,13 @@
                 <valItem mode="add" ident="A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
                 <valItem mode="add" ident="E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
                 <valItem mode="add" ident="G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
-                <valItem mode="add" ident="Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="L"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="Y">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Privy Seal Warrants, PSO 2/5</desc>
+                </valItem>
+                <valItem mode="add" ident="Z">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Warrants in Chancery, C 82/776</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
@@ -158,7 +164,7 @@
                 <valItem mode="add" ident="H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
                 <valItem mode="add" ident="I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
                 <valItem mode="add" ident="M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
-                <valItem mode="add" ident="Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="N"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
                 <valItem mode="add" ident="#B"><desc versionDate="2026-05-26" xml:lang="en">points to National Library of Wales, MS SD/BC/1 (17th or 18th cent. transcript of charter only, from muniments of Christ College Brecon)</desc></valItem>
                 <valItem mode="add" ident="P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
                 <valItem mode="add" ident="B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
@@ -167,7 +173,13 @@
                 <valItem mode="add" ident="A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
                 <valItem mode="add" ident="E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
                 <valItem mode="add" ident="G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
-                <valItem mode="add" ident="Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="L"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="Y">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Privy Seal Warrants, PSO 2/5</desc>
+                </valItem>
+                <valItem mode="add" ident="Z">
+                  <desc versionDate="2022-07-06" xml:lang="en">points to National Archives, Warrants in Chancery, C 82/776</desc>
+                </valItem>
               </valList>
             </attDef>
           </attList>
@@ -197,7 +209,7 @@
                 <valItem mode="add" ident="#H"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/24</desc></valItem>
                 <valItem mode="add" ident="#I"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/25</desc></valItem>
                 <valItem mode="add" ident="#M"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/29 (published as Yardley, Menevia Sacra)</desc></valItem>
-                <valItem mode="add" ident="#Y"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
+                <valItem mode="add" ident="#N"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/30 (further notes for Yardley, Menevia Sacra)</desc></valItem>
                 <valItem mode="add" ident="#B"><desc versionDate="2026-05-26" xml:lang="en">points to National Library of Wales, MS SD/BC/1 (17th or 18th cent. transcript of charter only, from muniments of Christ College Brecon)</desc></valItem>
                 <valItem mode="add" ident="#P"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/27 (Paine, Collectanea Menevensis)</desc></valItem>
                 <valItem mode="add" ident="#B37"><desc versionDate="2019-10-14" xml:lang="en">points to Bodleian Library, Willis MS 37</desc></valItem>
@@ -206,7 +218,7 @@
                 <valItem mode="add" ident="#A"><desc versionDate="2019-10-14" xml:lang="en">points to British Library, Harley MS 6280</desc></valItem>
                 <valItem mode="add" ident="#E"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/21 (damaged copy, 1685)</desc></valItem>
                 <valItem mode="add" ident="#G"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/22</desc></valItem>
-                <valItem mode="add" ident="#Z"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
+                <valItem mode="add" ident="#L"><desc versionDate="2019-10-14" xml:lang="en">points to National Library of Wales, MS SDCh/B/31 (Yardley's digest of the Statutes)</desc></valItem>
               </valList>
             </attDef>
           </attList>
