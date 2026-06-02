@@ -1222,24 +1222,28 @@
             </app>
          </ab>
          
-         <ab n="12"> Eo quod expressa mentio de certitudine aut valore præmissorum, aut de aliis
-            donis <app>
-               <rdg wit="#W #R #S #J #I #O #Y">sive</rdg>
+         <ab n="12"> Eo quod expressa mentio de certitudine aut valore præmissorum, aut de aliis donis <app>
+               <rdg wit="#W #R #S #J #I #O #Y #B">sive</rdg>
                <rdg wit="#C #D">seu</rdg>
             </app> concessionibus, per nos vel aliquem progenitorum nostrorum præfato nunc Episcopo
             ante hæc tempora factis in præsentibus minime <app>
                <rdg wit="#W">factis</rdg>
-               <rdg wit="#S #J #C #D">facta</rdg>
+               <rdg wit="#S #J #C #D #B">facta</rdg>
                <rdg wit="#R #I #O #Y">fact'</rdg>
-            </app> existit, <lb ed="#Y" n="31"/>aut aliquibus statutis actu ordinatione provisione sive restrictione in
-            contrarium factis editis ordinatis sive provisis, aut <app>
+            </app> existit, <lb ed="#Y" n="31"/>aut aliquibus <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">statutis</rdg>
+            <rdg wit="#B"/>
+            </app> actu ordinatione provisione sive restrictione in contrarium <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">factis editis ordinatis sive provisis</rdg>
+            <rdg wit="#B">edit ordinat sive provis'</rdg></app>, aut <app>
                <rdg wit="#W #R #S #J">alia aliqua</rdg>
-               <rdg wit="#I #C #O #D #Y">aliqua alia</rdg>
+               <rdg wit="#I #C #O #D #Y#B">aliqua alia</rdg>
             </app> re causa vel materia <app>
-               <rdg wit="#W #S #I #J #C #O">quacunque</rdg>
+               <rdg wit="#W #S #I #J #C #O #B">quacunque</rdg>
                <rdg wit="#D">qu<add place="above">a</add>cunque</rdg>
                <rdg wit="#R #Y">quacumque</rdg>
             </app> in aliquo non obstante. </ab>
+         <!--WHC: stopped collating here 6/2/26; next ab begins on new line of #B-->
 
          <ab n="13">Insuper noveritis quod nos de gratia nostra speciali certa scientia et mero motu
             <pb ed="#C" n="261"/> nostris, volumus et concedimus ac per præsentes licentiam <lb ed="#Y" n="32"/><app>
