@@ -1098,27 +1098,39 @@
                <rdg wit="#S #J">dicti</rdg>
             </app> nuper Prioratus sive domus fratrum prædicatorum, ac cæterorum omnium et
             singulorum <pb ed="#B" n="3"/>præmissorum a tempore dissolutionis dicti nuper Prioratus sive domus
-            hucusque, et semper postea emergentia et 
-            <app><rdg wit="#Y">proveniend'.</rdg><rdg wit="#C #D #I #J #O #R #S #W">provenientia.</rdg></app>
-            Habendum et percipiendum <lb ed="#Y" n="26"/>dictum
-            nuper Prioratum terras et tenementa <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y">ac</rdg>
+            hucusque, et semper postea emergentia et <app>
+               <rdg wit="#Y">proveniend'.</rdg>
+               <rdg wit="#C #D #I #J #O #R #S #W">provenientia.</rdg>
+               <rdg wit="#B">provenienda.</rdg>
+            </app>
+            Habendum et <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">percipiendum</rdg>
+            <rdg wit="#B"><add>^</add><add place="above">percipiendum</add> <del rend="strikethrough">tenendum</del></rdg>
+            </app> <lb ed="#Y" n="26"/>dictum nuper Prioratum terras et tenementa <app>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B">ac</rdg>
                <rdg wit="#D"><del rend="overwritten">et</del><add>ac</add></rdg>
-            </app> cætera hæreditamenta, redditus <pb ed="#D" n="178"/> reversiones et <app>
-               <rdg wit="#W #S #I #J #C #O #D #Y">servitia</rdg>
-               <rdg wit="#R">proficua</rdg><!--whc: again R as outlier not copied by anyone. This word switched: see a few lines below.-->
+            </app> cætera hæreditamenta, redditus <pb ed="#D" n="178"/> reversiones <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">et</rdg>
+            <rdg wit="#B"/>
+            </app> <app>
+               <rdg wit="#W #S #I #J #C #O #D #Y #B">servitia</rdg>
+               <rdg wit="#R">proficua</rdg>
             </app> reventiones et <app>
-               <rdg wit="#W #S #I #J #C #O #D #Y">proficua,</rdg>
+               <rdg wit="#W #S #I #J #C #O #D #Y #B">proficua,</rdg> <!--WHC 6/2/26: #B poss. proficia corrected to proficua-->
                <rdg wit="#R">servitia,</rdg>
             </app> ac omnia et singula præmissa cum pertinentiis, eidem nunc Episcopo et
-            successoribus suis ex dono nostro <pb ed="#C" n="260"/>absque compoto seu aliquo alio
-            proinde nobis hæredibus vel successoribus nostris <app>
-               <rdg wit="#W #R #S #J #D #Y">quoquo <lb ed="#Y" n="27"/>modo</rdg>
+            successoribus suis ex dono nostro <pb ed="#C" n="260"/>absque <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">compoto</rdg>
+            <rdg wit="#B">computo</rdg>
+            </app> seu aliquo alio proinde nobis hæredibus vel successoribus nostris <app>
+               <rdg wit="#W #R #S #J #D #Y #B">quoquo <lb ed="#Y" n="27"/>modo</rdg>
                <rdg wit="#I #C #O">quoquomodo</rdg>
-            </app> reddendo solvendo vel faciendo. </ab>
-         <!--whc: Got this far with Y 6-21-2022 3 PM -->
+            </app> <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">reddendo solvendo vel faciendo.</rdg>
+            <rdg wit="#B">reddenda solvenda vel facienda.</rdg></app> </ab>
+         
          <ab n="11">Et ulterius ex speciali gratia nostra, certa scientia et mero <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y">motu</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B">motu</rdg>
                <rdg wit="#D"><del rend="overwritten">modu</del><add>motu</add></rdg>
             </app> nostris, volumus et concedimus <app>
                <rdg wit="#O">pro nobis heredibus et successoribus nostris quoquomodo reddendo
@@ -1127,69 +1139,89 @@
                      quoquomodo reddendo solvendo </hi>ac per præsentes</rdg>
                <rdg wit="#C">pro nobis heredibus et successoribus nostris <del rend="strikethrough"
                      >quoquomodo reddendo solvendo ac per præsentes</del></rdg>
-               <rdg wit="#W #S #R #J #D #Y">ac per præsentes</rdg>
                <!-- WHC: This is duplicate text,brought up from after 'concedimus' a few lines below. It seems that the scribe (or a reader) of #C realized his mistake and tried to strike it through, but wasn't sure where to stop; the scribe (or a reader) of #I underlined it as questionable, and left a marginal note; and the scribe of #O had no problem with the inclusion. NB its exclusion in D. -->
+               <rdg wit="#W #S #R #J #D #Y #B">ac per præsentes</rdg>
             </app> damus et concedimus, pro nobis hæredibus et successoribus nostris, præfato
-            Willielmo nunc Episcopo <app>
-               <rdg wit="#W #S #J">Menevensi</rdg>
-               <!-- WHC again why Menevensi instead of Menevensis?-->
+            <app><rdg wit="#C #D #I #J #O #R #S #W #Y">Willielmo</rdg>
+            <rdg wit="#B">Gulielmo</rdg>
+            </app> nunc Episcopo <app>
+               <rdg wit="#W #S #J #B">Menevensi</rdg>
+               <!-- WHC again why Menevensi instead of Menevensis? Are scribes thinking of it as Menevensus (nom sg 2nd declension) rather than Menevens (3rd declension)?-->
                <rdg wit="#R #I #C #O #D #Y">Meneven'</rdg>
             </app> et successoribus suis dictum <lb ed="#Y" n="28"/>Collegium de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly,</rdg>
                <rdg wit="#D">Aberguylly,</rdg>
-               <rdg wit="#C">Abergwylly,</rdg>
+               <rdg wit="#C #B">Abergwylly,</rdg>
                <rdg wit="#R #Y">Alberguylly,</rdg>
             </app> ac dictum nuper Prioratum ac unam clausuram terræ quæ dicitur le close <app>
                <rdg wit="#W #R #Y">Ymaendny,</rdg>
                <rdg wit="#D">ymaenduy,</rdg>
                <rdg wit="#S #J">Imaendly,</rdg>
                <rdg wit="#C #O #I">y maen dyg,</rdg>
-            </app> ac omnia terras et tenementa redditus reversiones et servitia, <app>
-               <rdg wit="#W #S #I #J #C #O #D">messuagia</rdg>
+               <rdg wit="#B">y maendwy</rdg>
+            </app> ac omnia terras et tenementa redditus <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">reversiones</rdg>
+            <rdg wit="#B">reventiones</rdg>
+            </app> et servitia, <!--WHC 6/2/26: #B has servicia; I think we haven't tracked c/t as a distinction in general--><app>
+               <rdg wit="#W #S #I #J #C #O #D #B">messuagia</rdg>
                <rdg wit="#R #Y">mesuagia</rdg>
             </app> sola funda <app>
                <rdg wit="#W #R #S #J"/>
-               <rdg wit="#I #C #O #D #Y">proficua</rdg><!-- whc: presence of this in Y is interesting due to absence in RWSJ -->
+               <rdg wit="#I #C #O #D #Y #B">proficua</rdg><!-- whc: presence of this in Y is interesting due to absence in RWSJ -->
+               <!--WHC 6/2/26: again #B appears to have proficia corrected to proficua-->
             </app>
             <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y"/>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B"/>
                <rdg wit="#D"><del rend="strikethrough">ac omnia </del></rdg>
             </app>commoditates advantagia et <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y">hæreditamenta</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B">hæreditamenta</rdg>
                <rdg wit="#D">hæredi<add>^</add><add place="above">ta</add>menta</rdg>
             </app>
             <app>
-               <rdg wit="#W #S #I #J #C #D">quæcunque,</rdg>
+               <rdg wit="#W #S #I #J #C #D #B">quæcunque,</rdg>
                <rdg wit="#R #O">quecumque,</rdg>
                <rdg wit="#Y">quecu'que,</rdg>
             </app> dicto Collegio <app>
                <rdg wit="#W #S #I #J #O">ac</rdg>
-               <rdg wit=" #Y #R #C #D">atque</rdg>
+               <rdg wit=" #Y #R #C #D #B">atque</rdg>
             </app> dicto nuper Prioratui, et eorum <lb ed="#Y" n="29"/>cuilibet aliquo tempore <app>
-               <rdg wit="#W #S #R #J #Y">quoquo modo</rdg>
+               <rdg wit="#W #S #R #J #Y #B">quoquo modo</rdg>
                <rdg wit="#I #C #O #D">quoquomodo</rdg>
             </app> spectantia sive pertinentia; <app>
-               <rdg wit="#W #S #I #J #C #D #Y">ac etiam</rdg>
+               <rdg wit="#W #S #I #J #C #D #Y #B">ac etiam</rdg>
                <rdg wit="#R #O">acetiam</rdg>
-            </app> volumus <pb ed="#I" n="274"/>et per præsentes concedimus præfato nunc Episcopo
-            quod habeat has literas nostras patentes, sub magno Sigillo <app>
-               <rdg wit="#W #S #J #R #C #D #Y">nostro</rdg>
+            </app> volumus <pb ed="#I" n="274"/><app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">et</rdg>
+            <rdg wit="#B">ac</rdg>
+            </app> per præsentes concedimus præfato nunc Episcopo
+            quod habeat has <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">literas</rdg>
+            <rdg wit="#B">litteras</rdg>
+            </app> nostras patentes, sub magno Sigillo <app>
+               <rdg wit="#W #S #J #R #C #D #Y #B">nostro</rdg>
                <rdg wit="#O #I">^<add place="above">nostro</add></rdg>
                <!-- AMP: nostro wasn't originally in I, but the word was added with a caret by what I think is the hand that did all of the marginal notes! -->
-            </app> Angliæ debito modo factas et sigillatas, absque fine vel feodo magno vel parvo
-               <pb ed="#W" n="307"/>in Hanaperio nostro, seu <lb ed="#Y" n="30"/>alibi ad usum nostrum <app>
-               <rdg wit="#W #S #J #R #I #D">quoquo modo</rdg>
+            </app> Angliæ debito modo factas <app>
+               <rdg wit="#C #D #I #J #O #R #S #W #Y">et</rdg>
+            <rdg wit="#B">atque</rdg>
+            </app> sigillatas, absque fine vel feodo magno vel parvo
+               <pb ed="#W" n="307"/>in Hanaperio nostro, <app>
+                  <rdg wit="#C #D #I #J #O #R #S #W #Y">seu</rdg>
+               <rdg wit="#B">ut</rdg>
+               </app> <lb ed="#Y" n="30"/>alibi ad usum nostrum <app>
+               <rdg wit="#W #S #J #R #I #D #B">quoquo modo</rdg>
                <rdg wit="#C #O #Y">quoquomodo</rdg><!-- whc: the apparent randomness of whether this is one or two words, showing up here
                in both forms in several subsets, suggests that here and elsewhere, this is not a meaningful distinction. Consider whether
                the same is true of acetiam vs ac etiam.-->
             </app>
             <app>
-               <rdg wit="#W #S #J">reddendo solvendo vel faciendo.</rdg>
+               <rdg wit="#W #S #J #B">reddendo solvendo vel faciendo.</rdg>
                <rdg wit="#R #Y">reddend' solvend' vel faciend'.</rdg>
-               <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/> vel faciendum.</rdg>
+               <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/>vel faciendum.</rdg>
                <!-- WHC: this is expanded in two different ways by the different witness families, implying that it was NOT expanded in the original Letters (as it also is not in R). -->
             </app>
          </ab>
+         
          <ab n="12"> Eo quod expressa mentio de certitudine aut valore præmissorum, aut de aliis
             donis <app>
                <rdg wit="#W #R #S #J #I #O #Y">sive</rdg>
