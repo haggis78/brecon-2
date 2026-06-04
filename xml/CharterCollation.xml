@@ -1237,20 +1237,20 @@
                <rdg wit="#C #D #I #J #O #R #S #W #Y">factis editis ordinatis sive provisis</rdg>
             <rdg wit="#B">edit ordinat sive provis'</rdg></app>, aut <app>
                <rdg wit="#W #R #S #J">alia aliqua</rdg>
-               <rdg wit="#I #C #O #D #Y#B">aliqua alia</rdg>
+               <rdg wit="#I #C #O #D #Y #B">aliqua alia</rdg>
             </app> re causa vel materia <app>
                <rdg wit="#W #S #I #J #C #O #B">quacunque</rdg>
                <rdg wit="#D">qu<add place="above">a</add>cunque</rdg>
                <rdg wit="#R #Y">quacumque</rdg>
             </app> in aliquo non obstante. </ab>
-         <!--WHC: stopped collating here 6/2/26; next ab begins on new line of #B-->
+
 
          <ab n="13">Insuper noveritis quod nos de gratia nostra speciali certa scientia et mero motu
             <pb ed="#C" n="261"/> nostris, volumus et concedimus ac per præsentes licentiam <lb ed="#Y" n="32"/><app>
-               <rdg wit="#W #S #I #R #C #D #O #Y">facultatem </rdg>
+               <rdg wit="#W #S #I #R #C #D #O #Y #B">facultatem </rdg>
                <rdg wit="#J"/>
             </app>potestatem <app>
-               <rdg wit="#W #S #J #Y">et authoritatem</rdg>
+               <rdg wit="#W #S #J #Y #B">et authoritatem</rdg>
                <rdg wit="#R #I #D">et auctoritatem</rdg>
                <rdg wit="#C #O">auctoritatem</rdg>
             </app> ordinario <app>
@@ -1258,54 +1258,60 @@
                <rdg wit="#D"><add>^</add><add place="above">ac</add></rdg>
                <!-- CRC: #D has ac inserted, but it is in the same hand as the text, not the other edits/marginalia. necessary to note, or collapse this? 
                   WHC: It's a very similar hand but maybe not the same, so let's keep it as further evidence of the general carelessness of the #D scribe.-->
+               <rdg wit="#B"/>
             </app> loci illius Diocesano et Patrono fundatori <app>
-               <rdg wit="#W #S #I #R #C #D #O #Y">ac</rdg>
+               <rdg wit="#W #S #I #R #C #D #O #Y #B">ac</rdg>
                <rdg wit="#J">et</rdg>
-            </app> Decano dicti Collegii de <app>
+            </app> Decano <app>
+               <rdg wit="#W #S #J #I #R #C #D #O #Y">dicti</rdg>
+            <rdg wit="#B"/></app> Collegii de <app>
                <rdg wit="#W #S #I #J #O #Y">Abergwilly</rdg>
                <rdg wit="#R">Alberguylly</rdg>
-               <rdg wit="#C">Abergwylly</rdg>
+               <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D">Abe<add place="above">r</add>guylly</rdg>
             </app>, damus quod ipsi <app>
-               <rdg wit="#W #R #I #C #D #O #Y">possunt</rdg>
+               <rdg wit="#W #R #I #C #D #O #Y #B">possunt</rdg>
                <rdg wit="#S #J">possint</rdg>
             </app> absque aliquibus impetitione vel perturbatione nostri hæredum aut successorum
             nostrorum <app>
                <rdg wit="#W">vice comitum</rdg>
                <rdg wit="#S">vice-comitum</rdg>
-               <rdg wit="#R #I #J #C #D #O #Y">vicecomitum</rdg>
+               <rdg wit="#R #I #J #C #D #O #Y #B">vicecomitum</rdg>
             </app>
             <app>
                <rdg wit="#W #S #R #J #Y">justiciariorum escaetorum</rdg>
+               <rdg wit="#B">justitiariorum escaetorum</rdg>
                <rdg wit="#I #C #O">justitiariorum eschaetorum</rdg>
                <!-- WHC: Checked all 3: def. t and not c. But #C is a little ambiguous; #D could have copied thus from #C.-->
                <rdg wit="#D">justiciariorum eschaetorum</rdg>
                <!--whc: If I'm declaring c/t distinction irrelevant at some point, separate these into two apps, as eschaetorum should be kept as relevant-->
             </app> officiariorum aut ministrorum <lb ed="#Y" n="33"/>nostrorum <app>
-               <rdg wit="#W #S #I #J #C #O">quorumcunque</rdg>
+               <rdg wit="#W #S #I #J #C #O #B">quorumcunque</rdg>
                <rdg wit="#R #D #Y">quorumcumque</rdg>
             </app> libere et impune dictas annuas quinquaginta tres libras pro <app>
                <rdg wit="#W #S #J">stipendiis</rdg>
-               <rdg wit="#R #I #C #D #O">stipendio</rdg>
+               <rdg wit="#R #I #C #D #O #B">stipendio</rdg>
                <rdg wit="#Y">stipend'</rdg><!--whc: check R here: does it really have an ending or is that my expansion?-->
-            </app> dictorum cantatorum, ut præmittitur, assignatas <app>
+            </app> dictorum cantatorum, ut præmittitur, assignatas <!-- WHC 6/3/26: in #B dictorum is inserted above line with caret, but appears to be in orig hand --><app>
                <rdg wit="#W #R #S #J">expendendas</rdg>
                <rdg wit="#Y">expendend'</rdg><!--whc: check R here: does it really have an ending or is that my expansion?-->
                <rdg wit="#C #D #O">expendendum</rdg>
                <rdg wit="#I">expendend<hi rend="underline">um</hi>.<add place="margin"
                   >as</add></rdg>
+               <rdg wit="#B">expendenda<del rend="overwritten">m</del><add place="inline">s</add></rdg>
             </app> in meliorem usum secundum eorum<app>
                <rdg wit="#W #R #S #J #Y"> sanas</rdg>
-               <rdg wit="#I #C #D #O"/>
+               <rdg wit="#I #C #D #O #B"/>
             </app> discretiones <app>
                <rdg wit="#W #S #J">convertendas.</rdg>
                <rdg wit="#R #Y">commitend'.</rdg>
                <rdg wit="#C #D #O">commitendum.</rdg>
                <rdg wit="#I">commitend<hi rend="underline">um</hi>.<add place="margin"
                   >as</add></rdg>
+               <rdg wit="#B">commitendas</rdg>
             </app>
          </ab>
-
+<!-- WHC: stopped collating #B here 6/3/26: ten lines up from bottom of p 3 -->
 
          <ab n="14">Et quod ipsi <pb ed="#D" n="179"/>libere et impune valeant quendam ludum <app>
                <rdg wit="#W #R #S #J #C #D #Y">literarium</rdg>
