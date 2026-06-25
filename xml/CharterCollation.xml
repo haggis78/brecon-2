@@ -782,89 +782,88 @@
 <!--WHC: pick up on Z here -->
          <ab n="7"><app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">Ac etiam</rdg>
-               <rdg wit="#R">Acetiam</rdg>
+               <rdg wit="#R #Z">Acetiam</rdg>
             </app> omnia <app>
                <rdg wit="#S #W #R #I #J #C #O #D #Y">catalla</rdg>
             <rdg wit="#B">Chattalla</rdg>
-            </app> res <app>
-               <rdg wit="#B #W #R #I #O #D #C #Y">hustilmenta</rdg>
+            </app> <lb ed="#Z" n="13"/>res <app>
+               <rdg wit="#B #W #R #I #O #D #C #Y #Z">hustilmenta</rdg>
                <rdg wit="#S #J">Hostilmenta</rdg>
-            </app> <lb ed="#R" n="26"/>necessaria et implementa in dicto nuper Prioratu tempore dissolutionis ejusdem, 
-            vel unquam postea existentia, vel <app>
-               <rdg wit="#B #W #R #I #J #C #O #D #Y">ad</rdg>
+               <!--WHC: Z illegible here, but reasonable to assume it matches the other MSS-->
+            </app> <lb ed="#R" n="26"/>necessaria et implementa in dicto nuper Prioratu tempore dissolutionis ejusdem, vel unquam postea existentia, vel <app>
+               <rdg wit="#B #W #R #I #J #C #O #D #Y #Z">ad</rdg>
                <rdg wit="#S">ab</rdg>
             </app> eundem <lb ed="#R" n="26"/>nuper Prioratum <!-- WHC 5/28/26: in #B the u in Prioratum very nearly closes to an a, but I think a u was still intended -->
             aliqualiter spectantia vel pertinentia, <app>
                <rdg wit="#B #W #S #I #J #C #O #D">cujuscunque</rdg>
-               <rdg wit="#R">cuiuscumque</rdg>
-               <rdg wit="#Y">cuiuscu'que</rdg> <!--WHC: suspension mark over u; really shouldn't matter but see what Z does -->
+               <rdg wit="#R">cuiuscumque</rdg> <!--WHC: check R: does it give an m or a suspension?-->
+               <rdg wit="#Y #Z">cuiuscu'que</rdg> 
             </app> generis vel speciei <lb ed="#Y" n="14"/>fuerint, ac in tam amplis modo et <lb ed="#R" n="28"/>forma prout <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">dictus</rdg>
-            <rdg wit="#B"/></app> <app>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">dictus</rdg>
+            <rdg wit="#B"/></app> <lb ed="#Z" n="14"/><app>
                <rdg wit="#B #W #C #D">Richardus</rdg>
-               <rdg wit="#S #R #J #O #I #Y">Ricardus</rdg>
+               <rdg wit="#S #R #J #O #I #Y #Z">Ricardus</rdg>
+               <!--WHC: Z illegible here but uses Ricardus elsewhere and should match RY-->
             </app> David <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y"/>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z"/>
+               <!--WHC: Z illegible here but should match RY-->
                <rdg wit="#B">dictus</rdg>
-            </app>ultimus Prior <app>
+            </app> ultimus Prior <app>
                <rdg wit="#B #W #S #I #J #C #O #D">dictæ</rdg>
-               <rdg wit="#R">dicti</rdg>
+               <rdg wit="#R #Z">dicti</rdg>
                <rdg wit="#Y">dict'</rdg>
             </app> nuper domus fratrum prædicatorum, vel aliquis prædecessorum prædicti <app>
-               <rdg wit="#W #S #R #J #I #O #Y">Ricardi</rdg>
+               <rdg wit="#W #S #R #J #I #O #Y #Z">Ricardi</rdg>
                <!-- WHC check wit W, which gave Richardus a few lines up: does it really give Ricardi here?-->
                <rdg wit="#B #C #D">Richardi</rdg>
             </app> <lb ed="#R" n="29"/>
             <app>
                <rdg wit="#B #W #S #R #J #I #O #C #D">David</rdg>
-               <rdg wit="#Y">David'</rdg>
+               <rdg wit="#Y #Z">David'</rdg>
             </app> nuper Prioris ejusdem nuper domus sive Prioratus <app>
                <rdg wit="#W #S #J"/>
-               <rdg wit="#R #Y">dicti nuper Priorat'</rdg>
+               <rdg wit="#R #Y #Z">dicti nuper Priorat'</rdg>
                <rdg wit="#I #O">dicti nuper Prioris ac</rdg>
                <rdg wit="#C #D">dicti nuper Prior~ ac</rdg>
-               <rdg wit="#B">dictum nuper prioratum</rdg> <!-- WHC 5/28/26: the m in dictum is an addition, as is the m in prioratum, which may have been prioratus originally; ac is missing -->
-               <!-- WHC 10/9/2019: these words left out of W, S and J, incl in R and C, though in C and D it's prior~ ac, nor priorat; suggest original reading was prior[is] ac,
-               R miscopied, and transcript "tau" used by W had omitted the words. Maybe.-->
-            </app> terras et tenementa, solum, fundum ædificia ac <lb ed="#R" n="30"/>cætera hæredita<lb ed="#Y" n="15" break="no"/>menta <app>
-               <rdg wit="#B #W #I #C #O #D">quæcunque,</rdg>
-               <rdg wit="#S #R #J">quæcumque,</rdg>
-               <rdg wit="#Y">quæcu'que,</rdg>
-            </app>
-            <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">bona</rdg>
+               <rdg wit="#B">dictum nuper prioratum</rdg> <!-- WHC 5/28/26: in B, the m in dictum is an addition, as is the m in prioratum, which may have been prioratus originally; 'ac' is not present -->
+             </app> terras et tenementa, solum, fundum ædificia ac <lb ed="#R" n="30"/>cætera hæredita<lb ed="#Y" n="15" break="no"/>menta <app>
+               <rdg wit="#B #W #I #C #O #D">quæcunque</rdg>
+               <rdg wit="#S #R #J">quæcumque</rdg><!--whc: check R: does it use suspension for m?-->
+               <rdg wit="#Y #Z">quæcu'que</rdg>
+            </app>, <app>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">bona</rdg>
                <rdg wit="#D"><add>^</add><add place="above">bona</add></rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D"/>
-               <rdg wit="#B #R #Y">et</rdg>
+               <rdg wit="#B #R #Y #Z">et</rdg>
             </app> <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">catalla</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">catalla</rdg>
             <rdg wit="#B">chattalla</rdg>
             </app> <pb ed="#O" n="291"/>res <app>
-               <rdg wit="#B #W #S #I #R #C #O #D #Y">hustilmenta</rdg>
+               <rdg wit="#B #W #S #I #R #C #O #D #Y">hustil<lb ed="#Z" n="15"/>menta</rdg>
                <rdg wit="#J">hostilmenta</rdg>
             </app> implementa <app>
                <rdg wit="#B #W #S #I #J #C #O #D"/>
-               <rdg wit="#R #Y">et</rdg>
+               <rdg wit="#R #Y #Z">et</rdg><!--WHC: Z illegible here; extrapolating from RY-->
             </app> necessaria, <app>
                <rdg wit="#B #W #S #I #J #C #O #D">dicto</rdg>
-               <rdg wit="#R">dicti</rdg>
+               <rdg wit="#R #Z">dicti</rdg>
                <rdg wit="#Y">dict'</rdg>
             </app> nuper <app>
                <rdg wit="#B #W #S #I #J #C #O #D">Prioratui</rdg>
-               <rdg wit="#R">Prioratus</rdg>
-               <rdg wit="#Y">Priorat'</rdg>
+               <rdg wit="#R">Prioratus</rdg><!--WHC: check: does it give -us or abbr?-->
+               <rdg wit="#Y #Z">Priorat'</rdg>
             </app> spectantia <lb ed="#R" n="31"/>vel aliquo modo <pb ed="#C" n="258"/>pertinentia, <app>
-               <rdg wit="#B #W #R #I #C #O #D #Y">ac</rdg>
+               <rdg wit="#B #W #R #I #C #O #D #Y #Z">ac</rdg>
                <rdg wit="#S #J">ad</rdg>
             </app> reversionem dicti nuper Prioratus et cæterorum præmissorum <app>
                <rdg wit="#B #W #S #J #C #O #I">quorumcunque</rdg>
-               <rdg wit="#R #D">quorumcumque</rdg>
-               <rdg wit="#Y">quorumcu'que</rdg>
+               <rdg wit="#R #D">quorumcumque</rdg><!--WHC: check if it abbreviates the m-->
+               <rdg wit="#Y #Z">quorumcu'que</rdg>
             </app><app>
-               <rdg wit="#B #W #S #I #R #C #D #O #Y">.</rdg> <!-- WHC 5/28/26: #B doesn't actually have the . but starts the next section with a capital A, which seems equivalent -->
-               <rdg wit="#J">(*) habuit tenuit aut gavisus fuit, et c. [Footnote in witness J: '*The
+               <rdg wit="#B #W #S #I #R #C #D #O #Y #Z">.</rdg> <!-- WHC 5/28/26: #B doesn't actually have the . but starts the next section with a capital A, which seems equivalent -->
+               <rdg wit="#J">(*) habuit tenuit aut gavisus fuit, et c. [Footnote in J: '*The
                   words following to the conclusion of the sentence, so necessary to grammar as well
                   as the sense, are omitted by Stephens, and added <emph rend="italics">meo
                      periculo</emph> by T.J.']</rdg> 
@@ -873,196 +872,191 @@
                        
          <ab n="8"><app>
                <rdg wit="#B #W #S #I #J #C #D #O #Y">Ac etiam</rdg>
-               <rdg wit="#R">Acetiam</rdg>
+               <rdg wit="#R #Z">Acetiam</rdg>
          </app> dedimus et <lb ed="#R" n="32"/>concessimus et <app>
-               <rdg wit="#B #W #R #S #J #C #D #Y">de gratia nostra</rdg>
+               <rdg wit="#B #W #R #S #J #C #D #Y #Z">de gratia nostra</rdg>
                <rdg wit="#I #O">de nostra gratia</rdg>
-            </app> speciali certa scientia et mero <lb ed="#Y" n="16"/>motu nostris, damus et concedimus eidem nunc
-            Episcopo et successoribus <lb ed="#R" n="33"/>suis, totum jus nostrum, statum, titulum clameum, possessionem
-            interesse et <app>
+            </app> speciali certa scientia et mero <lb ed="#Y" n="16"/>motu nostris, damus et concedimus eidem nunc <lb ed="#Z" n="16"/>Episcopo et successoribus <lb ed="#R" n="33"/>suis, totum jus nostrum, statum, titulum, clameum, possessionem interesse et <app>
                <rdg wit="#W #S #I #J">demandum</rdg>
-               <rdg wit="#R #C #O #D #Y #B">demand'</rdg><!--WHC 5/28/26: original word ending in #B blacked out and replaced with a suspension mark-->
+               <rdg wit="#R #C #O #D #Y #B #Z">demand'</rdg><!--WHC 5/28/26: original word ending in #B blacked out and replaced with a suspension mark-->
             </app> quæ nos in <app>
-               <rdg wit="#W #S #J #R #I #C #D #Y">prædicto</rdg>
+               <rdg wit="#W #S #J #R #I #C #D #Y #Z">prædicto</rdg>
                <rdg wit="#O"><add>^</add><add place="superimposed">præ</add>dicto</rdg>
                <rdg wit="#B">dicto</rdg>
-            </app> nuper Prioratu sive <lb ed="#R" n="34"/>domo fratrum prædicatorum 
-            ac cæteris præmissis cum
+            </app> nuper Prioratu sive <lb ed="#R" n="34"/>domo fratrum prædicatorum ac cæteris præmissis cum
             pertinentiis, ac in reversione dicti nuper <pb ed="#I" n="272"/>Prioratus <lb ed="#Y" n="17"/>sive domus
-            fratrum prædicatorum <lb ed="#R" n="35"/>ac cæterorum præmissorum cum omnibus et singulis suis pertinentiis
-            universis, ac in manibus et possessione nostris jam existentibus habemus, seu <lb ed="#R" n="36"/><app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">quovismodo</rdg>
+            fratrum prædicatorum <lb ed="#R" n="35"/>ac cæterorum præmissorum <lb ed="#Z" n="17"/>cum omnibus et singulis suis pertinentiis universis, ac in manibus et possessione nostris jam existentibus habemus, seu <lb ed="#R" n="36"/><app>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">quovismodo</rdg>
             <rdg wit="#B">quovis modo</rdg></app> <app>
                <rdg wit="#B #W #S #C #I #J #O #D #Y">in futurum</rdg>
-               <rdg wit="#R">infuturum</rdg>
+               <rdg wit="#R #Z">infuturum</rdg>
             </app> habere poterimus, aut hæredes <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">vel</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">vel</rdg>
             <rdg wit="#B">aut</rdg>
             </app> successores nostri habere <app>
                <rdg wit="#W #S #I #J #C #O">seu</rdg>
-               <rdg wit="#B #R #D #Y">aut</rdg>
+               <rdg wit="#B #R #D #Y #Z">aut</rdg>
             </app> clamare debent aut poterunt <lb ed="#Y" n="18"/><lb ed="#R" n="37"/><app>
-               <rdg wit="#R #W #I #C #D #Y">quovismodo</rdg>
+               <rdg wit="#R #W #I #C #D #Y #Z">quovismodo</rdg>
                <rdg wit="#B #S #J #O">quovis modo</rdg>
             </app>
             <app>
                <rdg wit="#B #W #S #C #I #J #D #O #Y">in futurum,</rdg>
-               <rdg wit="#R">infuturum,</rdg>
-            </app> jure <pb ed="#D" n="177"/>titulo materia vel causa <app>
+               <rdg wit="#R #Z">infuturum,</rdg>
+            </app> jure <pb ed="#D" n="177"/>titulo materia vel causa <lb ed="#Z" n="18"/><app>
                <rdg wit="#W #S #I #J #C #O #D">quibuscunque</rdg>
-               <rdg wit="#R">quibuscumque</rdg>
+               <rdg wit="#R">quibuscumque</rdg> <!--WHC: confirm if suspension mark or m-->
                <rdg wit="#B"> quibus cunque></rdg>
-               <rdg wit="#Y">quibuscu'que</rdg>
+               <rdg wit="#Y #Z">quibuscu'que</rdg>
             </app> juxta omnem juris effectum, ac omnia et omnimodas libertates <lb ed="#R" n="38"/>et franchesias jura <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">et</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">et</rdg>
                <rdg wit="#D"><add place="above">et</add></rdg>
             </app> jurisdictiones <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quæcunque</rdg>
-               <rdg wit="#R #Y">quæcumque</rdg> <!-- WHC: here Y doesn't suspend the m but writes it, so perhaps should extend all these in Y as m rather than n? -->
+               <rdg wit="#R #Y">quæcumque</rdg> <!-- WHC: here Y doesn't suspend the m but writes it, so perhaps should extend all these in Y as m rather than n? --><!--WHC: does R suspend or write m?-->
+               <rdg wit="#Z">quecu'que</rdg>
             </app> dicto nuper Prioratui terris <app>
                <rdg wit="#W #S #J">vel</rdg>
-               <rdg wit="#B #R #I #C #O #D #Y">et</rdg>
-            </app> <app><rdg wit="#S #W #R #I #J #C #O #D #Y">tenementis</rdg>
+               <rdg wit="#B #R #I #C #O #D #Y #Z">et</rdg>
+            </app> <app><rdg wit="#S #W #R #I #J #C #O #D #Y #Z">tenementis</rdg>
                <rdg wit="#B #C">tementis</rdg><!-- WHC: C has Te/-mentis (missing letters at line break): poss intended as abbreviation; even D correctly expanded -->     
             </app>, vel cæteris hæreditamentis <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg>
-               <rdg wit="#Y">quibuscu'que</rdg>
+               <rdg wit="#Y #Z">quibuscu'que</rdg>
             </app>, <pb ed="#R" n="31"/><lb ed="#R" n="39"/>sive alicui <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">inde</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">inde</rdg>
                <rdg wit="#D"><add>^</add><add place="above">inde</add></rdg>
             </app> <app><rdg wit="#B #C #D #I #O #W #S #J #Y">parcellæ</rdg>
-            <rdg wit="#R">parcelli</rdg></app> <app>
+            <rdg wit="#R">parcelli</rdg>
+            <rdg wit="#Z">parcell'</rdg></app> <app>
                <rdg wit="#B #W #R #S #J #Y">quoquo <lb ed="#Y" n="19"/>modo</rdg>
                <!-- WHC: In Y this is a line break, so whether it's meant as two separate words is ambiguous -->
-               <rdg wit="#I #C #O">quoquomodo</rdg>
+               <rdg wit="#I #C #O #Z">quoquomodo</rdg>
                <rdg wit="#D"><add>^</add><add place="above">quoquomodo</add></rdg>
             </app> spectantia vel pertinentia, adeo <app>
                <rdg wit="#W #R #S #J">plene</rdg>
-               <rdg wit="#B #I #O #D #Y">plane</rdg><!-- WHC: Interesting divergence between Y and R here; what will Z read? -->
+               <rdg wit="#B #I #O #D #Y #Z">plane</rdg><!-- WHC: Interesting divergence between YZ and R here; may be evidence W copied from an R-descended copy -->
                <rdg wit="#C">pla<add place="above">e</add>ne</rdg>
-               <!-- WHC #C: original text here says plane, but there's an interlinear e over the a to correct it. Hand undetermined (Baker's?) but not the principal hand of C itself. Perhaps corrected from #W, or without exemplar because it's obviously correct? -->
-            </app> et integre prout <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">antedictus</rdg>
+               <!-- WHC #C: original text here says plane, but there's an interlinear e over the a to correct it. Hand undetermined (Baker's?) but not the principal hand of C itself. Perhaps corrected from #W or another R-descended copy, or corrected without exemplar on linguistic grounds? -->
+            </app> et integre <lb ed="#Z" n="19"/>prout <app>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">antedictus</rdg>
             <rdg wit="#B">dictus</rdg></app> <app>
                <rdg wit="#W #C #D">Richardus</rdg>
                <rdg wit="#S #J">Ricardus</rdg>
-               <rdg wit="#B #I #O #Y #R">Ric'us</rdg>
+               <rdg wit="#B #I #O #Y #R #Z">Ric'us</rdg>
             </app> 
             <app><rdg wit="#B #C #D  #I #J #O #S #W">David</rdg>
-               <rdg wit="#R #Y">David'</rdg>
-            </app> 
-            nuper Prior <lb ed="#R" n="40"/>Prioratus prædicti aut aliquis prædecessorum suorum <app>
+               <rdg wit="#R #Y #Z">David'</rdg>
+            </app> nuper Prior <lb ed="#R" n="40"/>Prioratus prædicti aut aliquis prædecessorum suorum <app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">nuper</rdg> <!-- WHC 5/28/26: nuper doubled in #B but the second struck through -->
-               <rdg wit="#R"/> <!-- WHC: absence in R alone is interesting: implies that R is a dead-end copy, not a source used by others, unless
-               we are to assume (as is possible) that because the phrase repeats throughout the doc with nuper, a copyist from R correctly re-inserted it. But I think there are
-               other reasons to doubt that R is anything but an endpoint.-->
+               <rdg wit="#R #Z"/> <!-- WHC: absence in RZ alone is interesting: either it means others copied from Y or Tau (if it was re-inserted there by chancery scribe), or because the phrase repeats throughout the doc with nuper, some other copyist from RZ correctly re-inserted it. But I think there are other reasons to doubt that R is anything but an endpoint.-->
             </app> Priorum dicti nuper Prioratus sive domus prædicatorum <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">in</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">in</rdg>
             <rdg wit="#B"/>
-            </app> jure illius Prioratus
+            </app> jure illius Prioratus <!--WHC: priorat' added above line in Z, but by original scribe, so probably a correction made right away; don't treat as a divergence-->
             <lb ed="#R" n="41"/>dictam <app>
                <rdg wit="#W #S"/>
-               <rdg wit="#B #R #C #O #D #I #Y">nuper domum sive Prioratum fratrum <lb ed="#Y" n="20"/>predicatorum ea</rdg>
+               <rdg wit="#B #R #C #O #D #I #Y #Z">nuper domum sive Prioratum fratrum <lb ed="#Y" n="20"/>predicatorum ea</rdg>
                <rdg wit="#J">nuper Domum sive Prioratum Fratrum Prædicatorum, ac prædicatorum,
-                  ac</rdg> <!--whc: wait, where is J getting this, if J is copied from S? -->
+                  ac</rdg> <!--whc: wait, where is J getting this, if J is copied from S? Check if WS really omit it-->
             </app>
             <app>
-               <rdg wit="#B #W #R #I #C #O #D #Y">vel </rdg>
+               <rdg wit="#B #W #R #I #C #O #D #Y #Z">vel </rdg>
                <rdg wit="#S #J"/>
             </app> prædicta bona et <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">catalla</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">catalla</rdg>
             <rdg wit="#B">chattalla</rdg>
-            </app>, res, <pb ed="S"/> necessaria vel implementa prædicta,
-            vel <lb ed="#R" n="42"/>aliquam partem inde <pb ed="#O" n="292"/> unquam habuerunt tenuerunt vel
+            </app>, res, <pb ed="S"/> necessaria vel implementa prædicta, vel <lb ed="#R" n="42"/>aliquam partem <lb ed="#Z" n="20"/>inde <pb ed="#O" n="292"/> unquam habuerunt tenuerunt vel
             <!-- WHC: #D has et corr. to vel --> gavisi fuerunt, habuit tenuit <app>
-               <rdg wit="#W #R #I #C #D #Y">aut</rdg>
+               <rdg wit="#W #R #I #C #D #Y #Z">aut</rdg>
                <rdg wit="#B #S #J">vel</rdg>
                <rdg wit="#O"><del rend="strikethrough">vel</del>
                   <add place="above">aut</add></rdg>
               </app> gavisus fuit, aut <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">habere</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">habere</rdg>
                <rdg wit="#D">habebere</rdg>
               </app> tenere seu <lb ed="#R" n="43"/>gaudere debuerunt vel deberent, debuit <pb ed="#W" n="306"/> <app>
-                 <rdg wit="#S #W #R #I #J #C #O #D #Y">sive</rdg>
-              <rdg wit="#B">vel</rdg></app>
-            deberet, <app>
+                 <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">sive</rdg>
+              <rdg wit="#B">vel</rdg>
+              </app> deberet, <app>
                <!--whc: check #R: cited as having both readings, which must be incorrect-->
                <rdg wit="#W #R #S #J">aut</rdg>
-               <rdg wit="#B #I #C #O #D #R #Y">et</rdg>
-            </app> adeo 
-            <app>
+               <rdg wit="#B #I #C #O #D #R #Y #Z">et</rdg>
+            </app> adeo <app>
                <rdg wit="#C #D #I #O #J #R #S #W">plene</rdg>
-               <rdg wit="#B #Y">plane</rdg>
+               <rdg wit="#B #Y #Z">plane</rdg>
             </app> <lb ed="#Y" n="21"/>et integre prout ea omnia et singula ad manus <lb ed="#R" n="44"/>nostras ratione <app>
-               <rdg wit="#B #W #S #J #R #I #C #D #Y">et</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #D #Y #Z">et</rdg>
                <rdg wit="#O"><del rend="strikethrough">vel</del><add place="above">et</add></rdg>
-            </app> prætextu dissolutionis dicti nuper <pb ed="#C" n="259"/> Prioratus sive domus
-            devenerunt, <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">seu</rdg>
+            </app> prætextu dissolutionis dicti nuper <pb ed="#C" n="259"/> Prioratus sive domus <lb ed="#Z" n="21"/>devenerunt, <app>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">seu</rdg>
             <rdg wit="#B">sive</rdg></app> devenire debuerunt, vel deberent, <lb ed="#R" n="45"/><app>
                <rdg wit="#W #S #J">aut</rdg>
-               <rdg wit="#B #R #I #C #O #Y">ac</rdg>
+               <rdg wit="#B #R #I #C #O #Y #Z">ac</rdg>
                <rdg wit="#D"><del rend="overwritten">aut</del><add>ac</add></rdg>
                <!-- WHC: this should somehow show that 'aut' was overwritten with 'ac'. Not sure what that will look like on the website. If there's not a way to do it, make it show aut as struck through and ac as written after it. -->
             </app> alio modo <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quocunque</rdg>
-               <rdg wit="#R">quocumque</rdg>
-               <rdg wit="#Y">quocu'que</rdg>
+               <rdg wit="#R">quocumque</rdg><!--whc: check!-->
+               <rdg wit="#Y #Z">quocu'que</rdg>
             </app> in manibus nostris <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">jam</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">jam</rdg>
             <rdg wit="#B"/>
             </app> existunt <app>
                <rdg wit="#W #S #J">vel</rdg>
-               <rdg wit="#B #R #I #C #O #Y">seu</rdg>
+               <rdg wit="#B #R #I #C #O #Y #Z">seu</rdg>
                <rdg wit="#D"><del rend="strikethrough">vel</del><add place="above">seu</add></rdg>
             </app> existere debent <app>
                <rdg wit="#W #S #J">seu</rdg>
-               <rdg wit="#B #R #I #C #O #D #Y">vel</rdg>
+               <rdg wit="#B #R #I #C #O #D #Y #Z">vel</rdg>
             </app>deberent. </ab>
        <!--WHC: checked R, using images from website, thus far-->
+         
          <ab n="9"><app>
-               <rdg wit="#W #R #S #J #Y">Habendum,</rdg>
-               <rdg wit="#I #C #O #D">Habendum et</rdg>
-               <rdg wit="#B">Habendam</rdg>
-         </app> tenendum <lb ed="#Y" n="22"/>et <app>
+               <rdg wit="#W #R #S #J #Y">Habendum, tenendum</rdg>
+               <rdg wit="#I #C #O #D">Habendum et tenendum</rdg>
+               <rdg wit="#B">Habendam tenendum</rdg><!--whc check B: does it really give fem and masc endings like this??-->
+               <rdg wit="#Z">Habend' tenend'</rdg>
+         </app> <lb ed="#Y" n="22"/>et <app>
             <rdg wit="#S #W #R #I #J #C #O #D #Y">gaudendum</rdg>
+            <rdg wit="#Z">gaudend'</rdg>
          <rdg wit="#B">gaudendam</rdg>
          </app> <lb ed="#R" n="46"/>prædictam domum sive <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">prædictum</rdg>
-               <rdg wit="#D">praedicta</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">prædictum</rdg>
+            <rdg wit="#D">prædicta</rdg>
             </app> nuper Prioratum, solum, fundum, et præcinctum ejusdem, <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">ac</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">ac</rdg>
                <rdg wit="#D"><del rend="strikethrough">et caetera</del><add place="above"
                   >ac</add></rdg>
-            </app> omnia et singula ædificia dicti nuper Prioratus, <lb ed="#R" n="47"/>ac omnia <app>
+            </app> omnia et singula ædificia dicti nuper Pri<lb ed="#Z" n="22"/>oratus, <lb ed="#R" n="47"/>ac omnia <app>
                <rdg wit="#B #W #S #I #J #C #O #D">messuagia</rdg>
-               <rdg wit="#R #Y">mesuagia</rdg>
+               <rdg wit="#R #Y #Z">mesuagia</rdg><!--whc: Z illeg but should probably match RY-->
             </app> terras et tenementa; redditus <app>
-               <rdg wit="#W #R #S #J #C #D #Y">reversiones</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y">reversiones</rdg><!--whc: check RZ: clearly s here?-->
                <rdg wit="#O #I">revertiones</rdg>
+               <rdg wit="#Z">reverciones</rdg>
                <rdg wit="#B">reventiones</rdg>
             </app> et servitia, commoditates et proficua, ac cætera hæreditamenta <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quæcunque,</rdg>
                <rdg wit="#R">quecumque,</rdg>
-               <rdg wit="#Y">quecu'que,</rdg>
+               <rdg wit="#Y #Z">quecu'que,</rdg>
             </app> bona <lb ed="#R" n="48"/><app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">catalla</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">catalla</rdg>
             <rdg wit="#B">Chattalla</rdg>
             </app> <lb ed="#Y" n="23"/>res <app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">hustilmenta</rdg>
-               <rdg wit="#R">hustillamenta</rdg>
+               <rdg wit="#R #Z">hustillamenta</rdg>
             </app> implementa et necessaria <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-               <rdg wit="#Y">quecu'que</rdg>
+               <rdg wit="#Y #Z">quecu'que</rdg>
             </app>, ac <app>
-               <rdg wit="#B #W #S #I #R #J #C #D #Y">cætera</rdg>
+               <rdg wit="#B #W #S #I #R #J #C #D #Y #Z">cætera</rdg>
                <rdg wit="#O"><add>^</add><add place="above">cætera</add></rdg>
-            </app> omnia et singula præmissa superius expressa et specificata, <lb ed="#R" n="49"/>cum suis juribus et
-            pertinentiis universis, <app>
+            </app> omnia et singula præmissa superius expressa et specificata, <lb ed="#R" n="49"/>cum suis juribus et pertinentiis uni<lb ed="#Z" n="23"/>versis, <app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">una cum</rdg>
-               <rdg wit="#R">unacum</rdg>
+               <rdg wit="#R #Z">unacum</rdg>
             </app> omnibus <pb ed="#I" n="273"/>et omnimodis proficuis <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y"/>
                <rdg wit="#D"><del rend="strikethrough">et</del>
