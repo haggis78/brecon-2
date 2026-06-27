@@ -315,7 +315,7 @@
                            establishing Brecon were issued in January of 32 Henry VIII (1540 Old
                            Style, 1541 New Style), the document was not enrolled in the Patent Rolls
                            until 33 Henry VIII, confirming that it must have been copied from the
-                           Warrant in Chancery, which they would still have had, and not the Letters
+                           Warrant in Chancery (our Witness Z), which they would still have had, and not the Letters
                            Patent, which had already been sent out (for details of the process, see
                            https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1).
                            The Patent Rolls were initially stored in the Rolls Chapel in the Tower
@@ -348,7 +348,7 @@
                   </msContents>
                   <physDesc>
                      <p>
-                        <material>Paper</material>: ff. 3. Not ruled. Written in one italic/secretary hand of the 17th century with corrections in the same or a similar hand. Endorsed in a different 17th or 18th century hand: 'King Henry 8th Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 1541/2'</p>
+                        <material>Paper</material>: ff. 3. Not ruled. Written in one italic/secretary hand of the 17th century with corrections in the same or a similar hand. Endorsed in a different 17th or 18th century hand: 'King Henry 8<hi rend="sup">th</hi> Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 154½'</p>
                   </physDesc>
                   <history>
                      <provenance>
@@ -417,9 +417,7 @@
                   </physDesc>
                   <history>
                      <provenance>
-                        <p>Warrant under signet, sent to Privy Seal Office, to prepare Warrant in Chancery (now C 82/776, and our Witness Z) 
-                           (for details of the process, see https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1). 
-                           This was the earliest draft stage of the process.
+                        <p>Warrant under signet, sent to Privy Seal Office, to prepare Warrant in Chancery (now C 82/776, and our Witness Z) (for details of the process, see https://babel.hathitrust.org/cgi/pt?id=mdp.39015008927983&amp;view=1up&amp;seq=1). This was the earliest draft stage of the process.
                            <!-- WHC 7 June 2022: Need to check if provenance/custody of PSO docs is same as Chancery docs described here: -->
                            The Patent Rolls were initially stored in the Rolls Chapel in the
                            Tower of London; moved to the new Public Record Office building
@@ -454,9 +452,9 @@
                <rdg wit="#W #S #I #C #J #O #D #Z"/>
                <rdg wit="#R">Willelmo Episcopo Meneven' de con[cessione] sibi et successoribus/</rdg>
                <!--whc 23 june 2022: check TEI guidelines: how to note that above R text is marginal index note?-->
-               <rdg wit="#B">King Henry 8th Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 154½</rdg>
+               <rdg wit="#B">King Henry 8<hi rend="sup">th</hi> Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 154½</rdg>
                <!--WHC 6/22/26: this is an endorsement on B, not part of the main text-->
-               <rdg wit="#Z">Memorand’ quod xixo die Januarii anno subscripto istud Die lib[er]at’ fuit dno Cancellario Anglie apud Westm’ exequend’</rdg>
+               <rdg wit="#Z">Memorand’ quod xix<hi rend="sup">o</hi> die Januarii anno subscripto istud Die lib[er]at’ fuit domino Cancellario Anglie apud Westm’ exequend’</rdg>
             </app> 
          </ab>
         
@@ -1448,35 +1446,38 @@
             </app> absque aliquo ab ipsis
             <!-- CRC #O has a small word or mark after "ip'is" that I can't identify. WHC: It's just a squiggle taking up space at the end of a line, albeit an unusual-looking one.-->
             pueris vel eorum parentibus pro <lb ed="#Z" n="36"/><lb ed="#Y" n="37"/> <app>
-               <rdg wit="#W #S #R #J">educatione</rdg>
+               <rdg wit="#W #S #R #J #Z">educatione</rdg>
                <rdg wit="#I #C #O #D #Y #B">eruditione</rdg>
             </app> <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">prædictorum</rdg>
-               <rdg wit="#B">prædicta</rdg><!--WHC 6/22/26: check other witnesses: do they just have pradict'? -->
+               <rdg wit="#W #R #S #J #C #D #Y #I #O">prædictorum</rdg><!--WHC 6/22/26: check RY: do they just have pradict'? -->
+               <rdg wit="#B">prædicta</rdg>
+               <rdg wit="#Z">pred'</rdg>
             </app> adolescentium <app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">capiendo vel clamando</rdg>
-            <rdg wit="#B">capienda vel clamanda</rdg></app>. </ab>
+               <!--WHC 6/22/26: check RY: do they abbr like Z? -->
+            <rdg wit="#B">capienda vel clamanda</rdg>
+            <rdg wit="#Z">capiend' vel clamand'</rdg></app>. </ab>
 
 
          <ab n="15"><app>
-               <rdg wit="#W #S #I #J #C #O #D #Y #B">Ac etiam</rdg>
+               <rdg wit="#W #S #I #J #C #O #D #Y #B #Z">Ac etiam</rdg>
                <rdg wit="#R">Acetiam</rdg>
             </app> de gratia nostra speciali<pb ed="#C" n="262"/> certa scientia <app>
                <rdg wit="#W #S #I #R"/>
-               <rdg wit="#J #C #O #D #Y #B">et</rdg>
+               <rdg wit="#J #C #O #D #Y #B #Z">et</rdg>
             </app> mero motu <app>
-               <rdg wit="#W #R #I #C #O #D #Y #B">nostris</rdg>
+               <rdg wit="#W #R #I #C #O #D #Y #B #Z">nostris</rdg>
                <rdg wit="#S #J">nostro</rdg>
             </app>, 
             <app>
                <rdg wit="#W #S">et</rdg>
-               <rdg wit="#R #I #C #O #D #J #Y #B"/>
+               <rdg wit="#R #I #C #O #D #J #Y #B #Z"/>
                <!-- WHC: check W S and J  -->
             </app>volumus et concedimus per præsentes, quod <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">dictus nuper Prioratus</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">dictus nuper Prioratus</rdg>
             <rdg wit="#B">dictu<del rend="strikethrough">m</del><add place="above">s</add> nuper prioratu<del rend="strikethrough">m</del><add place="above">s</add></rdg>
             </app> <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">fratrum prædicatorum</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">fratrum prædicatorum</rdg>
                <rdg wit="#D"><add>^</add><add place="above">fratrum prædicatorum</add></rdg>
             </app><app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O"/>
@@ -1484,71 +1485,71 @@
             </app> Collegium Christi de <app>
                <rdg wit="#W #S #J #B">Brecknock</rdg>
                <rdg wit="#R #D #Y">Brechnok</rdg>
-               <rdg wit="#I #O">Brechnock</rdg>
+               <rdg wit="#I #O #Z">Brechnock</rdg>
                <rdg wit="#C">Brechnocke</rdg>
             </app> de cætero <pb ed="#J" n="725"/>nuncupetur, et ab omnibus <lb ed="#Y" n="38"/>appelletur; ac pro tali
-            Collegio acceptamus et <app>
-               <rdg wit="#W #S #I #R #C #O #D #Y #B">reputamus</rdg>
+            Collegio <lb ed="#Z" n="37"/>acceptamus et <app>
+               <rdg wit="#W #S #I #R #C #O #D #Y #B #Z">reputamus</rdg>
                <rdg wit="#J">repatamus</rdg>
             </app> per præsentes, et non alio modo neque aliter <app>
                <rdg wit="#W #S #J">in posterum</rdg>
-               <rdg wit="#R #I #C #O #D #Y">imposterum</rdg>
+               <rdg wit="#R #I #C #O #D #Y #Z">imposterum</rdg>
                <rdg wit="#B">in perpetuum</rdg>
             </app> vocari appellari vel <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">nuncupari</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">nuncupari</rdg>
                <rdg wit="#D">nuncupar<del rend="overwritten">e</del><add>i</add></rdg>
             </app> volumus. </ab>
 
          <ab n="16">Et quod antedictus nunc Episcopus <app>
                <rdg wit="#W #S #R #J #B">Menevensis</rdg><!--whc check: does R really give the whole word?-->
-               <rdg wit="#I #C #O #D #Y">Meneven'</rdg>
+               <rdg wit="#I #C #O #D #Y #Z">Meneven'</rdg>
             </app> ac omnes et singuli præbendarii canonici choristæ <lb ed="#Y" n="39"/>vicarii, <app>
                <rdg wit="#W #R #I #C #O #D #B">aliive</rdg>
-               <rdg wit="#Y">alii ve</rdg><!--whc: check R: space?-->
+               <rdg wit="#Y #Z">alii ve</rdg><!--whc: check R: space?-->
                <rdg wit="#S #J">aliique</rdg>
             </app> ministri dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Albergully</rdg>
+               <rdg wit="#R #Z">Albergully</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
-            </app>, ac omnes <app>
-               <rdg wit="#W #R #I #C #O #D #Y">Ludi magistri</rdg>
+            </app>, ac omnes <lb ed="#Z" n="38"/><app>
+               <rdg wit="#W #R #I #C #O #D #Y #Z">Ludi magistri</rdg>
                <rdg wit="#S #J #B">Ludimagistri</rdg>
             </app> pædagogi <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">lectores</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">lectores</rdg>
                <rdg wit="#D">lector<del rend="overwritten">i</del><add place="superimposed"
                   >e</add>s</rdg>
             </app>
             <pb ed="#W" n="308"/>
             <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">concionatores</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">concionatores</rdg>
                <rdg wit="#D">concionator<del rend="overwritten">i</del><add place="superimposed"
                      >e</add>s</rdg>
             </app>
             <app>
                <!-- whc: check #Y, which is missing here -->
-               <rdg wit="#W #R #S #I #J #C #D #B">ac</rdg>
+               <rdg wit="#W #R #S #I #J #C #D #B #Z">ac</rdg>
                <rdg wit="#O"><del rend="strikethrough">et</del><add place="above">ac</add></rdg>
                <!-- CRC: in O, "et" was written here, struck out and replaced with "ac"-->
             </app> aliæ personæ <app>
                <rdg wit="#W #S #I #J #C #O #D #B">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-               <rdg wit="#Y">quecu'que</rdg>
+               <rdg wit="#Y #Z">quecu'que</rdg>
             </app>; illic pro <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">tempore</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">tempore</rdg>
                <rdg wit="#D">tempor<add place="above">e</add></rdg>
             </app> existentes et successores sui libere et impune apud <app>
-               <rdg wit="#W #S #R #J #C #D #Y #B">prædictum</rdg>
+               <rdg wit="#W #S #R #J #C #D #Y #B #Z">prædictum</rdg>
                <!-- WHC #R abbreviates but p'dcm' so ending is indicated. Confirmed that #C has full ending.-->
                <rdg wit="#I #O">præd</rdg>
                <!-- WHC: maybe DON'T collapse this after all MSS are collated: preserves a case of #I #O similarity-->
             </app> oppidum de <app>
                <rdg wit="#W #S #J #B">Brecknock</rdg>
-               <rdg wit="#R">Breknok</rdg>
+               <rdg wit="#R #Z">Breknok</rdg>
                <rdg wit="#I #C #O">Brechnock</rdg>
                <rdg wit="#D #Y">Brechnok</rdg>
             </app> et in <pb ed="#I" n="276"/>Ecclesia <app>
-               <rdg wit="#W #S">prædicta</rdg>
+               <rdg wit="#W #S #Z">prædicta</rdg>
                <rdg wit="#R #Y">prædict'</rdg>
                <rdg wit="#I #O #B">præd</rdg>
                <rdg wit="#J #C #D">prædicti</rdg>
@@ -1556,10 +1557,10 @@
             hæreditamentis <app>
                <rdg wit="#W #S #I #J #C #O #D #B">quibuscunque</rdg>
                <rdg wit="#R">quibuscumque</rdg><!--whc check if m is written-->
-               <rdg wit="#Y">quibuscu'que</rdg>
+               <rdg wit="#Z #Y">quibuscu'<lb ed="#Z" n="39"/>que</rdg>
             </app> dicto nuper <pb ed="#O" n="296"/>Prioratui <app>
                <rdg wit="#W #S #R #J #B">spectantibus</rdg>
-               <rdg wit="#Y">spectan'</rdg><!--whc: check if R abbr this way or not-->
+               <rdg wit="#Y #Z">spectan'</rdg><!--whc: check if R abbr this way or not-->
                <rdg wit="#I #C #O #D">spectantia</rdg>
             </app>, et infra ambitum et præcinctum
             <!-- CRC: in O, large empty space between words here, filled in with three decorative punctuation.-->
@@ -1569,13 +1570,13 @@
                <!-- CRC: #J repeats an entire line twice here!-->
             </app> cohabitare <app>
                <rdg wit="#W #S #I #J #C #O #D #Y #B">residere</rdg>
-               <rdg wit="#R">recedere</rdg><!-- WHC checked and confirmed this -->
+               <rdg wit="#R #Z">recedere</rdg><!-- WHC checked and confirmed this in both -->
             </app>
             <app>
-               <rdg wit="#W #R #D #Y #B">possunt</rdg>
+               <rdg wit="#W #R #D #Y #B #Z">possunt</rdg>
                <rdg wit="#S #I #J #C #O">possint</rdg>
             </app> et manere<app>
-               <rdg wit="#W #S #I #R #C #O #D #Y #B"/>
+               <rdg wit="#W #S #I #R #C #O #D #Y #B #Z"/>
                <rdg wit="#J"> possint</rdg>
                <!-- WHC to CRC: Please confirm: does J include possint twice, both before and after et manere?
                CRC: it really does! "residere possint et manere possint". No idea why.-->
@@ -1583,386 +1584,416 @@
 
          <ab n="17">Et quod idem nunc Episcopus <app>
                <rdg wit="#W #S #J #B">Menevensis</rdg>
-               <rdg wit="#R #Y">Meneven'</rdg>
+               <rdg wit="#R #Y #Z">Meneven'</rdg>
                <rdg wit="#I #C #O #D">Menev'</rdg>
             </app> et successores sui <lb ed="#Y" n="41"/>ad ejus et eorum cujuslibet beneplacitum libere <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">transferre</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">transferre</rdg>
                <rdg wit="#D">transfer<add place="above">r</add>e</rdg>
             </app>
             <app>
-               <rdg wit="#W #R #I #C #D #Y #B">possunt</rdg>
+               <rdg wit="#W #R #I #C #D #Y #B #Z">possunt</rdg>
                <rdg wit="#S #J #O">possint</rdg>
-            </app> dictos residentiarios præbendarios <app>
-               <rdg wit="#W #S #R #J #D #C #Y #B">canonicos</rdg>
+            </app> dictos residentiarios præbendarios <lb ed="#Z" n="40"/><app>
+               <rdg wit="#W #S #R #J #D #C #Y #B #Z">canonicos</rdg>
                <rdg wit="#I #O">cannonicos</rdg>
             </app> choristas aliosque ministros dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app>, ad dictum Collegium Christi de <app>
                <rdg wit="#W #S #I #J #C #O #B">Brecknock</rdg>
-               <rdg wit="#R #D #Y">Brechnok</rdg>
+               <rdg wit="#R #D #Y #Z">Brechnok</rdg>
             </app> prædictum atque eos <pb ed="#D" n="180"/>et eorum quemlibet sub <app>
-               <rdg wit="#W #S #R #J #Y #B">pœnis</rdg><!--whc: Really, Y has penis, and R probably does too-->
+               <rdg wit="#W #S #R #J #Y #B #Z">pœnis</rdg><!--whc: Really, YZ has penis, and R probably does too-->
                <rdg wit="#I #C #O #D">pœna</rdg>
             </app> <lb ed="#Y" n="42"/>statutorum dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#Y">Aberguylly</rdg>
                <rdg wit="#D">Abergully</rdg>
             </app>, aliquo tempore <app>
-               <rdg wit="#W #R #I #C #O #Y">ante hac</rdg>
+               <rdg wit="#W #R #I #C #O #Y #Z">ante hac</rdg>
                <rdg wit="#S #J #D #B">antehac</rdg>
-            </app> usitatis consuetis specificatis et declaratis, absque impetitione molestatione
+            </app> usitatis consuetis specificatis et declaratis, absque impetitione molesta<lb ed="#Z" n="41"/>tione
             vel <app>
                <rdg wit="#W #S #J">turbatione</rdg>
-               <rdg wit="#R #I #C #O #D #Y #B">perturbatione</rdg>
+               <rdg wit="#R #I #C #O #D #Y #B #Z">perturbatione</rdg>
             </app> nostri hæredum vel successorum nostrorum, <app>
-               <rdg wit="#W #S #I #R #D #Y #B">justiciarorum escaetorum</rdg>
+               <rdg wit="#W #S #I #R #D #Y #B #Z">justiciarorum escaetorum</rdg>
                <rdg wit="#C #O">justiciarorum</rdg>
                <!--WHC confirmed escaetorum is absent from both. So #D can't have gotten it from #C But could be copied from #I, as a few lines down.-->
                <rdg wit="#J">Justiciario-Escaetorum</rdg>
             </app> vicecomitum ballivorum <pb ed="#S"/>servientium officiariorum <lb ed="#Y" n="43"/>
             vel ministrorum nostrorum, hæredum <app>
-               <rdg wit="#W #S #J #I #R #Y">aut</rdg>
+               <rdg wit="#W #S #J #I #R #Y #Z">aut</rdg>
                <rdg wit="#C #O #D #B">et</rdg>
             </app> successorum nostrorum <app>
                <rdg wit="#W #S #J #D">quorumcunque</rdg>
-               <!-- WHC: #D has it in main text, not an addition. #C and #O lack the word, as did #I originally, but #D had it from the beginning. 
-                  So #D could have copied from #I after #I was annotated? -->
+               <!-- WHC: #D has it in main text, not an addition. #C and #O lack the word, as did #I originally, but #D had it from the beginning. So #D could have copied from #I but only after #I was annotated, or the scribe added it on his own initiative as following the pattern elsewhere in the document. -->
                <rdg wit="#R #B">quorumcumque</rdg>
-               <rdg wit="#Y">quorumcu'que</rdg>
+               <rdg wit="#Y #Z">quorumcu'que</rdg>
                <rdg wit="#I"><add place="margin">quorumcunque</add></rdg>
                <!-- amp: this is a marginal note in I -->
                <rdg wit="#C #O"/>
             </app>, vel eorum alicujus <pb ed="#C" n="263"/>cohabitare <app>
                <rdg wit="#W #S #R #J">faciat</rdg><!--whc: check R; Y is abbr.-->
                <rdg wit="#I #C #O #D">facere</rdg><!--whc: a double infinitive here doesn't make sense; cohabitare faciat does.-->
-               <rdg wit="#Y">fac'</rdg>
-               <rdg wit="#B">faciant</rdg>
+               <rdg wit="#Y #Z">fac'</rdg>
+               <rdg wit="#B">faciant</rdg><!--whc: this app is a good illustration of how YZ abbreviated a lot, and different subsequent copyists came up with different possible endings.-->
             </app>.
          </ab>
          
          <ab n="18">Et <app>
-               <rdg wit="#W #S #R #J #I #O #D #Y #B">ulterius</rdg>
+               <rdg wit="#W #S #R #J #I #O #D #Y #B #Z">ulterius</rdg>
                <rdg wit="#C">ulteius</rdg>
-               <!-- WHC: I confirmed this reading. It's in the large bold letters and the start of a section, no mistaking it. -->
-            </app> volumus et concedimus per præsentes de speciali gratia nostra certa scientia et
+               <!-- WHC: I confirmed this reading. It's in the large bold letters and the start of a section, no mistaking it. Check if D followed C here. -->
+            </app> volumus et concedimus per præsentes de speciali gratia nostra certa <lb ed="#Z" n="42"/>scientia et
             mero motu <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">nostris</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">nostris</rdg>
                <rdg wit="#B">nostro</rdg>
             </app>, quod idem nunc Episcopus <app>
                <rdg wit="#W #S #J #B">Menevensis</rdg>
                <rdg wit="#R #I #C #O #D #R">Meneven'</rdg>
+               <rdg wit="#Z">Menev'</rdg>
                <!-- whc: Check #Y, which is missing here -->
             </app> et successores <lb ed="#Y" n="44"/>sui, ac omnes alii residentiarii præbendarii canonici vicarii
             choristæ, aliique ministri dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app> et successores sui, pure libere quiete et hæreditarie habeant et teneant sibi et
-            <app><rdg wit="#W #R #S #J #C #D #Y #I #O">successoribus suis</rdg>
+            <app><rdg wit="#W #R #S #J #C #D #Y #I #O #Z">successoribus suis</rdg>
             <rdg wit="#B">suis successoribus</rdg>
-            </app> <app>
+            </app> <lb ed="#Z" n="43"/><app>
                <rdg wit="#W #S #J #B">in perpetuum</rdg>
-               <rdg wit="#R #I #C #O #D #Y">imperpetuum</rdg>
+               <rdg wit="#R #I #C #O #D #Y #Z">imperpetuum</rdg>
             </app>, omnia et omnimoda maneria <app>
                <rdg wit="#W #S #I #J #C #O #D #B">messuagia</rdg>
-               <rdg wit="#R #Y">mesuagia</rdg>
+               <rdg wit="#R #Y #Z">mesuagia</rdg>
             </app> <lb ed="#Y" n="45"/>terras et tenementa, <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">redditus reversiones</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">redditus reversiones</rdg>
             <rdg wit="#B">reddit<del rend="strikethrough">a</del><add place="above">us</add> revertiones</rdg>
             </app> et servitia, advocationes ecclesiarum <app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">vicariarum</rdg>
+               <rdg wit="#Z">vicar'</rdg><!-- WHC: check RY: do they abbr? -->
             <rdg wit="#B">vicararum</rdg>
                <!-- WHC 6/22/26: the second i is added in to B to make it vicariarum, but it's faint; poss pencil? -->
             </app> et <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">capellarum</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">capellarum</rdg>
             <rdg wit="#B">chapellarum</rdg>
             </app>, proficua emolumenta <app>
-               <rdg wit="#W #S #I #J #C #R #D #Y #B">commoditates et hæreditamenta</rdg>
+               <rdg wit="#W #S #I #J #C #R #D #Y #B #Z">commoditates et hæreditamenta</rdg>
                <rdg wit="#O"><add place="above">commoditates et hæreditamenta</add></rdg>
             </app>, libertates franchesias <app>
                <rdg wit="#R">preeminentias</rdg>
-               <rdg wit="#Y">preminentias</rdg>
+               <rdg wit="#Y #Z">preminentias</rdg>
                <rdg wit="#W #S">præheminentias</rdg>
                <rdg wit="#I #C #O #D #B">præeminentias</rdg>
                <rdg wit="#J">præhementias</rdg>
             </app> et jura <pb ed="#I" n="277"/><app>
                <rdg wit="#W #S #I #J #C #O #D">quæcunque</rdg>
-               <rdg wit="#R #Y #B">quæcumque</rdg>
+               <rdg wit="#R #Y #B">quæcumque</rdg><!-- whc: check RY here: abbr? -->
+               <rdg wit="#Z">quecu'que</rdg>
             </app> aliquo modo <app>
                <rdg wit="#W #S #J #B">antehac</rdg>
-               <rdg wit="#R #I #C #O #D #Y">ante hac</rdg>
+               <rdg wit="#R #I #C #O #D #Y #Z">ante hac</rdg>
             </app> <app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">data concessa debita <lb ed="#Y" n="46"/>vel spectantia</rdg>
+               <!-- whc: check RY: abbr as Z? -->
+               <rdg wit="#Z">dat' concess' debit' vel spectan'</rdg>
             <rdg wit="#B">datas concessas debitas vel spectantes</rdg>
-            </app> dicto Collegio de <app>
+            </app> <lb ed="#Z" n="44"/>dicto Collegio de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app><pb ed="#O" n="297"/>, vel fabricæ dicti Collegii. </ab>
 
          <ab n="19">Et quod <app>
                <rdg wit="#W #S #J #B">ipse</rdg>
-               <rdg wit="#R #I #C #O #D #Y">ipsi</rdg>
+               <rdg wit="#R #I #C #O #D #Y #Z">ipsi</rdg>
             </app> nunc Episcopus <app>
                <rdg wit="#W #S #J #B">Menevensis</rdg>
-               <rdg wit="#R #I #C #O #D #Y">Meneven'</rdg>
+               <rdg wit="#R #I #C #O #D #Y #Z">Meneven'</rdg>
             </app>
             <app>
-               <rdg wit="#W #S #R #Y">canonici</rdg>
+               <rdg wit="#W #S #R #Y #Z">canonici</rdg>
                <rdg wit="#J">Cononici</rdg><!--CRC: 'Cononici' is probably just a typesetting error--><!-- WHC: No doubt. -->
                <rdg wit="#I #C #O #D #B"/>
            </app> residentiarii præbendarii vicarii choristæ, vel collegiati <app>
               <rdg wit="#C #D #I #O #R #W #S #J #B">aliive</rdg>
-           <rdg wit="#Y">alii ve</rdg>
+           <rdg wit="#Y #Z">alii ve</rdg>
            </app> ministri <app>
                <rdg wit="#W #S #I #J #C #O #D #B">quicunque</rdg>
-               <rdg wit="#R #Y">quicumque</rdg>
+               <rdg wit="#R #Y">quicumque</rdg><!-- whc: confirm if RY abbr -->
+              <rdg wit="#Z">quicu'que</rdg>
             </app> dicti Collegii de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app>, et successores sui, habeant <lb ed="#Y" n="47"/><app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">gaudeant</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">gaudeant</rdg>
             <rdg wit="#B">gaude<add>^</add><add place="above">a</add>nt</rdg>
-            </app> et utantur omnibus <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">et omnimodis</rdg>
+            </app> et <app>
+               <rdg wit="#B #C #D #I #O #W #S #J #B #R #Y">utantur</rdg>
+               <!--WHC 6/27/26: CHECK ALL OF THE ABOVE as I think this is an error that didn't get caught in collation till I was doing Z: utuntur should be correct (utor, uti, usus sum, deponent; not utare)-->
+               <rdg wit="#Z">utuntur</rdg>
+            </app> omnibus <app>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">et omnimodis</rdg>
                <rdg wit="#D"><add>^</add><add place="above">et omnimodis</add></rdg>
-            </app> privilegiis <pb ed="#B" n="5"/>libertatibus franchesiis <app>
+            </app> <lb ed="#Z" n="45"/>privilegiis <pb ed="#B" n="5"/>libertatibus franchesiis <app>
                <rdg wit="#W #S #J #D #I #C #O">præheminentiis</rdg>
                <rdg wit="#R #Y">preminentiis</rdg>
+               <!--whc: check RY: Z has p'eminentiis, so the -re is given by the abbr mark-->
+               <rdg wit="#Z">preeminentiis</rdg>
                <rdg wit="#B">præminentiis</rdg>
             </app> et juribus, <app>
                <rdg wit="#W #S #J">quibuscunque </rdg>
-               <rdg wit="#R">quibuscumque </rdg>
-               <rdg wit="#Y">quibuscu'que</rdg>
+               <rdg wit="#R">quibuscumque </rdg> <!--whc: check if abbr-->
+               <rdg wit="#Y #Z">quibuscu'que</rdg>
                <rdg wit="#I #C #O #D #B"/>
             </app>adeo plene et integre <app>
-               <rdg wit="#W #S #R #J #Y #B">ac</rdg>
+               <rdg wit="#W #S #R #J #Y #B #Z">ac</rdg>
                <rdg wit="#I #C #D #O">et</rdg>
             </app> in tam amplis modo et forma, prout
             <!-- CRC: "prout" duplicated and struck out in #O.--> ipsi <app>
                <rdg wit="#W #S #J"/>
-               <rdg wit="#R #I #C #O #D #Y #B">et </rdg>
+               <rdg wit="#R #I #C #O #D #Y #B #Z">et </rdg>
             </app>prædecessores sui in Collegio de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app> antea habuerunt <lb ed="#Y" n="48"/>tenuerunt vel gavisi fuerunt, aut <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O"/>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z"/>
                <rdg wit="#B">(</rdg>
-            </app>habere tenere gaudere vel uti solebant vel debuerunt, vel eorum aliquis in dicto Collegio de <app>
+            </app>habere tenere gaudere vel uti solebant vel de<lb ed="#Z" n="46"/>buerunt, vel eorum aliquis in dicto Collegio de <app>
                <rdg wit="#W #S #I #J #O">Abergwilly</rdg>
-               <rdg wit="#R">Alberguylly</rdg>
+               <rdg wit="#R #Z">Alberguylly</rdg>
                <rdg wit="#C #B">Abergwylly</rdg>
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app> aliquo tempore <app>
                <rdg wit="#W #S #J">præ antea</rdg>
-               <rdg wit="#R #I #C #O #D #Y #B">præantea</rdg>
+               <rdg wit="#R #I #C #O #D #Y #B #Z">præantea</rdg>
             </app> habuit tenuit <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">vel</rdg>
-            <rdg wit="#B">et</rdg></app> gavisus fuit,
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">vel</rdg>
+            <rdg wit="#B">et</rdg>
+            </app> gavisus fuit,
             <!-- WHC: C has a nice little maniculus in the margin here.--> aut habere tenere gaudere
             vel uti solebat vel debuit, ad <lb ed="#Y" n="49"/>opus et usum sustentationis et manutentionis prædicti
             Collegii Christi de <app>
                <rdg wit="#W #S #J #B">Brecknock</rdg>
-               <rdg wit="#R #D #Y">Brechnok</rdg>
+               <rdg wit="#R #D #Y #Z">Brechnok</rdg>
                <rdg wit="#I #O">Brechnock</rdg>
                <rdg wit="#C">Brechnocke</rdg>
             </app>.</ab>
 
-         <ab n="20">Ac ea omnia et singula præmissa <pb ed="#C" n="264"/><app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">Prioratum Collegium</rdg>
+         <ab n="20">Ac ea omnia et singula <lb ed="#Z" n="47"/>præmissa <pb ed="#C" n="264"/><app>
+               <rdg wit="#W #S #J #C #D #Y #I #O">Prioratum Collegium</rdg><!--whc check: does Y abbr?-->
+               <rdg wit="#R #Z">Priorat' Colleg'</rdg>
          <rdg wit="#B">prioratus collegii</rdg>
          </app> <pb ed="#D" n="181"/>maneria <app>
                <rdg wit="#W #S #I #J #C #O #D #B">messuagia</rdg>
-               <rdg wit="#R #Y">mesuagia</rdg>
+               <rdg wit="#R #Y #Z">mesuagia</rdg>
             </app> terras <app>
-               <rdg wit="#W #S #R #J #Y">et</rdg>
+               <rdg wit="#W #S #R #J #Y #Z">et</rdg>
                <rdg wit="#I #C #O #D #B"/>
             </app> tenementa ac omnia alia jura commoditates proficua et hæreditamenta <app>
                <rdg wit="#C #D #I #O #J #S #W #B">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-               <rdg wit="#Y">quecu'que</rdg><!--whc check: does R include or suspend the m/n? -->
+               <rdg wit="#Y #Z">quecu'que</rdg><!--whc check: does R include or suspend the m/n? -->
             </app>, quæ aliquo tempore habita cognita <lb ed="#Y" n="50"/><app>
-               <rdg wit="#W #S #R #J">accepta</rdg>
-               <rdg wit="#I #C #O #D #Y #B">acceptata</rdg>
+               <rdg wit="#W #S #J">accepta</rdg>
+               <rdg wit="#Z #R">accept'</rdg> 
+               <rdg wit="#I #C #O #D #Y #B">acceptata</rdg><!--whc: check Y: abbr?-->
             </app> reputata vel <pb ed="#W" n="309"/> capta fuerunt; ut partes <app>
                <rdg wit="#W #S #R #J #I #O #D">parcellæ</rdg>
-               <rdg wit="#Y">parcell'</rdg><!--whc: check R here -->
+               <rdg wit="#Y #Z">parcell'</rdg><!--whc: check R here -->
                <rdg wit="#C">parcelles</rdg>
                <rdg wit="#B">parcella</rdg>
             </app> sive membra <app>
                <rdg wit="#W #S #J">dicta dicti</rdg>
                <rdg wit="#R">dict'</rdg>
                <rdg wit="#Y">dat'</rdg>
-               <rdg wit="#I #C #O #D #B">dicti</rdg>
-            </app> nuper Prioratus Collegii maneriorum <app>
+               <rdg wit="#I #C #O #D #B #Z">dicti</rdg>
+            </app> nuper Prioratus Collegii maneriorum <lb ed="#Z" n="48"/><app>
                <rdg wit="#W #S #I #J #C #O #D #B">messuagiorum</rdg>
-               <rdg wit="#R #Y">mesuagiorum</rdg>
+               <rdg wit="#R #Y #Z">mesuagiorum</rdg>
             </app> terrarum et tenementorum reddituum <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">reversionum</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O">reversionum</rdg><!-- whc: check RY: abbr? -->
+               <rdg wit="#Z">Revercion'</rdg>
             <rdg wit="#B">reversionem</rdg>
             </app>, vel servitiorum aut <app>
-               <rdg wit="#W #S #I #R #C #O #D #Y #B">cæterorum</rdg>
+               <rdg wit="#W #S #I #R #C #O #D #Y #B #Z">cæterorum</rdg>
                <rdg wit="#J">cæter orum</rdg>
             </app> præmissorum, sive alicujus inde <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">parcellæ</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O">parcellæ</rdg><!-- whc: check RY -->
+               <rdg wit="#Z">parcell'</rdg>
                <rdg wit="#B">parcella</rdg>
             </app> vel <app>
                <rdg wit="#W #S #J">præmissorum,</rdg>
                <rdg wit="#C #D #B">præmissa,</rdg>
-               <rdg wit="#R #O #I #Y">præmiss',</rdg>
+               <rdg wit="#R #O #I #Y #Z">præmiss',</rdg>
             </app><app>
                <rdg wit="#W #S #J #B">vel</rdg>
-               <rdg wit="#R #C #O #D #I #Y">aut</rdg>
+               <rdg wit="#R #C #O #D #I #Y #Z">aut</rdg>
             </app> alicui præmissorum aliquo modo <lb ed="#Y" n="51"/><app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">appendentia</rdg>
+               <rdg wit="#Z">append'</rdg><!-- whc: check RZ: abbr? -->
             <rdg wit="#B">appendentium</rdg>
             </app> <app>
-               <rdg wit="#W #R #I #S #J #C #D #Y">pertinentia</rdg>
+               <rdg wit="#W #R #I #S #J #C #D #Y">pertinentia</rdg><!-- whc: check RZ: abbr? -->
+               <rdg wit="#Z">pertinen'</rdg>
                <rdg wit="#O"/>
                <rdg wit="#B">pertinentium</rdg>
             </app> sive <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">spectantia</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O">spectantia</rdg><!-- whc: check RZ: abbr? -->
+               <rdg wit="#Z">spectan'</rdg>
             <rdg wit="#B">spectantium</rdg>
-            </app>. Ex speciali gratia nostra certa scientia et mero motu nostris,
-            damus <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">concedimus</rdg>
+            </app>. Ex speciali gratia nostra certa scientia et mero motu nostris, damus <app>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">concedimus</rdg>
             <rdg wit="#B"/>
-            </app> et confirmamus per præsentes dicto nunc Episcopo <app>
-               <rdg wit="#W #S #J #B">Menevensi,</rdg>
+            </app> et <app>
+               <rdg wit="#W #S #J #C #D #Y #I #O #B">confirmamus</rdg><!-- whc: check ALL THESE WITNESSES here -->
+               <rdg wit="#Z #R">confirmavimus</rdg>
+            </app> <lb ed="#Z" n="49"/>per præsentes dicto nunc Episcopo <app>
+               <rdg wit="#W #S #J #B">Menevensi</rdg>
                <!-- WHC 2019: Menevensis would be correct. -->
-               <rdg wit="#R #I #C #O #Y">Meneven',</rdg>
-               <rdg wit="#D">Men',</rdg>
-            </app> et successoribus suis tam libere et effectualiter bene sufficienter <app>
+               <rdg wit="#R #I #C #O #Y #Z">Meneven'</rdg>
+               <rdg wit="#D">Men'</rdg>
+            </app>, et successoribus suis tam libere et effectualiter bene sufficienter <app>
                <rdg wit="#W #S #R #J #I"/>
-               <rdg wit="#C #O #D #Y #B">et</rdg>
+               <rdg wit="#C #O #D #Y #B #Z">et</rdg>
             </app> integraliter, ac si omnia et <pb ed="#O" n="298"/>singula præmissa <lb ed="#Y" n="52"/>cum suis
             pertinentiis universis realiter <pb ed="#I" n="278"/>distincte 
             <app>
-               <rdg wit="#C #D #I #O #R #W #S #J #B">nominatim</rdg>
+               <rdg wit="#C #D #I #O #R #W #S #J #B #Z">nominatim</rdg>
                <rdg wit="#Y">nominatum</rdg>
             </app> specialiter <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">ac</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">ac</rdg>
                <rdg wit="#B"/>
             </app> certitudinaliter melioribus modis <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">viis et</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">viis et</rdg>
             <rdg wit="#B">viæ</rdg>
             </app> mediis <app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O">ac</rdg>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">ac</rdg>
                <rdg wit="#B">et</rdg>
-            </app> clarioribus et efficacioribus
+            </app> <lb ed="#Z" n="50"/>clarioribus et efficacioribus
             terminis verbis atque sententiis, juxta omnem juris effectum, et juxta omnes meliores et
             maxime sufficientes <lb ed="#Y" n="53"/>intelligentias, in lege <app>
                <rdg wit="#W #S #R #J #B">dictum nuper Prioratum</rdg>
-               <rdg wit="#Y">dict' nuper priorat'</rdg><!--whc: check: does R give endings or abbr like Y? -->
+               <rdg wit="#Y #Z">dict' nuper priorat'</rdg><!--whc: check: does R give endings or abbr like Y? -->
                <rdg wit="#I #C #O #D">dictus nuper Prioratus</rdg>
             </app> Collegium <app>
                <rdg wit="#W #S #I #J #C #O #D">maneria, messuagia</rdg>
-               <rdg wit="#R #Y">maneria, mesuagia</rdg>
+               <rdg wit="#R #Y #Z">maneria, mesuagia</rdg>
                <rdg wit="#B">messuagia, maneria</rdg>
             </app> terras <app>
-               <rdg wit="#W #S #R #J #I"/>
+               <rdg wit="#W #S #R #J #I #Z"/>
                <rdg wit="#C #O #D #Y #B">et</rdg>
             </app> tenementa redditus <app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">reversiones</rdg>
                <rdg wit="#B">revertiones</rdg>
+               <rdg wit="#Z">reverciones</rdg><!--whc: should this app be collapsed? Also Check RY-->
             </app> et servitia ac cætera hæreditamenta <app>
                <rdg wit="#W #S #I #J #C #O #D #B">quæcunque</rdg>
                <rdg wit="#R">quecumque</rdg>
-               <rdg wit="#Y">quecu'que</rdg>
-            </app>, cum omnibus et singulis suis pertinentiis et commoditatibus universis <app>
-               <rdg wit="#W #S #R #J">declarat. dat. explanat. pronunciat. et publicat.</rdg>
+               <rdg wit="#Y #Z">quecu'que</rdg>
+            </app>, <lb ed="#Z" n="51"/>cum omnibus et singulis suis pertinentiis et commoditatibus universis <app>
+               <rdg wit="#W #S #J">declarat. dat. explanat. pronunciat. et publicat.</rdg>
+               <rdg wit="#Z">declarat' dat' explanat' pronunciat' et puplicat'</rdg><!--whc: check if Y abbr-->
+               <rdg wit="#R">declarat' dat' explanat' pronunciat' et publicat'</rdg>
                <rdg wit="#I #Y">declarata data explanata pronunciata <lb ed="#Y" n="54"/>et publicata</rdg>
                <rdg wit="#C #O #D">declarata data explanata pronunciata et puplicata</rdg>
                <rdg wit="#B">data declarata explanata <add>^</add><add place="above">pronunciata</add> et publicata</rdg>
             </app> fuissent et essent aptissimis verbis <app>
                <rdg wit="#W #S">utque</rdg>
                <!-- WHC check W S: atque is obviously correct here -->
-               <rdg wit="#R #I #J #C #O #D #Y #B">atque</rdg>
+               <rdg wit="#R #I #J #C #O #D #Y #B #Z">atque</rdg>
             </app> sententiis in lege ad præmissa et quamlibet inde parcellam <app>
                <rdg wit="#W #S #J">clariss. accommodatiss. et specialiss.</rdg>
                <rdg wit="#R">clarissimam accommodatissimam et specialissimam</rdg>
                <!-- WHC confirmed #R has the full endings as given here while #Y has those below-->
                <rdg wit="#I #C #O #D #Y #B">clarissimis accommodatissimis et specialissimis</rdg>
+               <rdg wit="#Z">clarissim' accomadatissim' et specialissim'</rdg>
             </app> quæ <app>
-               <rdg wit="#W #R #I #J #C #O #D #Y #B">possunt</rdg>
+               <rdg wit="#W #R #I #J #C #O #D #Y #B #Z">possunt</rdg>
                <rdg wit="#S">possint</rdg>
             </app>
             <app>
-               <rdg wit="#W #S #R #J #D #Y #B">excogitari</rdg>
+               <rdg wit="#W #S #R #J #D #Y #B #Z">excogitari</rdg>
                <rdg wit="#I #C #O">excogitare</rdg>
-               <!-- WHC I confirmed these: excogitari (passive infinitive) should be correct but they have the active infinitive. -->
-            </app>.
+               <!-- WHC I confirmed ICO: excogitari (passive infinitive) should be correct but they have the active infinitive. -->
+            </app>.<lb ed="Z" n="52"/>
          </ab>
          
          <ab n="21">Eo quod expressa mentio <app>
                <rdg wit="#W #S #R #J"/>
-               <rdg wit="#I #C #O #D #Y #B">de Certitudine <pb ed="#C" n="265"/>præmissorum aut de aliis
+               <rdg wit="#I #C #O #D #Y #B #Z">de Certitudine <pb ed="#C" n="265"/>præmissorum aut de aliis
                   <lb ed="#Y" n="55"/>donis sive Concessionibus per nos vel per aliquem progenitorum nostrorum præfato Episcopo Meneven' aut alicui Prædecessorum suorum 
                   <!--WHC 6/22/26: in B, suorum written over erasure in correcting hand, but not possible to determine what was originally there -->
                   ante hæc tempora facta in præsentibus minime</rdg>
             </app><app>
                <rdg wit="#C #D">facta</rdg>
-               <rdg wit="#O #I #Y #B">fact'</rdg>
+               <rdg wit="#O #I #Y #B #Z">fact'</rdg>
                <rdg wit="#W #S #R #J"/>
             </app>
             <app>
                <rdg wit="#C #O #D #I #Y #B">existit aut aliquo statuto actu Ordinatione Provisione sive
                   restrictione</rdg>
+               <rdg wit="#Z">existo Aut Aliquo <lb ed="#Z" n="53"/>[illegible] ordinatione provisione [undetermined: may be sive but looks closer to sunt, sint or fuit] restrictione </rdg>
                <rdg wit="#W #S #R #J"/>
                <!--WHC 6/22/26: in B, existit written over erasure in correcting hand, but not possible to determine what was originally there -->
             </app><lb ed="#Y" n="56"/>
             <app>
-               <rdg wit="#I #C #O #D #Y #B">in contrarium factis editis ordinatis sive provisis aut
+               <rdg wit="#I #C #O #D #Y #B #Z">in contrarium factis editis ordinatis sive provisis aut
                   aliqua alia re causa vel materia</rdg>
                <rdg wit="#W #S #R #J"/> 
             </app> <app>
                <rdg wit="#I #C #O #D #B">quacunque</rdg>
                <rdg wit="#Y">quacumque</rdg>
+               <rdg wit="#Z">quacu'que</rdg>
                <rdg wit="#W #S #R #J"/></app>
             <app>
-               <rdg wit="#I #C #O #D #Y #B">in aliquo non obstante.</rdg>
+               <rdg wit="#I #C #O #D #Y #B #Z">in aliquo non obstante.</rdg>
                <rdg wit="#W #S #J #R">etc.</rdg>
             </app>
          </ab>
          <ab n="22">In cujus rei 
-            <app><rdg wit="#Y">etc'</rdg>
-               <rdg wit="#W #S #I #J #C #O #D #R #B"/>
+            <app><rdg wit="#Y #R">etc'.</rdg>
+               <rdg wit="#W #S #I #J #C #O #D #B"/>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D #B">Testimonium has literas nostras fieri fecimus
                   Patentes.</rdg>
-               <rdg wit="#R">etc'.</rdg>
+               <rdg wit="#R"/>
                <rdg wit="#Y">Teste etc' Et he littere nostre e????? vobis in hac parte Warrantum sufficiens.</rdg>
+               <rdg wit="#Z">Tes[illegible]</rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D #B">Teste meipso</rdg>
                <rdg wit="#R">T'. R.</rdg>
                <rdg wit="#Y">Datum nostro sub signeto</rdg>
+               <rdg wit="#Z">Dat nostro sub Privato Sigillo</rdg>
             </app> apud <app>
                <rdg wit="#W #S #I #J #R">Westm’</rdg>
                <rdg wit="#C #O #D #B"> Westmonasterium</rdg>
                <rdg wit="#Y">honor' nost' de <lb ed="#Y" n="56"/>Hampton court</rdg>
+               <rdg wit="#Z">honor' nostrum <lb ed="#Z" n="54"/>de Hampton [illegible]</rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D">decimo nono</rdg>
                <rdg wit="#R">xix</rdg>
-               <rdg wit="#Y">decimo septimo</rdg>
+               <rdg wit="#Y #Z">decimo septimo</rdg>
                <rdg wit="#B">decimo <del rend="strikethrough">secundo</del> <add place="above">nono</add></rdg>
             </app> die Januarii,<app>
                <rdg wit="#W #S #J"> Anno Regni Regis Henrici octavi tricesimo tertio.</rdg>
                <!-- WHC: This is probably the theoretical reconstruction by Willis or his source. Since the king is issuing the Letters Patent, it makes sense that it should end as in CDIO "in the year of our reign" rather than as in W S J "In the hear of the reign of King Henry...". Also we know that it was really issued in 32 Hen. VIII but enrolled in 33 Hen. VIII. Exactly how Willis got the wrong year, I don't know. -->
-               <rdg wit="#I #C #O #D #Y #B"> Anno Regni nostri Tricesimo secundo.</rdg>
+               <rdg wit="#I #C #O #D #Y #B #Z">Anno Regni nostri Tricesimo secundo.</rdg>
                <rdg wit="#R"/>
             </app>
             
@@ -1971,6 +2002,7 @@
                <rdg wit="#W #S #R #J"/>
                <rdg wit="#I #C #O #D #B">S: Petre</rdg>
             <rdg wit="#Y">R' Taverner</rdg><!--whc: Taverner was one of the Clerks of the Signet, so it makes sense he would have his name and sign (like a notarial sign) on this doc, which was issued under signet.-->
+               <rdg wit="#Z">[at left, in modern pencil:] Inrolled in 33rd year on Pat. p. 9, ms. 30, 31 [at center: illegible ?notarial sign] [at right:] ~ ?Coppie exa<hi rend="sup">t</hi> pa[ten]tes [illegible paraph] Clerk</rdg><!--whc: the Clerk of the Crown in Chancery was then John Lucas, and Thomas Audeley was then Lord Chancellor; neither of the signs/paraphs obviously resembles either name, and presumably a lower-level clerk would have done the checking and engrossing. -->
             </app>
          </ab> 
          
