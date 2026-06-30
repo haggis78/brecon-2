@@ -452,7 +452,7 @@
                <rdg wit="#W #S #I #C #J #O #D #Z"/>
                <rdg wit="#R">Willelmo Episcopo Meneven' de con[cessione] sibi et successoribus/</rdg>
                <!--whc 23 june 2022: check TEI guidelines: how to note that above R text is marginal index note?-->
-               <rdg wit="#B">King Henry 8<hi rend="sup">th</hi> Patent for ye Coll: of Brecon An: Regni 32 An: Dom: 154½</rdg>
+               <rdg wit="#B">King Henry 8<hi rend="sup">th</hi> Patent for y<hi rend="sup">e</hi> Coll: of Brecon An: Regni 32 An: Dom: 154½</rdg>
                <!--WHC 6/22/26: this is an endorsement on B, not part of the main text-->
                <rdg wit="#Z">Memorand’ quod xix<hi rend="sup">o</hi> die Januarii anno subscripto istud Die lib[er]at’ fuit domino Cancellario Anglie apud Westm’ exequend’</rdg>
             </app> 
@@ -539,7 +539,7 @@
             <app>
                <rdg wit="#B #W #S #I #J #O #D #C">David</rdg>
                <rdg wit="#R #Y #Z">David'</rdg>
-            </app> nuper Prioris et Conventus ejusdem <app><rdg wit="#C #D #I #J #O #R #S #W #Y">nuper Prioratus nobis inde factæ; Virtute
+            </app> nuper Prioris et Conventus ejusdem <app><rdg wit="#C #D #I #J #O #R #S #W #Y #Z">nuper Prioratus nobis inde factæ; Virtute
             cujus nos in</rdg>
                <rdg wit="#B"><add>^</add><add place="above">nuper prioratus nobis inde fact' virtute cuius nos in iure</add></rdg>
             <!-- WHC: addition probably in different hand; similar to main hand but more upright--> 
@@ -583,7 +583,7 @@
             summa egestate <lb ed="#R" n="9"/>oppressi filios suos in bonis <app>
                <rdg wit="#C #D #I #J #O #R #S #W #Z">literis</rdg> 
             <!--WHC NB CHECK CDIOSJ: Y has litteris, R has l'ris, WZ have literis; 
-               litteris is correct; do other witnesses really say literis? --> 
+               litteris is formally correct; do other witnesses really say literis? --> 
             <rdg wit="#B #Y">litteris</rdg>
                <rdg wit="#r">l'ris</rdg>
             </app>
@@ -593,7 +593,7 @@
             </app>: Et in dictis <lb ed="#Z" n="6"/>partibus australibus Walliæ nullus ludus <app>
                <rdg wit="#C #D #I #O #J #S #W">literarius</rdg> 
             <!--WHC NB CHECK: Y has litterarius, R has l'rarius, W has literarius, Z can't tell; 
-               litterarius is correct; do other witnesses really say literarius? -->
+               litterarius is formally correct; do other witnesses really say literarius? -->
                <rdg wit="#B #Y #Z">litterarius</rdg>
                <rdg wit="#R">l'rarius</rdg>
            </app> habetur, <lb ed="#R" n="10"/>per
@@ -614,9 +614,7 @@
                <rdg wit="#C"><add>^</add><add place="above">Angliæ</add></rdg>
                <!-- WHC: In C this is an interlinear insertion in Thomas Baker's hand -->
                <rdg wit="#I #O"/>
-               <!-- WHC This is an important point of comparison. Since #D includes Angliæ from the start, it cannot have been copied from #I or #O,
-               which lack it. #C thus has an affinity with #I and #O in that it too originally lacked Angliæ, but an affinity with #D in that Baker compared it to some other
-               text and corrected it. #D was presumably copied from #C after Baker's annotation, explaining its presence there. -->
+               <!-- WHC This is an important point of comparison. Since #D includes Angliæ from the start, it cannot have been copied from #I or #O, which lack it. #C thus has an affinity with #I and #O in that it too originally lacked Angliæ, but an affinity with #D in that Baker compared it to some other text and corrected it. #D was presumably copied from #C after Baker's annotation, explaining its presence there. -->
             </app> <lb ed="#Y" n="7"/>minime periti, sic quod statuta <lb ed="#Z" n="7"/>nostra in hujusmodi <app>
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">casu</rdg>
                <!--WHC: actually illegible in Z, assuming it follows the rest-->
@@ -645,9 +643,7 @@
                <rdg wit="#W #S #J">sallaria</rdg>
                <rdg wit="#B #R #I #C #O #D #Y #Z">salaria</rdg>
                <!--WHC: actually half illegible in Z; assuming it follows other MSS-->
-            </app> ad summam quinquaginta trium librarum <!-- W gives a footnote here: “So in the copy.” This may indicate that he was indeed working from someone else’s transcript and not the original Letters
-            Patent; else he probably would have used some term other than “copy”. 
-            Though the asterisk is between librarum and stirlingorum, it may pertain to the latter word.-->
+            </app> ad summam quinquaginta trium librarum <!-- W gives a footnote here: “So in the copy.” This may indicate that he was indeed working from someone else’s transcript and not the original Letters Patent; else he probably would have used some term other than “copy”. Though the asterisk is between librarum and stirlingorum, it may pertain to the latter word.-->
             <app>
                <rdg wit="#W #S">stirlingorum</rdg>
                <rdg wit="#B #R #I #J #C #O #D #Y #Z">sterlingorum</rdg>
@@ -666,24 +662,24 @@
                <rdg wit="#R #Y #Z">cotidiana</rdg>
             </app> lectura per aliquem virum pium et <lb ed="#Z" n="9"/>eruditum dictanda, unde <app>
                <rdg wit="#B #W #S #I #J #C #O #D">possint</rdg>
-               <!-- WHC: the subjunctive seems more correct here. -->
                <rdg wit="#R #Y #Z">possunt</rdg>
-               <!--WHC: Z illegible here, but if copying goes Y to Z to R, it should have same reading-->
+               <!--WHC: the subjunctive seems more grammatically correct here, but RY are unmistakeable. Z illegible here, but if copying goes Y to Z to R, it should have same reading-->
             </app> veritatem callere et <lb ed="#R" n="17"/>quid Deo et Regi faciendum foret <pb ed="#D" n="176"/>satius <app>
                <rdg wit="#W #S #I #J #C #O #D">possint</rdg>
-               <!-- WHC: really #D has possunt but with a dot over it, so possint with an extra minim. -->
+               <!-- WHC: really #D has possunt but with a dot over it, which I am reading as possint with an extra minim. -->
                <rdg wit="#B #R #Y #Z">possunt</rdg>
             </app> intelligere, in maximum <app>
                <rdg wit="#B #W #S #I #R #J #C #Y #Z">commodum</rdg>
                <rdg wit="#O #D">comodum</rdg>
             </app> totius <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y">populi</rdg>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">populi</rdg>
                <rdg wit="#D">poppuli</rdg>
             </app><pb ed="#O" n="290"/> nostri <!--WHC: nostri added in Z with caret, but in original hand, so apparently part of original scribal act-->
             <pb ed="#C" n="257"/> ibidem commoraturi, sicut <lb ed="#R" n="18"/>per
             relationem dilecti nobis in Christo <app>
-               <rdg wit="#C #D #I #J #O #R #S #W #Y">Willielmi</rdg>
-               <!--WHC: check CDIORSWY: Willielmi or Willelmi? -->
+               <rdg wit="#D #I #J #O #R #S #W #Y">Willielmi</rdg>
+               <!--WHC: check DIORSWY: Willielmi or Willelmi? -->
+               <rdg wit="#C">Willimi</rdg>
                <rdg wit="#Z">Willelmi</rdg>
             <rdg wit="#B">Guilelmi</rdg>
             </app> Episcopi Menevensis <lb ed="#Y" n="10"/>plenius <app>
@@ -732,7 +728,7 @@
             multum <app>
                <rdg wit="#S #W #I #J #C #O #D">statum</rdg>
              <rdg wit="#B #Y #R #Z">statui</rdg>
-            <!--WHC: Y has stat!!! with a dot over the last minim, but statui doesn't make grammatical sense (dative), so perhaps it was intended as statum and the dot is either meaningless or a suspension mark representing the u. (A suspension mark for a u is unusual but a similar dot is used elsewhere as a general suspension mark.) Note that R has       stat!!! with no mark over it. In Z this word is illegible but there is a strong likelihood it goes with YR.--></app>
+            <!--WHC: Y has stat!!! with a dot over the last minim, but statui doesn't make grammatical sense (dative), so perhaps it was intended as statum and the dot is either meaningless or a suspension mark representing the u. (A suspension mark for a u is unusual but a similar dot is used elsewhere as a general suspension mark.) Note that R has stat!!! with no mark over it. In Z this word is illegible but there is a strong likelihood it goes with YR.--></app>
             <pb ed="#W" n="305"/> subditorum 
             <app><rdg wit="#B #W #R #I #J #C #S #D #O #Z">nostrorum</rdg>
                <rdg wit="#Y"><add>^</add><add place="above">nostrorum</add></rdg></app>
@@ -741,7 +737,7 @@
              <rdg wit="#B">et</rdg>
              </app> ex certa scientia et mero motu nostris <lb ed="#R" n="22"/>dedimus concessimus et
             confirmavimus, ac per præsentes damus concedimus et confirmamus præfato <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">Willielmo</rdg><!--WHC check: extra i?-->
+               <rdg wit="#S #W #R #I #J #C #O #D #Y">Willielmo</rdg><!--WHC check all these: extra i? -It is present in C -->
                <rdg wit="#Z">Willelmo</rdg>
             <rdg wit="#B">Gulielmo</rdg></app> <lb ed="#Y" n="12"/>nunc
             Episcopo
@@ -762,27 +758,24 @@
             tenementa, redditus <app>
                <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">reversiones</rdg>
             <rdg wit="#B">revenciones</rdg><!--whc 5/28/26: in #B, the c is altered to a t -->
-            </app> et <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">servitia</rdg> <!-- WHC: #D has sevitia with a superscript r inserted via a caret.--> <!--WHC: am I actually distinguishing servitia/servicia? I haven't done so with etiam/eciam-->
-            <rdg wit="#B #Z">servicia</rdg></app>,
-            <app>
+            </app> et servitia, <!-- WHC: #D has sevitia with a superscript r inserted via a caret.--> <!--WHC: am I actually distinguishing servitia/servicia? I haven't done so with etiam/eciam-->
+<app>
                <rdg wit="#B #W #S #I #J #C #O #D">messuagia</rdg>
                <rdg wit="#R #Y #Z">mesuagia</rdg>
             </app>, sola, funda, proficua commoditates advantagia et hæreditamenta <lb ed="#R" n="25"/><pb ed="#B" n="2"/><app>
                <rdg wit="#W #I #C #O #D #B">quæcunque</rdg>
-               <rdg wit="#S #R #J">quæcumque</rdg><!--WHC: check R: suspension mark??-->
-               <rdg wit="#Y #Z">quaecu'que</rdg> <!--WHC: suspension mark makes it unclear which 
-                  the scribe intended and thus what the more "correct" original reading was -->
+               <rdg wit="#S #R #J">quæcumque</rdg><!--WHC: note that R does invariably spell it with an m, not a suspension mark-->
+               <rdg wit="#Y #Z">quaecu'que</rdg> <!--WHC: suspension mark makes it unclear which the scribe intended and thus what the more "correct" original reading was -->
             </app>, dicto nuper <lb ed="#Y" n="13"/>Prioratui <app>
                <rdg wit="#B #W #S #R #J">quoquo modo</rdg>
                <rdg wit="#I #C #O #D #Y #Z">quoquomodo</rdg>
             </app> spectantia sive pertinentia. </ab>
-<!--WHC: pick up on Z here -->
+
          <ab n="7"><app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">Ac etiam</rdg>
                <rdg wit="#R #Z">Acetiam</rdg>
             </app> omnia <app>
-               <rdg wit="#S #W #R #I #J #C #O #D #Y">catalla</rdg>
+               <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">catalla</rdg>
             <rdg wit="#B">Chattalla</rdg>
             </app> <lb ed="#Z" n="13"/>res <app>
                <rdg wit="#B #W #R #I #O #D #C #Y #Z">hustilmenta</rdg>
@@ -794,7 +787,7 @@
             </app> eundem <lb ed="#R" n="26"/>nuper Prioratum <!-- WHC 5/28/26: in #B the u in Prioratum very nearly closes to an a, but I think a u was still intended -->
             aliqualiter spectantia vel pertinentia, <app>
                <rdg wit="#B #W #S #I #J #C #O #D">cujuscunque</rdg>
-               <rdg wit="#R">cuiuscumque</rdg> <!--WHC: check R: does it give an m or a suspension?-->
+               <rdg wit="#R">cuiuscumque</rdg>
                <rdg wit="#Y #Z">cuiuscu'que</rdg> 
             </app> generis vel speciei <lb ed="#Y" n="14"/>fuerint, ac in tam amplis modo et <lb ed="#R" n="28"/>forma prout <app>
                <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">dictus</rdg>
@@ -826,7 +819,7 @@
                <rdg wit="#B">dictum nuper prioratum</rdg> <!-- WHC 5/28/26: in B, the m in dictum is an addition, as is the m in prioratum, which may have been prioratus originally; 'ac' is not present -->
              </app> terras et tenementa, solum, fundum ædificia ac <lb ed="#R" n="30"/>cætera hæredita<lb ed="#Y" n="15" break="no"/>menta <app>
                <rdg wit="#B #W #I #C #O #D">quæcunque</rdg>
-               <rdg wit="#S #R #J">quæcumque</rdg><!--whc: check R: does it use suspension for m?-->
+               <rdg wit="#S #R #J">quæcumque</rdg>
                <rdg wit="#Y #Z">quæcu'que</rdg>
             </app>, <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">bona</rdg>
@@ -839,7 +832,7 @@
                <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">catalla</rdg>
             <rdg wit="#B">chattalla</rdg>
             </app> <pb ed="#O" n="291"/>res <app>
-               <rdg wit="#B #W #S #I #R #C #O #D #Y">hustil<lb ed="#Z" n="15"/>menta</rdg>
+               <rdg wit="#B #W #S #I #R #C #O #D #Y #Z">hustil<lb ed="#Z" n="15"/>menta</rdg>
                <rdg wit="#J">hostilmenta</rdg>
             </app> implementa <app>
                <rdg wit="#B #W #S #I #J #C #O #D"/>
@@ -850,8 +843,7 @@
                <rdg wit="#Y">dict'</rdg>
             </app> nuper <app>
                <rdg wit="#B #W #S #I #J #C #O #D">Prioratui</rdg>
-               <rdg wit="#R">Prioratus</rdg><!--WHC: check: does it give -us or abbr?-->
-               <rdg wit="#Y #Z">Priorat'</rdg>
+               <rdg wit="#Y #Z #R">Priorat'</rdg>
             </app> spectantia <lb ed="#R" n="31"/>vel aliquo modo <pb ed="#C" n="258"/>pertinentia, <app>
                <rdg wit="#B #W #R #I #C #O #D #Y #Z">ac</rdg>
                <rdg wit="#S #J">ad</rdg>
@@ -903,7 +895,7 @@
                <rdg wit="#R #Z">infuturum,</rdg>
             </app> jure <pb ed="#D" n="177"/>titulo materia vel causa <lb ed="#Z" n="18"/><app>
                <rdg wit="#W #S #I #J #C #O #D">quibuscunque</rdg>
-               <rdg wit="#R">quibuscumque</rdg> <!--WHC: confirm if suspension mark or m-->
+               <rdg wit="#R">quibuscumque</rdg>
                <rdg wit="#B"> quibus cunque></rdg>
                <rdg wit="#Y #Z">quibuscu'que</rdg>
             </app> juxta omnem juris effectum, ac omnia et omnimodas libertates <lb ed="#R" n="38"/>et franchesias jura <app>
@@ -911,7 +903,7 @@
                <rdg wit="#D"><add place="above">et</add></rdg>
             </app> jurisdictiones <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quæcunque</rdg>
-               <rdg wit="#R #Y">quæcumque</rdg> <!-- WHC: here Y doesn't suspend the m but writes it, so perhaps should extend all these in Y as m rather than n? --><!--WHC: does R suspend or write m?-->
+               <rdg wit="#R #Y">quæcumque</rdg> <!-- WHC: here Y doesn't suspend the m but writes it, so perhaps that scribe's suspensions should be interpreted as m rather than n -->
                <rdg wit="#Z">quecu'que</rdg>
             </app> dicto nuper Prioratui terris <app>
                <rdg wit="#W #S #J">vel</rdg>
@@ -978,8 +970,7 @@
                  <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">sive</rdg>
               <rdg wit="#B">vel</rdg>
               </app> deberet, <app>
-               <!--whc: check #R: cited as having both readings, which must be incorrect-->
-               <rdg wit="#W #R #S #J">aut</rdg>
+               <rdg wit="#W #S #J">aut</rdg>
                <rdg wit="#B #I #C #O #D #R #Y #Z">et</rdg>
             </app> adeo <app>
                <rdg wit="#C #D #I #O #J #R #S #W">plene</rdg>
@@ -996,7 +987,7 @@
                <!-- WHC: this should somehow show that 'aut' was overwritten with 'ac'. Not sure what that will look like on the website. If there's not a way to do it, make it show aut as struck through and ac as written after it. -->
             </app> alio modo <app>
                <rdg wit="#B #W #S #I #J #C #O #D">quocunque</rdg>
-               <rdg wit="#R">quocumque</rdg><!--whc: check!-->
+               <rdg wit="#R">quocumque</rdg>
                <rdg wit="#Y #Z">quocu'que</rdg>
             </app> in manibus nostris <app>
                <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">jam</rdg>
@@ -1009,16 +1000,15 @@
                <rdg wit="#W #S #J">seu</rdg>
                <rdg wit="#B #R #I #C #O #D #Y #Z">vel</rdg>
             </app>deberent. </ab>
-       <!--WHC: checked R, using images from website, thus far-->
          
          <ab n="9"><app>
-               <rdg wit="#W #R #S #J #Y">Habendum, tenendum</rdg>
+               <rdg wit="#W #S #J #Y">Habendum, tenendum</rdg>
                <rdg wit="#I #C #O #D">Habendum et tenendum</rdg>
                <rdg wit="#B">Habendam tenendum</rdg><!--whc check B: does it really give fem and masc endings like this??-->
-               <rdg wit="#Z">Habend' tenend'</rdg>
+               <rdg wit="#R #Z">Habend' tenend'</rdg>
          </app> <lb ed="#Y" n="22"/>et <app>
-            <rdg wit="#S #W #R #I #J #C #O #D #Y">gaudendum</rdg>
-            <rdg wit="#Z">gaudend'</rdg>
+            <rdg wit="#S #W #I #J #C #O #D #Y">gaudendum</rdg><!--WHC: does Y abbr? -->
+            <rdg wit="#Z #R">gaudend'</rdg>
          <rdg wit="#B">gaudendam</rdg>
          </app> <lb ed="#R" n="46"/>prædictam domum sive <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">prædictum</rdg>
@@ -1031,7 +1021,7 @@
                <rdg wit="#B #W #S #I #J #C #O #D">messuagia</rdg>
                <rdg wit="#R #Y #Z">mesuagia</rdg><!--whc: Z illeg but should probably match RY-->
             </app> terras et tenementa; redditus <app>
-               <rdg wit="#W #R #S #J #C #D #Y">reversiones</rdg><!--whc: check RZ: clearly s here?-->
+               <rdg wit="#W #R #S #J #C #D #Y">reversiones</rdg><!--whc: check Y: s here?-->
                <rdg wit="#O #I">revertiones</rdg>
                <rdg wit="#Z">reverciones</rdg>
                <rdg wit="#B">reventiones</rdg>
@@ -1056,7 +1046,7 @@
                <rdg wit="#B #W #S #I #J #C #O #D #Y">una cum</rdg>
                <rdg wit="#R #Z">unacum</rdg>
             </app> omnibus <pb ed="#I" n="273"/>et omnimodis proficuis <app>
-               <rdg wit="#B #W #S #J #R #I #C #O #Y"/>
+               <rdg wit="#B #W #S #J #R #I #C #O #Y #Z"/>
                <rdg wit="#D"><del rend="strikethrough">et</del>
                </rdg>
             </app>emolumentis et commoditatibus <app>
@@ -1124,10 +1114,10 @@
             <rdg wit="#B"/>
             </app> <app>
                <rdg wit="#W #S #I #J #C #O #D #Y #B">servitia</rdg>
-               <rdg wit="#R #Z">proficua</rdg>
+               <rdg wit="#R #Z">proficua</rdg><!--whc check C here and in next app: does it really say servitia... et servitia? Next app also has C in both readings --> 
             </app> reventiones et <app>
                <rdg wit="#W #S #I #J #C #O #D #Y #B">proficua,</rdg> <!--WHC 6/2/26: #B poss. proficia corrected to proficua-->
-               <rdg wit="#R #C">servitia,</rdg>
+               <rdg wit="#R #C #Z">servitia,</rdg>
             </app> ac omnia et singula præmissa cum pertinentiis, eidem nunc Episcopo et
             successoribus suis ex dono nostro <pb ed="#C" n="260"/>absque <lb ed="#Z" n="26"/><app>
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">compoto</rdg>
@@ -1136,9 +1126,9 @@
                <rdg wit="#W #R #S #J #D #Y #B">quoquo <lb ed="#Y" n="27"/>modo</rdg>
                <rdg wit="#I #C #O #Z">quoquomodo</rdg>
             </app> <app>
-               <rdg wit="#C #D #I #J #O #R #S #W #Y">reddendo solvendo vel faciendo</rdg><!--whc: check RY: abbr??-->
+               <rdg wit="#C #D #I #J #O #S #W #Y">reddendo solvendo vel faciendo</rdg><!--whc: check Y: abbr??-->
             <rdg wit="#B">reddenda solvenda vel facienda</rdg>
-            <rdg wit="#Z">reddend' solvend' vel faciend'</rdg></app>. </ab>
+            <rdg wit="#Z #R ">reddend' solvend' vel faciend'</rdg></app>. </ab>
          
          <ab n="11">Et ulterius ex speciali gratia nostra, certa scientia et mero <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">motu</rdg>
@@ -1150,11 +1140,11 @@
                      quoquomodo reddendo solvendo </hi>ac per præsentes</rdg>
                <rdg wit="#C">pro nobis heredibus et successoribus nostris <del rend="strikethrough"
                      >quoquomodo reddendo solvendo ac per præsentes</del></rdg>
-               <!-- WHC: This is duplicate text,brought up from after 'concedimus' a few lines below. It seems that the scribe (or a reader) of #C realized his mistake and tried to strike it through, but wasn't sure where to stop; the scribe (or a reader) of #I underlined it as questionable, and left a marginal note; and the scribe of #O had no problem with the inclusion This suggests a common exemplar for C and I, or some cross-fertilization perhaps. NB its exclusion in D. -->
+               <!-- WHC: This is duplicate text, brought up from after 'concedimus' a few lines below. It seems that the scribe (or a reader) of #C realized his mistake and tried to strike it through, but wasn't sure where to stop; the scribe (or a reader) of #I underlined it as questionable, and left a marginal note; and the scribe of #O had no problem with the inclusion This suggests a common exemplar for C and I, or some cross-fertilization perhaps. NB its exclusion in D. -->
                <rdg wit="#W #S #R #J #D #Y #B #Z">ac per præsentes</rdg>
             </app> damus et concedimus, pro nobis hæredibus et successoribus nostris, præfato
-            <app><rdg wit="#C #D #I #J #O #R #S #W #Y">Willielmo</rdg><!-- whc: check RY: Willelmo or Willielmo? -->
-               <rdg wit="#Z">Willelmo</rdg>
+            <app><rdg wit="#C #D #I #J #O #S #W #Y">Willielmo</rdg><!-- whc: check all: Willelmo or Willielmo? -->
+               <rdg wit="#Z #R ">Willelmo</rdg>
             <rdg wit="#B">Gulielmo</rdg>
             </app> nunc <lb ed="#Z" n="27"/>Episcopo <app>
                <rdg wit="#W #S #J #B">Menevensi</rdg>
@@ -1179,14 +1169,14 @@
                <rdg wit="#R #Y #Z">mesuagia</rdg>
             </app> sola funda <app>
                <rdg wit="#W #R #S #J"/>
-               <rdg wit="#I #C #O #D #Y #B #Z">proficua</rdg><!-- whc: presence of this in Y is interesting due to absence in RWSJ --><!--whc: going through Z, the C82 warrant, I see it present there, so clearly added between Y, PSO warrant, and chancery warrant -->
+               <rdg wit="#I #C #O #D #Y #B #Z">proficua</rdg><!-- whc: presence of this in Y is interesting due to absence in RWSJ --><!--whc: going through Z, the C82 warrant, I see it present there, so clearly added between PSO warrant, and chancery warrant -->
                <!--WHC 6/2/26: again #B appears to have proficia corrected to proficua-->
             </app>
             <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z"/>
                <rdg wit="#D"><del rend="strikethrough">ac omnia </del></rdg>
             </app>commoditates advantagia et <app>
-               <rdg wit="#W #S #J #R #I #C #O #Y #B">hæreditamenta</rdg>
+               <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">hæreditamenta</rdg>
                <rdg wit="#D">hæredi<add>^</add><add place="above">ta</add>menta</rdg>
             </app>
             <app>
@@ -1227,7 +1217,7 @@
                <rdg wit="#W #S #J #B">reddendo solvendo vel faciendo</rdg>
                <rdg wit="#R #Y #Z">reddend' solvend' vel faciend'</rdg>
                <rdg wit="#I #C #O #D">reddendum solvendum <pb ed="#O" n="294"/>vel faciendum</rdg>
-               <!-- WHC: this is expanded in two different ways by the different witness families, implying that it was NOT expanded in the original Letters (as it also is not in R). -->
+               <!-- WHC: this is expanded in two different ways by the different witness families, implying that it was NOT expanded in the issued Letters Patent. -->
             </app>.
          </ab>
          
@@ -1266,7 +1256,7 @@
             </app> ordinario <app>
                <rdg wit="#W #S #I #R #C #O #J #Y #Z">ac</rdg>
                <rdg wit="#D"><add>^</add><add place="above">ac</add></rdg>
-               <!-- CRC: #D has ac inserted, but it is in the same hand as the text, not the other edits/marginalia. necessary to note, or collapse this?                   WHC: It's a very similar hand but maybe not the same, so let's keep it as further evidence of the general carelessness of the #D scribe.-->
+               <!-- CRC: #D has ac inserted, but it is in the same hand as the text, not the other edits/marginalia. necessary to note, or collapse this? WHC: It's a very similar hand but maybe not the same, so let's keep it as further evidence of the general carelessness of the #D scribe.-->
                <rdg wit="#B"/>
             </app> loci illius Diocesano et Patrono fundatori <app>
                <rdg wit="#W #S #I #R #C #D #O #Y #B #Z">ac</rdg>
@@ -1480,7 +1470,7 @@
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">fratrum prædicatorum</rdg>
                <rdg wit="#D"><add>^</add><add place="above">fratrum prædicatorum</add></rdg>
             </app><app>
-               <rdg wit="#W #R #S #J #C #D #Y #I #O"/>
+               <rdg wit="#W #R #S #J #C #D #Y #I #O #Z"/>
                <rdg wit="#B"><add>^</add><add place="above">nomine</add></rdg>
             </app> Collegium Christi de <app>
                <rdg wit="#W #S #J #B">Brecknock</rdg>
@@ -1565,9 +1555,9 @@
             </app>, et infra ambitum et præcinctum
             <!-- CRC: in O, large empty space between words here, filled in with three decorative punctuation.-->
             ejusdem nuper Prioratus <app>
-               <rdg wit="#W #S #I #R #C #O #D #Y #B"/>
+               <rdg wit="#W #S #I #R #C #O #D #Y #B #Z"/>
                <rdg wit="#J">spectantibus et infra ambitum et præcinctum ejusdem nuper Prioratus</rdg>
-               <!-- CRC: #J repeats an entire line twice here!-->
+               <!-- CRC: #J repeats an entire line here!-->
             </app> cohabitare <app>
                <rdg wit="#W #S #I #J #C #O #D #Y #B">residere</rdg>
                <rdg wit="#R #Z">recedere</rdg><!-- WHC checked and confirmed this in both -->
@@ -1965,7 +1955,7 @@
          </ab>
          <ab n="22">In cujus rei 
             <app><rdg wit="#Y #R">etc'.</rdg>
-               <rdg wit="#W #S #I #J #C #O #D #B"/>
+               <rdg wit="#W #S #I #J #C #O #D #B #Z"/>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D #B">Testimonium has literas nostras fieri fecimus
@@ -2010,26 +2000,26 @@
             <app>
                <rdg wit="#C #D #I #O #R #W #S #J">Per breve de privato Sigillo et de dat’</rdg>
                <rdg wit="#B">Vera Copia.</rdg>
-               <rdg wit="#Y"/>
+               <rdg wit="#Y #Z"/>
             </app> 
             <app>
-               <rdg wit="#W #S #R #J #Y #B"/>
+               <rdg wit="#W #S #R #J #Y #B #Z"/>
                <rdg wit="#I">præd' </rdg>
                <rdg wit="#C #O #D">prædict' </rdg>
             </app>
             <app><rdg wit="#C #D #I #O #R #W #S #J">etc.</rdg>
-               <rdg wit="#Y #B"/></app>
+               <rdg wit="#Y #B #Z"/></app>
             <app>
                <rdg wit="#W #S"> Convenit cum Recordo et Examinat. Per me Humfredum Harris.</rdg>
                <rdg wit="#J"> Convenit cum Recordo et Examinat.</rdg>
-               <rdg wit="#R #I #O #D #C #Y #B"/>
+               <rdg wit="#R #I #O #D #C #Y #B #Z"/>
             </app>
          </ab>
          <ab n="25"><app>
                <rdg wit="#W #S">Thomas Bevens.</rdg>
                <rdg wit="#J">Thomas Bevens. Per me Humfredum Harris.</rdg>
                <!-- WHC: check various layouts of this ending to see in what sequence the names should appear. -->
-               <rdg wit="#R #I #C #O #D #Y #B"/>
+               <rdg wit="#R #I #C #O #D #Y #B #Z"/>
             </app>
          </ab>
       </body>
