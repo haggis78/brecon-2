@@ -1,0 +1,44 @@
+Significant and non-significant reading variations in CharterCollation.xml
+
+Certain variations have been judged not to be significant (in the proper sense of the term: meaning-making). They say more about the preferences of an individual scribe than they do about accuracy or copying. The following are generally insignificant with exceptions as noted:
+
+Punctuation: Since we began with a typescript of W, we left that normalized punctuation intact. Some printings and manuscripts include accent marks (grave, acute, and circumflex), which have all been silently omitted.
+
+Ampersands have all been silently expanded to 'et'.
+
+Capitalization
+
+i/j: Variations between these have not even been marked; we began with a typescript of witness W, using a normalized i/j distinction (j when used as a consonant, i as a vowel) as was already common in the early 18th century, and MS witnesses BCDIO and printings WSJ all follow this consistently. The 16th-century MSS, witnesses RYZ, do not follow this consonant/vowel distinction, instead using j (if at all) when it is the second of a double, as in Collegij.
+
+æ/e and œ/e distinction (the c16th MSS all use e, in medieval form; that later MSS and printings all use ae/oe, in classical/Renaissance form); EXCEPT in a non-Latin word (ymaendny, Escaetorum) in which ae is used in the c16th MSS. In those latter cases, the XML uses -ae- rather than -æ- to signify that difference in usage. The æ and œ digraphs are transformed into e only for the 16th-century MSS in the XSLT using a string function, so they appear in the TEI XML but are changed to e in the HTML output for those MSS only.
+
+quecu'que/quecumque/quecunque (and their grammatical parallels)
+
+ac eciam/aceciam/ac etiam: these have been tagged as apps, but mark them as insignificant
+
+ante hac/antehac: these have been tagged as apps, but mark them as insignificant
+
+quoquo modo/quoquomodo: these have been tagged as apps, but mark them as insignificant
+
+most c/t/s distinctions in -cio/-tio/-sio formations, e.g.:
+	servicia
+	servitia
+or:
+	reversiones
+	revertiones
+	reverciones
+EXCEPT when some witness/es include a different word altogether at that same place (e.g. reventiones) which needs to be marked as a point of divergence. 
+-NB how, then, to treat some variations as significant and others as insignificant within the same app, in order to treat a cluster of them as if sharing a similar reading and only the outlier as being divergent?
+
+messuagia/mesuagia: these have been tagged as apps, but mark them as insignificant
+
+===============================================
+Types of changes that ARE treated as significant:
+-Missing, added, or changed words
+-use of synonyms: ac/et; sanctum/sacrum
+-transpositions of words
+-different spellings of personal names: Ricardus/Richardus, Willelmo/Gulielmo
+-different spellings of place names: various forms of Brecknok; Abergwilly
+-different grammatical forms: mood (possint/possunt); singular/plural; case
+
+

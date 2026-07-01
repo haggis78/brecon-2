@@ -4,15 +4,23 @@ For one "paragraph block", we're using the 'anonymous block' element. Our manusc
 Example:
 ```
 <ab>
-<!-- Text in here will be one "anonymous block". We're using the ab tag instead of a <div> element 
+<!-- Text in here will be one "anonymous block". We're using the ab tag instead of a <div> element -->
 </ab>
 ```
 
-If a word is missing in one edition, use a self-closing tag or an empty reading witness. We plan to change our ODD to make it possible to use an "empty" element tag here.
+If a word is missing in one edition, use a self-closing tag.
 
 **Page Breaks and Catchwords:**
 
 We're using this system to list the page breaks and to show differences in page breaks between each edition of our document. 
 ```
-<pb xml:id="ID" n="145" ed="S">
+<pb ed="#S" n="145" >
 ```
+**Insertions and changes**
+
+For a word crossed or blacked out:
+```<del rend="strikethrough">```
+
+For a word added between the lines:
+```<add place="above"`>```
+
