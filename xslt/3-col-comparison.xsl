@@ -30,6 +30,9 @@
                         <div class="navbar">
                             <!-- Insert navbar here -->
                         </div>
+                    
+                    <p class="content" style="text-align:center;"><i>Using the tickboxes below, select any three witnesses to compare. Areas where copies differ are shown in <span class="variances">red text</span>.</i></p>
+                   
                         <div class="checkbox-nav">
                             <div class="comp-checkbox">
                                 <label><input type="checkbox" id="leftCompBnav" onclick="leftCompB()"/>B<br /></label>
