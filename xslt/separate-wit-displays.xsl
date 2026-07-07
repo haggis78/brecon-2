@@ -17,7 +17,7 @@
             <xsl:variable name="filename" as="xs:string">
                 <xsl:value-of select="current() ! string()"/>
             </xsl:variable>
-            <xsl:result-document method="xhtml" indent="yes" href="../docs/html/transcripts/display-{$filename}.html">
+            <xsl:result-document method="xhtml" indent="yes" href="../docs/html/reading-views/display-{$filename}.html">
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -27,10 +27,12 @@
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
-                        <xsl:comment> Insert header and navbar here </xsl:comment>
+                        <div class="header">
+                            <h1 class="header-text">Foundation of Christ College Brecon</h1>
+                        </div>
+                        <div class="navbar"><!-- Insert navbar here --></div>
                         <div class="content">
-                            <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
-                            <h2>Witness <xsl:value-of select="current()"/></h2>
+                            <h2><xsl:value-of select="(root()/descendant::title)[1]"/>: Witness <xsl:value-of select="current()"/></h2>
                             <div class="transcript-about">
                                 <xsl:apply-templates select="root()/descendant::bibl[data(@xml:id) = $filename]"/>
                                 <xsl:apply-templates select="root()/descendant::msDesc[data(@xml:id) = $filename]"/><!--WHC: two apply-templates needed; any given witness will only have one or the other; the one it does not have will return an empty sequence-->
@@ -49,7 +51,7 @@
     </xsl:template>
     
     <xsl:template match="msDesc">
-        <h3> <xsl:apply-templates select="descendant::repository"/>, <xsl:apply-templates select="descendant::settlement"/>, MS <xsl:value-of select="descendant::idno"/></h3>
+        <h3><xsl:text>Source: </xsl:text> <xsl:apply-templates select="descendant::repository"/>, <xsl:apply-templates select="descendant::settlement"/>, MS <xsl:value-of select="descendant::idno"/></h3>
         <p><b>Physical Description: </b></p><p><xsl:apply-templates select="descendant::physDesc"/></p>
         <p><b>Original Date of Manuscript: </b></p> <p><xsl:apply-templates select="descendant::origDate"/></p>
         <p><b>Source Description: </b></p><p><xsl:apply-templates select="descendant::provenance"/></p>

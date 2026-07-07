@@ -1,17 +1,27 @@
 html, body {margin: 0; padding: 0;}
 body{
     font-family: Candara;
+    background-image: url(C-background.jpg);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
     background-color: #ffe6b3;
     overflow-x: hidden;
     font-size: 20px;
 }
-.header{
+/*.header{
     display: flex;
     width: 100vw;
     padding-top: 5px;
 }
 .header img{
-    width: 98vw;
+    width: 98vw;*/
+}
+@font-face{
+        font-family:Joscelyn;
+    src:url("Joscelyn.otf");
+}
+.header-text{
+    font-family:Joscelyn;
 }
 .navbar {
     display: flex;

@@ -12,7 +12,7 @@
         omit-xml-declaration="yes"/>
     <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>
     <xsl:template match="/">
-        <xsl:result-document method="xhtml" indent="yes" href="../docs/html/comparison/comparison.html">
+        <xsl:result-document method="xhtml" indent="yes" href="../docs/html/reading-views/3-col-comparison.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
                     <link rel="stylesheet" type="text/css" href="../../css/brecon.css" />
@@ -21,59 +21,14 @@
                     <title>Brecon | Comparison</title>
                 </head>
                 <body>
-                    <xsl:comment>Insert header, navbar here</xsl:comment>
+                    <div class="header">
+                        <h1 class="header-text">Foundation of Christ College Brecon</h1>
+                    </div>
+
                     
                     <div id="navbar">
                         <div class="navbar">
-                            <a href="../index.html">Home</a>
-                            <div class="dropdown">
-                                <button class="dropbtn">About<i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="../about/history.html">History</a>
-                                    <a href="../about/Glossary.html">Glossary</a>
-                                    <a href="../about/BreconPeople.html">People</a>
-                                    <a href="../about/methodology.html">Methodology</a>
-                                    <a href="../about/Project_Team.html">About Team</a>
-                                </div>
-                            </div>
-                            <div class="dropdown">
-                                <button class="dropbtn">Analysis<i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="../analysis/Timeline.html">Timeline</a>
-                                    <a href="../analysis/TextualAnalysis.html#codicum">Stemma</a>
-                                    <a href="../analysis/Graphs.html">Graphs</a>
-                                    <a href="../analysis/string-length-heat-map.html">String Length Heat Map</a>
-                                    <a href="../analysis/similarity-heat-map.html">App Similarity Heat Map</a>
-                                    <a href="../analysis/network.html">Network</a>
-                                    <a href="../analysis/TextualAnalysis.html">Textual</a>
-                                </div>
-                            </div>
-                            <div class="dropdown">
-                                <button class="dropbtn">Witnesses<i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="../witnesses/texts.html">Source Descriptions</a>
-                                    <a href="../witnesses/patent-collection.html">Patent Roll</a>
-                                    <a href="../witnesses/display-R.html">Manuscript R</a>
-                                    <a href="../witnesses/display-C.html">Manuscript C</a>
-                                    <a href="../witnesses/display-D.html">Manuscript D</a>
-                                    <a href="../witnesses/display-I.html">Manuscript I</a>
-                                    <a href="../witnesses/display-O.html">Manuscript O</a>
-                                    <a href="../witnesses/display-W.html">Printing W</a>
-                                    <a href="../witnesses/display-S.html">Printing S</a>
-                                    <a href="../witnesses/display-J.html">Printing J</a>
-                                </div>
-                            </div>
-                            <div class="dropdown">
-                                <button class="dropbtn">Comparison<i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                    <a href="comparison.html">Transcripts</a>
-                                    <a href="edition2.html">Anonymous Blocks</a>
-                                </div>
-                            </div>
+                            <!-- Insert navbar here -->
                         </div>
                         <div class="checkbox-nav">
                             <div class="comp-checkbox">
@@ -157,7 +112,7 @@
     <xsl:template match="root()/descendant::ab">
         <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
-            <p><xsl:text>[Section </xsl:text><xsl:value-of select="@n"/><xsl:text>] </xsl:text>
+            <p><xsl:text>[§ </xsl:text><xsl:value-of select="@n"/><xsl:text>] </xsl:text>
                 <xsl:apply-templates>
                     <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
                 </xsl:apply-templates>

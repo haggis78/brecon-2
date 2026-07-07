@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc><!--whc 5/28/2026 Note that separate msdesc.xml has slightly fuller details on some of the manuscripts than what is given here, though the printed sources have fuller information here.-->
          <titleStmt>
-            <title>Letters Patent of Henry VIII Establishing Christ College and Church, Brecon, Wales</title>
+            <title>Letters Patent of King Henry VIII Establishing Christ College Brecon</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -227,7 +227,7 @@
 
 
                <msDesc xml:id="O">
-                  <!--  WHC October 24 2019: This is witness O. Need to check published diary/letters of Humphrey Wanley, but I think number 1249 suggests Harley had it before extant diary begins, and 6280 suggests Harley acquired it much later. -->
+                  <!--  WHC October 24 2019: This is witness O. Need to check published diary/letters of Humphrey Wanley, but I think number 1249 suggests Harley had it before extant diary begins, and 6280 suggests Harleys acquired that much later. -->
                   <msIdentifier>
                      <settlement>London</settlement>
                      <repository>British Library</repository>

@@ -16,6 +16,11 @@
                 <link rel="stylesheet" type="text/css" href="brecon.css"/>
                 <title>Brecon Project: Texts</title></head>
             <body>
+                <div class="header">
+                    <h1 class="header-text">Foundation of Christ College Brecon</h1>
+                </div>
+                <div class="navbar"><!-- Insert navbar here --></div>
+                
                 <h2>Sources in Manuscript:</h2>
                 <xsl:apply-templates select="descendant::msDesc"/>
                 <h2>Sources in Print:</h2>
