@@ -148,9 +148,45 @@
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variances">
-                <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
+                <!--<xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>-->
+                <xsl:apply-templates select="rdg[@wit[contains(., $currentEd ! string())]]"/>
             </span>
-         
         </xsl:if>
     </xsl:template>
+    
+    <xsl:template match="root()/descendant::add[@place='above']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::add[@place='below']">
+        <sub><xsl:apply-templates/></sub>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::add[@place='margin']">
+        [<i>added in margin: </i><xsl:apply-templates/>]
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::add[@place='inline']">
+        [<i>added inline: </i><xsl:apply-templates/>]
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::hi[@rend='underline']">
+        <u><xsl:apply-templates/></u>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::hi[@rend='sup']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::hi[@rend='italics']">
+        <i><xsl:apply-templates/></i>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::del[@rend='strikethrough']">
+        <s><xsl:apply-templates/></s>
+    </xsl:template>
+    
+    <xsl:template match="root()/descendant::del[@rend='overwritten']">
+        <s><xsl:apply-templates/></s>[overwritten]
+    </xsl:template>   
 </xsl:stylesheet>
