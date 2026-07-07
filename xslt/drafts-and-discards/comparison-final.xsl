@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- AMA: The purpose of this XSLT is to output the an svg page that shows the variances between all editions page. -->
+<!-- WHC 7/7/26: comparison-3.html is an incomplete project, so this XSLT is an unfinished attempt from the original project.. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"

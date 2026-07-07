@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- AMA: The purpose for this XSLT is to create a display version of each edition as an html file. -->
+<!-- AMA: The purpose for this XSLT is to create a display version of each edition as a separate html file. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -16,13 +16,13 @@
             <xsl:variable name="filename" as="xs:string">
                 <xsl:value-of select="current() ! string()"/>
             </xsl:variable>
-            <xsl:result-document method="xhtml" indent="yes" href="../site/html/transcripts/display/display-{$filename}.html">
+            <xsl:result-document method="xhtml" indent="yes" href="../docs/html/transcripts/display-{$filename}.html">
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                        <link rel="stylesheet" type="text/css" href="../../../css/brecon.css" />
-                        <link rel="icon" href="../../../img/background/brecon-favicon.png"/>
-                        <script src="../../../js/variance-checkbox.js" type="text/javascript"></script>
+                        <link rel="stylesheet" type="text/css" href="../../css/brecon.css" />
+                        <link rel="icon" href="../../img/background/brecon-favicon.png"/>
+                        <script src="../../js/variance-checkbox.js" type="text/javascript"></script>
                         <title>Brecon | Transcript <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
@@ -47,6 +47,7 @@
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
+    
     <xsl:template match="root()/descendant::ab">
         <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
@@ -57,12 +58,19 @@
             </p>
         </xsl:for-each>
     </xsl:template>
+    
     <xsl:template match="root()/descendant::app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variance">
-                <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
+                <!--<xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>-->
+                <xsl:apply-templates select="rdg[@wit[contains(., $currentEd ! string())]]"/>
             </span>
         </xsl:if>
     </xsl:template>
+    
+    <xsl:template match="root()/descendant::add[@place='above']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
 </xsl:stylesheet>

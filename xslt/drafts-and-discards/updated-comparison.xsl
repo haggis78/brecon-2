@@ -5,7 +5,7 @@
     exclude-result-prefixes="xs math"
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
-    
+    <!--WHC 7/7/26: comparison2.html is an unfinished page from the original project, so this XSLT was a work-in-progress that was never completed. -->
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>

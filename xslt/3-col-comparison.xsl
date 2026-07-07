@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- AMA: The purpose of this XSLT is to output the comparison.html page. -->
+<!-- AMA: The purpose of this XSLT is to output the comparison.html page with three columns. -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -21,10 +21,11 @@
                     <title>Brecon | Comparison</title>
                 </head>
                 <body>
-                    <xsl:comment> SSI line below </xsl:comment>
-                    <xsl:comment>#include virtual="ssi/comparison-page-ssi.html"</xsl:comment>
+                    <xsl:comment>Insert header, navbar here</xsl:comment>
+                    
                     <div class="content">
                         <div class="comparison">
+                            <!--WHC: the following section creates the three columns-->
                             <div class="container">
                                 <xsl:for-each select="$editionColl">
                                     <div id="leftComp{current()}" style="display:none">
