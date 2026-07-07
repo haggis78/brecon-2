@@ -19,7 +19,34 @@
                 <div class="header">
                     <h1 class="header-text">Foundation of Christ College Brecon</h1>
                 </div>
-                <div class="navbar"><!-- Insert navbar here --></div>
+                <div id="navbar">
+                    <div class="navbar">
+                        <a href="../../index.html">Home</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">About<i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="history.html">History</a>
+                                <a href="timeline.html">Timeline</a>
+                                <a href="glossary.html">Glossary</a>
+                                <a href="Brecon-people.html">People</a>
+                                <a href="methodology.html">Methodology</a>
+                                <a href="project-team.html">About Team</a>
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown">
+                            <button class="dropbtn">Text<i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="texts.html">Source Documents</a>
+                                <a href="../reading-views/reading-views.html">Editions and Reading Views</a>
+                            </div>
+                        </div>
+                        <a href="../analysis/textual-analysis.html">Analysis</a>
+                    </div>
+                </div>
+
                 
                 <h2>Sources in Manuscript:</h2>
                 <xsl:apply-templates select="descendant::msDesc"/>

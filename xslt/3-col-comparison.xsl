@@ -26,9 +26,32 @@
                     </div>
 
                     
-                    <div id="navbar">
-                        <div class="navbar">
-                            <!-- Insert navbar here -->
+                        <div id="navbar">
+                            <div class="navbar">
+                                <a href="../../index.html">Home</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">About<i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="../about/history.html">History</a>
+                                        <a href="../about/timeline.html">Timeline</a>
+                                        <a href="../about/glossary.html">Glossary</a>
+                                        <a href="../about/Brecon-people.html">People</a>
+                                        <a href="../about/methodology.html">Methodology</a>
+                                        <a href="../about/project-team.html">About Team</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="dropdown">
+                                    <button class="dropbtn">Text<i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="../about/texts.html">Source Documents</a>
+                                        <a href="reading-views.html">Editions and Reading Views</a>
+                                    </div>
+                                </div>
+                                <a href="../analysis/textual-analysis.html">Analysis</a>
+                            </div>
                         </div>
                     
                     <p class="content" style="text-align:center;"><i>Using the tickboxes below, select any three witnesses to compare. Areas where copies differ are shown in <span class="variances">red text</span>.</i></p>
@@ -74,7 +97,6 @@
                                 <label><input type="checkbox" id="rightCompZnav" onclick="rightCompZ()"/>Z<br /></label>
                             </div>
                         </div>
-                    </div>
 
                     <div class="content">
                         <div class="comparison">

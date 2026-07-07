@@ -30,7 +30,33 @@
                         <div class="header">
                             <h1 class="header-text">Foundation of Christ College Brecon</h1>
                         </div>
-                        <div class="navbar"><!-- Insert navbar here --></div>
+                        <div id="navbar">
+                            <div class="navbar">
+                                <a href="../../index.html">Home</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">About<i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="../about/history.html">History</a>
+                                        <a href="../about/timeline.html">Timeline</a>
+                                        <a href="../about/glossary.html">Glossary</a>
+                                        <a href="../about/Brecon-people.html">People</a>
+                                        <a href="../about/methodology.html">Methodology</a>
+                                        <a href="../about/project-team.html">About Team</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="dropdown">
+                                    <button class="dropbtn">Text<i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="../about/texts.html">Source Documents</a>
+                                        <a href="reading-views.html">Editions and Reading Views</a>
+                                    </div>
+                                </div>
+                                <a href="../analysis/textual-analysis.html">Analysis</a>
+                            </div>
+                        </div>
                         <div class="content">
                             <h2><xsl:value-of select="(root()/descendant::title)[1]"/>: Witness <xsl:value-of select="current()"/></h2>
                             <div class="transcript-about">
