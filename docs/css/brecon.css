@@ -102,7 +102,7 @@ body{
     display: flex;
     flex-direction: row;
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     align-items: center;
     justify-content: space-around;
@@ -111,7 +111,7 @@ body{
     display: flex;
     flex-direction: row;
     height: auto;
-    width: 30vw;
+    width: 30%;
     justify-content: space-around;
     align-items: center;
     color: white;
@@ -187,19 +187,19 @@ ul.comp-links{
     align-items: center;
     flex-direction: column;
 }
-svg.edition-svg text{
+/*svg.edition-svg text{
     stroke: black;
     stroke-width: 1;
     text-anchor: middle;
 }
-svg.edition-svg rect, svg.edition-svg line{
+  svg.edition-svg rect, svg.edition-svg line{
     stroke: black;
     stroke-width: 2;
 }
 .svg-page a{
     text-decoration: none;
     color: white;
-}
+} */
 
 .ab-checkbox{
     display: flex;
@@ -314,7 +314,7 @@ foreignObject { overflow: visible; }
 }
 .comparison{
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -334,7 +334,7 @@ h1 {
     color: black;
     text-align: center;
     padding-right: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 50px;
 }
 h2 {
@@ -357,7 +357,10 @@ div.info {
     justify-content: space-between;
     text-align: center;
     padding-right: 20vw;
-
+}
+div.transcript-body, div.transcript-about{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 p {
     font-size: 20px;
@@ -410,7 +413,7 @@ strikethrough { text-decoration: line-through; }
 above { vertical-align: super; }
 
 .container{
-    margin: auto;
+    margin: 5px;
     position: relative;
     width: 50%;
 }

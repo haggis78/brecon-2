@@ -1,5 +1,6 @@
 window.onload = init
 function init() {
+    leftCompB();
     leftCompC();
     leftCompD();
     leftCompI();
@@ -8,6 +9,9 @@ function init() {
     leftCompR();
     leftCompS();
     leftCompW();
+    leftCompY();
+    leftCompZ();
+    centerCompB();
     centerCompC();
     centerCompD();
     centerCompI();
@@ -16,6 +20,9 @@ function init() {
     centerCompR();
     centerCompS();
     centerCompW();
+    centerCompY();
+    centerCompZ();
+    rightCompB();
     rightCompC();
     rightCompD();
     rightCompI();
@@ -24,6 +31,8 @@ function init() {
     rightCompR();
     rightCompS();
     rightCompW();
+    rightCompY();
+    rightCompZ();
 }
 window.onload = function () {
     window.onscroll = function () {
@@ -42,7 +51,16 @@ window.onload = function () {
     }
 }
 
-    function leftCompC() {
+function leftCompB() {
+        var checkBox = document.getElementById("leftCompBnav");
+        var text = document.getElementById("leftCompB");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+function leftCompC() {
         var checkBox = document.getElementById("leftCompCnav");
         var text = document.getElementById("leftCompC");
         if (checkBox.checked == true){
@@ -108,6 +126,33 @@ window.onload = function () {
     function leftCompW() {
         var checkBox = document.getElementById("leftCompWnav");
         var text = document.getElementById("leftCompW");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function leftCompY() {
+        var checkBox = document.getElementById("leftCompYnav");
+        var text = document.getElementById("leftCompY");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function leftCompZ() {
+        var checkBox = document.getElementById("leftCompZnav");
+        var text = document.getElementById("leftCompZ");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompB() {
+        var checkBox = document.getElementById("centerCompBnav");
+        var text = document.getElementById("centerCompB");
         if (checkBox.checked == true){
             text.style.display = "block";
         } else {
@@ -186,6 +231,33 @@ window.onload = function () {
             text.style.display = "none";
         }
     }
+    function centerCompY() {
+        var checkBox = document.getElementById("centerCompYnav");
+        var text = document.getElementById("centerCompY");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function centerCompZ() {
+        var checkBox = document.getElementById("centerCompZnav");
+        var text = document.getElementById("centerCompZ");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompB() {
+        var checkBox = document.getElementById("rightCompBnav");
+        var text = document.getElementById("rightCompB");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
     function rightCompC() {
         var checkBox = document.getElementById("rightCompCnav");
         var text = document.getElementById("rightCompC");
@@ -252,6 +324,24 @@ window.onload = function () {
     function rightCompW() {
         var checkBox = document.getElementById("rightCompWnav");
         var text = document.getElementById("rightCompW");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompY() {
+        var checkBox = document.getElementById("rightCompYnav");
+        var text = document.getElementById("rightCompY");
+        if (checkBox.checked == true){
+            text.style.display = "block";
+        } else {
+            text.style.display = "none";
+        }
+    }
+    function rightCompZ() {
+        var checkBox = document.getElementById("rightCompZnav");
+        var text = document.getElementById("rightCompZ");
         if (checkBox.checked == true){
             text.style.display = "block";
         } else {

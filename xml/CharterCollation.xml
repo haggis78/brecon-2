@@ -102,12 +102,12 @@
                   <history>
                      <provenance>
                         <p>Given to St John's College by Bishop Thomas Watson of St Davids (bishop
-                           1687-1699), a benefactor of the College (Yardley, _Menevia Sacra_ pp.
+                           1687-1699), a benefactor of the College (Yardley, <hi rend="italics">Menevia Sacra</hi> pp.
                            118-19, 384). <origDate> Before 1717, when Watson died, and probably
                               before 1699, when he was deprived of his bishopric, as it my have been
                               difficult for him to acquire it from the cathedral
                               thereafter.</origDate> Remains in Old Library at St Johns College.
-                           Consulted by Yardley in compiling _Menevia Sacra_ (1739-1769), but not
+                           Consulted by Yardley in compiling <hi rend="italics">Menevia Sacra</hi> (1739-1769), but not
                            the principal copy he used (which is witness I).</p>
                      </provenance>
                   </history>
@@ -203,11 +203,11 @@
                   <history>
                      <provenance>
                         <p>Origin unknown. This is the principal copy consulted by Edward Yardley in
-                           compiling _Menevia Sacra_. This can be determined by the fact that the
+                           compiling <hi rend="italics">Menevia Sacra</hi>. This can be determined by the fact that the
                            page numbers he supplies in his marginal notations (rendered as footnotes
                            in the publication by editor Francis Green) align with the page numbers
                            in this manuscript. Yardley's partial transcript of the Brecon charter on
-                           p. 415 of _Menevia Sacra_ references 'Ex libro Episcopi Menev., Stat.
+                           p. 415 of <hi rend="italics">Menevia Sacra</hi> references 'Ex libro Episcopi Menev., Stat.
                            Menev., p. 269. Compare this with ye same Charter printed in B. Willis,
                            Abb. Vol. ii, p. 304.' (The printing to which Yardley refers is our
                            Witness W.) The document in question begins on p. 269 in only one
@@ -360,6 +360,10 @@
                      <settlement>London</settlement>
                      <repository>The National Archives</repository>
                      <idno>C 82/776</idno>
+                     <altIdentifier>
+                        <idno/>
+                        <note>Z</note>
+                     </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <msItem>
@@ -398,6 +402,10 @@
                      <settlement>London</settlement>
                      <repository>The National Archives</repository>
                      <idno>PSO 2/5</idno>
+                     <altIdentifier>
+                        <idno/>
+                        <note>Y</note>
+                     </altIdentifier>
                   </msIdentifier>
                   <msContents>
                      <msItem>
@@ -457,7 +465,7 @@
                <rdg wit="#W #R #S #J #Y"/>
             </app> <lb ed="#R" n="1"/> <app>
                <rdg wit="#I #C #O #B #Z">fidei Defensor</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">fidei Defensor</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">fidei Defensor</add></rdg>
                <rdg wit="#W #R #S #J #Y"/>
             </app>
             <app>
@@ -524,7 +532,7 @@
             <!--WHC: B had doni et contessionis; et scratched out and c written above t to correct to concessionis; not sure if original hand-->
             <pb ed="#O" n="289"/>ac <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">sursum</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">sursum</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">sursum</add></rdg>
                </app> <lb ed="#R" n="6"/>redditionis <app>
                <rdg wit="#W #S #J #Y #Z">Ricardi</rdg>
                <rdg wit="#I #C #O #D #R">Rici</rdg>
@@ -535,7 +543,7 @@
                <rdg wit="#R #Y #Z">David'</rdg>
             </app> nuper Prioris et Conventus ejusdem <app><rdg wit="#C #D #I #J #O #R #S #W #Y #Z">nuper Prioratus nobis inde factæ; Virtute
             cujus nos in</rdg>
-               <rdg wit="#B"><add>^</add><add place="above">nuper prioratus nobis inde fact' virtute cuius nos in iure</add></rdg> <!-- WHC: B addition probably in different hand; similar to main hand but more upright--> 
+               <rdg wit="#B"><add place="below">^</add><add place="above">nuper prioratus nobis inde fact' virtute cuius nos in iure</add></rdg> <!-- WHC: B addition probably in different hand; similar to main hand but more upright--> 
             </app> <app>
                <rdg wit="#W #S #R #J #D #C #Y #B #Z">jure</rdg>
                <!-- WHC: In B and C it is slightly ambiguous but probably an e. -->
@@ -553,7 +561,7 @@
             </app> terris <app>
                <rdg wit="#B #W #S #J #I #C #O #Y">et</rdg>
                <rdg wit="#R"/>
-               <rdg wit="#D"><add>^</add><add place="above">et</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">et</add></rdg>
                <rdg wit="#Z">[illegible]</rdg>
             </app> tenementis ac <app>
                <rdg wit="#W #S #I #R #O #Y #Z">ceteris</rdg>
@@ -599,8 +607,8 @@
             <!--WHC: there is a one-word erasure here in B; impossible to make out or to determine if original scribe or later corrector-->
             obedientiæ erga nos; sed etiam linguæ vulgaris <app>
                <rdg wit="#B #W #S #R #J #D #Y #Z">Angliæ</rdg>
-               <rdg wit="#C"><add>^</add><add place="above">Angliæ</add></rdg><!-- WHC: In C this is an interlinear insertion in Thomas Baker's hand -->
-               <rdg wit="#I"><add>+</add><add place="margin">Angliae</add></rdg>
+               <rdg wit="#C"><add place="below">^</add><add place="above">Angliæ</add></rdg><!-- WHC: In C this is an interlinear insertion in Thomas Baker's hand -->
+               <rdg wit="#I"><add>+</add><add place="margin">Angliæ</add></rdg>
                <rdg wit="#O"/><!--WHC: indicates O was prob copied from I before this note was added to I-->
             </app> <lb ed="#Y" n="7"/>minime periti, sic quod statuta <lb ed="#Z" n="7"/>nostra in hujusmodi <app>
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">casu</rdg>
@@ -610,7 +618,7 @@
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">et</rdg><rdg wit="#B"/>
             </app> provisa observare nequeunt; et quod <app>
                <rdg wit="#B #C #I #J #O #R #S #W #Y #Z">debuerunt</rdg>
-               <rdg wit="#D">deb<hi rend="strikethrough">entur</hi><add place="inline">uerunt</add></rdg>
+               <rdg wit="#D">deb<del rend="strikethrough">entur</del><add place="inline">uerunt</add></rdg>
             </app> <!-- WHC: #D was overwritten to correct the word, not in original hand. -->
             et tenentur facere secundum formam et effectum dictorum statutorum, intelligere <lb ed="#R" n="13"/>non <app>
                <rdg wit="#B #R #W #I #J #C #O #D #Y #Z">possunt</rdg>
@@ -696,10 +704,8 @@
             </app> meliores <lb ed="#R" n="20"/>usus quam nunc disponuntur convertere <app>
                <rdg wit="#W #S #J #C #O #D"/>
                <rdg wit="#B #R #Y #Z">et transmutare</rdg>
-               <rdg wit="#I"><add place="leftMargin">et transmutare</add></rdg>
-               <!-- AMP: testing a system of adding footnotes in witnesses! -->
-               <!-- WHC: Great, but how will it be distinguished on the website? -->
-               <!-- WHC: This is a really important datum: it shows that someone corrected I by checking it against something that was NOT any of our other later witnesses; also this was after O was copied from I -->
+               <rdg wit="#I"><add place="margin">et transmutare</add></rdg>
+               <!-- WHC: This is an important datum: it shows that someone corrected I by checking it against something that was NOT any of our other later witnesses; also this was after O was copied from I -->
             </app>, clare <app>
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">percipientes</rdg>
                <rdg wit="#B">præcipientes</rdg>
@@ -716,7 +722,7 @@
             <!--WHC: Y has stat!!! with a dot over the last minim. In Z this word is illegible but there is a strong likelihood it goes with YR.--></app>
             <pb ed="#W" n="305"/> subditorum 
             <app><rdg wit="#B #W #R #I #J #C #S #D #O #Z">nostrorum</rdg>
-               <rdg wit="#Y"><add>^</add><add place="above">nostrorum</add></rdg></app>
+               <rdg wit="#Y"><add place="below">^</add><add place="above">nostrorum</add></rdg></app>
              melius consulere, de gratia nostra speciali <app>
                 <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">ac</rdg>
              <rdg wit="#B">et</rdg>
@@ -812,7 +818,7 @@
                <rdg wit="#Y #Z">quæcu'que</rdg>
             </app>, <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">bona</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">bona</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">bona</add></rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #D"/>
@@ -860,7 +866,7 @@
                <rdg wit="#R #C #O #D #Y #B #Z">demand'</rdg><!--WHC 5/28/26: original word ending in #B blacked out and replaced with a suspension mark-->
             </app> quæ nos in <app>
                <rdg wit="#W #S #J #R #I #C #D #Y #Z">prædicto</rdg>
-               <rdg wit="#O"><add>^</add><add place="superimposed">præ</add>dicto</rdg>
+               <rdg wit="#O"><add place="below">^</add><add place="superimposed">præ</add>dicto</rdg>
                <rdg wit="#B">dicto</rdg>
             </app> nuper Prioratu sive <lb ed="#R" n="34"/>domo fratrum prædicatorum ac cæteris præmissis cum pertinentiis, ac in reversione dicti nuper <pb ed="#I" n="272"/>Prioratus <lb ed="#Y" n="17"/>sive domus fratrum prædicatorum <lb ed="#R" n="35"/>ac cæterorum præmissorum <lb ed="#Z" n="17"/>cum omnibus et singulis suis pertinentiis universis, ac in manibus et possessione nostris jam existentibus habemus, seu <lb ed="#R" n="36"/><app>
                <rdg wit="#S #W #R #I #J #C #O #D #Y #Z">quovismodo</rdg>
@@ -903,14 +909,14 @@
                <rdg wit="#Y #Z">quibuscu'que</rdg>
             </app>, <pb ed="#R" n="31"/><lb ed="#R" n="39"/>sive alicui <app>
                <rdg wit="#B #W #S #J #R #I #C #O #Y #Z">inde</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">inde</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">inde</add></rdg>
             </app> <app><rdg wit="#B #C #D #I #O #W #S #J #Y">parcellæ</rdg>
             <rdg wit="#R">parcelli</rdg>
             <rdg wit="#Z">parcell'</rdg></app> <app>
                <rdg wit="#B #W #R #S #J #Y">quoquo <lb ed="#Y" n="19"/>modo</rdg>
                <!-- WHC: In Y this is a line break, so whether it's meant as two separate words is ambiguous -->
                <rdg wit="#I #C #O #Z">quoquomodo</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">quoquomodo</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">quoquomodo</add></rdg>
             </app> spectantia vel pertinentia, adeo <app>
                <rdg wit="#W #R #S #J">plene</rdg>
                <rdg wit="#B #I #O #D #Y #Z">plane</rdg><!-- WHC: Interesting divergence between YZ and R here; may be evidence W copied from an R-descended copy -->
@@ -1027,7 +1033,7 @@
                <rdg wit="#Y #Z">quecu'que</rdg>
             </app>, ac <app>
                <rdg wit="#B #W #S #I #R #J #C #D #Y #Z">cætera</rdg>
-               <rdg wit="#O"><add>^</add><add place="above">cætera</add></rdg>
+               <rdg wit="#O"><add place="below">^</add><add place="above">cætera</add></rdg>
             </app> omnia et singula præmissa superius expressa et specificata, <lb ed="#R" n="49"/>cum suis juribus et pertinentiis uni<lb ed="#Z" n="23"/>versis, <app>
                <rdg wit="#B #W #S #I #J #C #O #D #Y">una cum</rdg>
                <rdg wit="#R #Z">unacum</rdg>
@@ -1094,7 +1100,7 @@
                <rdg wit="#B">provenienda</rdg>
             </app>. Habendum et <app>
                <rdg wit="#C #D #I #J #O #R #S #W #Y #Z">percipiendum</rdg>
-            <rdg wit="#B"><add>^</add><add place="above">percipiendum</add> <del rend="strikethrough">tenendum</del></rdg>
+            <rdg wit="#B"><add place="below">^</add><add place="above">percipiendum</add> <del rend="strikethrough">tenendum</del></rdg>
             </app> <lb ed="#Y" n="26"/>dictum nuper Prioratum terras et tenementa <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">ac</rdg>
                <rdg wit="#D"><del rend="overwritten">et</del><add>ac</add></rdg>
@@ -1123,10 +1129,8 @@
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">motu</rdg>
                <rdg wit="#D"><del rend="overwritten">modu</del><add>motu</add></rdg>
             </app> nostris, volumus et concedimus <app>
-               <rdg wit="#O">pro nobis heredibus et successoribus nostris quoquomodo reddendo
-                  solvendo ac per præsentes</rdg>
-               <rdg wit="#I"><hi rend="underline">pro nobis heredibus et successoribus nostris
-                     quoquomodo reddendo solvendo </hi>ac per præsentes</rdg>
+               <rdg wit="#O">pro nobis heredibus et successoribus nostris quoquomodo reddendo solvendo ac per præsentes</rdg>
+               <rdg wit="#I"><hi rend="underline">pro nobis heredibus et successoribus nostris quoquomodo reddendo solvendo </hi>ac per præsentes</rdg>
                <rdg wit="#C">pro nobis heredibus et successoribus nostris <del rend="strikethrough"
                      >quoquomodo reddendo solvendo ac per præsentes</del></rdg>
                <!-- WHC: This is duplicate text, brought up from after 'concedimus' a few lines below. It seems that the scribe (or a reader) of #C realized his mistake and tried to strike it through, but wasn't sure where to stop; the scribe (or a reader) of #I underlined it as questionable, and left a marginal note; and the scribe of #O had no problem with the inclusion This suggests a common exemplar for C and I, or some cross-fertilization perhaps. NB its exclusion in D, whose scribe got something right for once. -->
@@ -1168,7 +1172,7 @@
                <rdg wit="#D"><del rend="strikethrough">ac omnia </del></rdg>
             </app>commoditates advantagia et <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">hæreditamenta</rdg>
-               <rdg wit="#D">hæredi<add>^</add><add place="above">ta</add>menta</rdg>
+               <rdg wit="#D">hæredi<add place="below">^</add><add place="above">ta</add>menta</rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #D #B">quæcunque,</rdg>
@@ -1247,7 +1251,7 @@
                <rdg wit="#C  #I #O">auctoritatem</rdg>
             </app> ordinario <app>
                <rdg wit="#W #S #I #R #C #O #J #Y #Z">ac</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">ac</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">ac</add></rdg>
                <!-- CRC: #D has ac inserted, but it is in the same hand as the text, not the other edits/marginalia. necessary to note, or collapse this? WHC: It's a very similar hand but maybe not the same, so let's keep it.-->
                <rdg wit="#B"/>
             </app> loci illius Diocesano et Patrono fundatori <app>
@@ -1311,7 +1315,7 @@
          </app> ipsi <pb ed="#D" n="179"/>libere et impune valeant quendam ludum <app>
                <rdg wit="#W #R #S #J #C #D #Y">literarium</rdg>
                <rdg wit="#I">literarum</rdg>
-               <rdg wit="#O">literar<add>^</add><add place="above">i</add>um</rdg>
+               <rdg wit="#O">literar<add place="below">^</add><add place="above">i</add>um</rdg>
                <!-- CRC: I probably does say "literarum". O does as well, with the i inserted above with a caret. --> <!--WHC: #I is actually ambiguous on this point.-->
             <rdg wit="#B #Z">litterarium</rdg>
             </app> <lb ed="#Y" n="34"/>erigere et fundare <lb ed="#Z" n="33"/>apud <app>
@@ -1347,7 +1351,7 @@
                <rdg wit="#B">Brecon'</rdg>
             </app> prædictum omnibus <app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">personis</rdg>
-               <rdg wit="#B"><hi rend="strikethrough">[illegible]</hi><add>^</add><add place="above">personis</add></rdg>
+               <rdg wit="#B"><del rend="strikethrough">[illegible]</del><add place="below">^</add><add place="above">personis</add></rdg>
                <!--WHC 6/22/26: in B there is a word completely blacked out, and ^personis is added in a different hand as a correction.-->
             </app> doceri <pb ed="#O" n="295"/>volentibus in bonis <lb ed="#Y" n="35"/><app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O">literis</rdg>
@@ -1379,7 +1383,7 @@
             </app>
             <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">officiariorum</rdg>
-               <rdg wit="#D">offici<add>^</add><add place="above">ari</add>orum</rdg>
+               <rdg wit="#D">offici<add place="below">^</add><add place="above">ari</add>orum</rdg>
             </app>
             <app>
                <rdg wit="#W #S #I #J #C #O #B">quorumcunque</rdg>
@@ -1414,7 +1418,7 @@
             </app> factis editis aut provisis, non obstantibus, 
             <!--WHC 6/22/26: In B, there is a change; but whether it is corrected from something else to non obstant', or changed from non obstant' to something else, and what that something else is, it is not possible to determine --> <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">et</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">et</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">et</add></rdg>
             </app> absque aliquo ab ipsis
             <!-- CRC #O has a small word or mark after "ip'is" that I can't identify. WHC: It's just a squiggle taking up space at the end of a line, albeit an unusual-looking one.-->
             pueris vel eorum parentibus pro <lb ed="#Z" n="36"/><lb ed="#Y" n="37"/> <app>
@@ -1449,10 +1453,10 @@
             <rdg wit="#B">dictu<del rend="strikethrough">m</del><add place="above">s</add> nuper prioratu<del rend="strikethrough">m</del><add place="above">s</add></rdg>
             </app> <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">fratrum prædicatorum</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">fratrum prædicatorum</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">fratrum prædicatorum</add></rdg>
             </app><app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O #Z"/>
-               <rdg wit="#B"><add>^</add><add place="above">nomine</add></rdg>
+               <rdg wit="#B"><add place="below">^</add><add place="above">nomine</add></rdg>
             </app> Collegium Christi de <app>
                <rdg wit="#W #S #J #B">Brecknock</rdg>
                <rdg wit="#R #D #Y">Brechnok</rdg>
@@ -1701,13 +1705,13 @@
                <rdg wit="#D #Y">Aberguylly</rdg>
             </app>, et successores sui, habeant <lb ed="#Y" n="47"/><app>
                <rdg wit="#W #R #S #J #C #D #Y #I #O #Z">gaudeant</rdg>
-            <rdg wit="#B">gaude<add>^</add><add place="above">a</add>nt</rdg>
+            <rdg wit="#B">gaude<add place="below">^</add><add place="above">a</add>nt</rdg>
             </app> et <app>
                <rdg wit="#C #D #I #O #W #S #J #R #Y">utantur</rdg>
                <rdg wit="#B #Z">utuntur</rdg><!--WHC: B slightly ambiguous but probably u-->
             </app> omnibus <app>
                <rdg wit="#W #S #J #R #I #C #O #Y #B #Z">et omnimodis</rdg>
-               <rdg wit="#D"><add>^</add><add place="above">et omnimodis</add></rdg>
+               <rdg wit="#D"><add place="below">^</add><add place="above">et omnimodis</add></rdg>
             </app> <lb ed="#Z" n="45"/>privilegiis <pb ed="#B" n="5"/>libertatibus franchesiis <app>
                <rdg wit="#W #S #J #D #I #C #O">præheminentiis</rdg>
                <rdg wit="#R #Z #Y">preeminentiis</rdg>
@@ -1871,7 +1875,7 @@
                <rdg wit="#R">declarat' dat' explanat' pronunciat' et publicat'</rdg>
                <rdg wit="#I #Y">declarata data explanata pronunciata <lb ed="#Y" n="54"/>et publicata</rdg>
                <rdg wit="#C #O #D">declarata data explanata pronunciata et puplicata</rdg>
-               <rdg wit="#B">data declarata explanata <add>^</add><add place="above">pronunciata</add> et publicata</rdg>
+               <rdg wit="#B">data declarata explanata <add place="below">^</add><add place="above">pronunciata</add> et publicata</rdg>
             </app> fuissent et essent aptissimis verbis <app>
                <rdg wit="#W">utque</rdg>
                <!-- WHC checked WSJ: atque is obviously correct here; S corrected it -->
