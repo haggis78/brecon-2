@@ -438,6 +438,7 @@
       <body>
          
          <ab n="0">
+            <!--WHC: This ab is used for titles, headings, labels, and endorsements that appear on various copies of the text that would have had no analogue on the Letters Patent as issued under the Great Seal.-->
             <pb ed="#I" n="269"/><pb ed="#W" n="304"/><pb ed="#R" n="30"/>
             <pb ed="#O" n="288"/><pb ed="#S" n="372col1"/><pb ed="#J" n="719col1"/>
             <pb ed="#D" n="175"/>
@@ -461,7 +462,7 @@
          <ab n="1">
             <lb ed="#Z" n="1"/>
             <app>
-               <rdg wit="#I #C #O #D #B #Z">Henricus Octavus Dei gratia Angliæ et Franciæ Rex</rdg>
+               <rdg wit="#I #C #O #D #B #Z">Henricus Octavus Dei gratia Angliæ et Franciæ Rex</rdg><!--WHC: Check all these: Octavus or Octavius?  -->
                <rdg wit="#W #R #S #J #Y"/>
             </app> <lb ed="#R" n="1"/> <app>
                <rdg wit="#I #C #O #B #Z">fidei Defensor</rdg>

@@ -9,8 +9,10 @@
     version="3.0">
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
-        omit-xml-declaration="yes"/>    
-    <xsl:template match="/">
+        omit-xml-declaration="yes"/> 
+    <xsl:variable name="editionColl" as="node()+" select="//altIdentifier/note"/>
+    
+    <xsl:template match="doc('../xml/CharterCollation.xml')">
         <xsl:result-document method="xhtml" indent="yes" href="../docs/html/reading-views/critical-edition.html">
         <html>
             <head>
@@ -54,20 +56,91 @@
                 </div>
                 
                 <div class="content">
-                    <h1>Critical edition</h1>
+                    <h1>Critical edition [PAGE UNDER CONSTRUCTION]</h1>
                     <h2>Introduction</h2>
-                    <p>The official version of the Letters Patent was that issued under the Great Seal, a single large sheet of parchment that would have been sent to St Davids and, following the functional establishment of Christ College Brecon, physically preserved there, with the bishop of St Davids' records, or with the Cathedral Chapter's records. (Most likely all three at least had copies of the text.) The sealed original does not survive, and indeed the variations amongst the later manuscript witnesses (BCDIO) and the earliest printing (W) suggest that it had already disappeared by the eighteenth century. As the College was closed as an institution and its buildings severely damaged during the Civil War, this seems the most probable period for its loss.</p>
+                    <p>The official version of the Letters Patent was that issued under the Great Seal, a single large sheet of parchment that would have been sent to St Davids and, following the functional establishment of Christ College Brecon, physically preserved at Brecon, with the bishop of St Davids' records, or with the Cathedral Chapter's records. (Most likely all three at least had copies of the text.) The sealed original does not survive, and indeed the variations amongst the later manuscript witnesses (BCDIO) and the earliest printing (W) suggest that it had already disappeared by the eighteenth century. As the College was closed as an institution and its buildings severely damaged during the Civil Wars of the 1640s, this seems the most probable period for its loss.</p>
                     <p>Within the stemma of copies, the closest to the issued text is Witness Z, the Warrant in Chancery that served both as the direct draft from which the Letters Patent were copied and as the official commission to engross, seal, and issue the document. The second-closest is Witness R, the Chancery Patent Roll, which was itself also copied from Z, and the third-closest is Witness Y, the Privy Seal Warrant, which preceded the Warrant in Chancery and was used as its draft. In general, readings from Z should be preferred to all others, with a few exceptions.</p> 
-                    <p>First, there are short passages at the beginning and end of the Warrant in Chancery that pertain to its particular stage in the process: these would not have appeared in the Letters Patent as issued. Some other witnesses provide versions of standard forms used on Letters Patent; these can be compared with <a href="../about/letters-patent.html">surviving issued Letters Patent of Henry VIII</a>. <a href="https://www.textmanuscripts.com/tm-assets/tm-descriptions/descriptions-spring-23/TM%201134%20Ely%20Cathedral%20documents%20SH%20FINAL.pdf">One example from September 1541</a>--less than two years after the Brecon charter was issued--begins:</p> 
-                    <ul><li>Henricus octavius dei gratia Anglie et Francie Rex fidei Defensor Dominus hibernie et in ter[ra] supremum Caput Anglicane Ecclesis Omibus [sic.] ad quos presentes tuo pervenerint Salutem.</li></ul>
-                    <p>Other surviving Letters Patent begin almost identically, though occasionally word order is transposed. <a href="https://nycroblog.com/2025/09/25/north-yorkshire-archive-treasures-royal-documents/#jp-carousel-23203">Another example from 1546</a> begins almost identically except for asserting Henry's claim to be "Anglie Francie et Hibernie Rex". As <a href="https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland">Henry did not claim to be King of Ireland until 1542</a>, the salutation of the 1540 Brecon document should have been in accord with that of September 1541.</p>
+                    <p>First, there are short passages at the beginning and end of the Warrant in Chancery that pertain to its particular stage in the process: these would not have appeared in the Letters Patent as issued. Some other witnesses provide versions of standard forms used on Letters Patent; these can be compared with <a href="../about/letters-patent.html">surviving issued Letters Patent of Henry VIII</a>. <a href="https://www.textmanuscripts.com/tm-assets/tm-descriptions/descriptions-spring-23/TM%201134%20Ely%20Cathedral%20documents%20SH%20FINAL.pdf">One example from September 1541</a>--less than two years after the Brecon charter was issued--begins with this salutation:</p> 
+                    <ul><li>Henricus octavius dei gratia Anglie et Francie Rex fidei Defensor Dominus hibernie et in ter[ra] supremum Caput Anglicane Ecclesie Omibus [sic.] ad quos presentes tuo pervenerint Salutem.</li></ul>
+                    <p>Other surviving Letters Patent share essentially the same salutation, though occasionally word order is transposed. <a href="https://nycroblog.com/2025/09/25/north-yorkshire-archive-treasures-royal-documents/#jp-carousel-23203">Another example from 1546</a> begins almost identically to the September 1541 example quoted above, though it spells out "omnibus" in full, does not include "tuo", and asserts Henry's claim to be "Anglie Francie et Hibernie Rex". As <a href="https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland">Henry did not claim to be King of Ireland until 1542</a>, the salutation of the 1540 Brecon document would still have identified Henry only as lord of Ireland.</p>
                     
-                    <p>Second, the scribes of manuscripts Y and Z often abbreviated their Latin words. Medieval Latin scribes routinely abbreviated words to save parchment, but they normally used <a href="https://archive.org/details/CappelliDizionarioDiAbbreviature">a large number of suspension marks</a> that indicated with some specificity which letters had been left out. The scribes of Y and Z, and to a lesser extent R, frequently omitted the last few letters of a word--the ending that would indicate a noun's gender, number, and case, or a verb's tense, number, person, and mood--and indicated the omission with a non-specific backward curl similar to an apostrophe. No doubt this did not pose a problem for them because they were deeply familiar with the legal turns of phrase in such documents. Later copyists had to make conjectures about what these endings should have been, and their differing conjectures account for many of the differences among the copies collated for this edition. Z is the most extensively abbreviated of all of our copies, and expansions supplied by Y and R, written by different scribes but in the same time and professional setting, are the best indication of how the Z scribe intended his words to end.</p>
-                    
+                    <p>Second, the scribes of manuscripts Y and Z often abbreviated their Latin words. Medieval Latin scribes routinely abbreviated to save parchment, but they normally used <a href="https://archive.org/details/CappelliDizionarioDiAbbreviature">a large number of suspension marks</a> that indicated with some specificity which letters had been left out. The scribes of Y and Z, and to a lesser extent R, frequently omitted the last few letters of a word--the ending that would indicate a noun's gender, number, and case, or a verb's tense, number, person, and mood--and indicated the omission with a non-specific backward curl similar to an apostrophe. No doubt this did not pose a problem for them because they were deeply familiar with the legal turns of phrase in such documents. Later copyists had to make conjectures about what these endings should have been, and their differing conjectures account for many of the differences among the copies collated for this edition. Z is the most extensively abbreviated of all of our copies, and expansions supplied by Y and R, written by different scribes but in the same time and professional setting, are the best indication of how the Z scribe intended his words to end.</p>
+                    <h2>Text</h2>
+                    <!--WHC: first need to establish ab 1 using text supplied by other engrossed Letters Patent, and alternate readings as given in all other witnesses-->
+                    <p>[§ 1] Henricus Octavius dei gratia Anglie et Francie Rex Fidei Defensor Dominus Hibernie et in terra supremum caput Anglicane Ecclesie Omnibus ad quos presentes pervenerint Salutem.</p>
+                    <details><summary>Variants</summary>
+                        <ul>
+                            <xsl:for-each select="$editionColl">
+                                <xsl:sort select="current() ! string()"/>
+                                <li><b><xsl:value-of select="current() ! string()"/>:</b> 
+                                    <xsl:apply-templates select="root()/descendant::ab[@n='1']" mode="ab1">
+                                        <xsl:with-param name="currentEd" as="node()" select="current()"/>
+                                    </xsl:apply-templates></li>
+                            </xsl:for-each>
+                        </ul>
+                    </details>
+                 <!--WHC: as this edition should omit ab 0, and ab 1 has already been taken care of, call for subsequent ab's only-->   <!--<xsl:apply-templates select="//text/body/ab[@n>1]"/>-->
                 </div>
             </body>
         </html>
         </xsl:result-document>
     </xsl:template>
     
+    <xsl:template match="ab" mode="ab1">
+        <xsl:param name="currentEd"/>
+                <xsl:apply-templates mode="ab1-reading">
+                    <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
+                </xsl:apply-templates>
+    </xsl:template>
+    
+    <xsl:template match="app" mode="ab1-reading">
+        <xsl:param name="currentEd"/>
+        <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
+                <xsl:apply-templates select="rdg[@wit[contains(., $currentEd ! string())]]"/>
+        </xsl:if>
+    </xsl:template>
+    
+
+
+
+
+
+
+    <xsl:template match="add[@place='above']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
+    <xsl:template match="add[@place='below']">
+        <sub><xsl:apply-templates/></sub>
+    </xsl:template>
+    
+    <xsl:template match="add[@place='margin']">
+        [<i>added in margin: </i><xsl:apply-templates/>]
+    </xsl:template>
+    
+    <xsl:template match="add[@place='inline']">
+        [<i>added inline: </i><xsl:apply-templates/>]
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend='underline']">
+        <u><xsl:apply-templates/></u>
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend='sup']">
+        <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend='italics']">
+        <i><xsl:apply-templates/></i>
+    </xsl:template>
+    
+    <xsl:template match="del[@rend='strikethrough']">
+        <s><xsl:apply-templates/></s>
+    </xsl:template>
+    
+    <xsl:template match="del[@rend='overwritten']">
+        <s><xsl:apply-templates/></s>[overwritten]
+    </xsl:template>   
+    
+
 </xsl:stylesheet>
