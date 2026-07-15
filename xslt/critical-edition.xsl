@@ -82,7 +82,23 @@
                         </ul>
                     </details></td>
                         </tr>
-                 <!--WHC: as this edition should omit ab 0, and ab 1 has already been taken care of, call for subsequent ab's only-->   <!--<xsl:apply-templates select="//text/body/ab[@n>1]"/>-->
+                        
+                        <xsl:for-each select="//text/body/ab[@n>1]">
+                            <tr>
+                                <td><xsl:apply-templates select="."/></td><!--need to tell it to select Z readings!-->
+                                <td width="75%"><details><summary><b>Variants</b> (click to expand/collapse)</summary>
+                                        <ul>
+                                            <xsl:for-each select="$editionColl"><!--need to have it iterate not over editionColl but over app elements-->
+                                                <xsl:sort select="current() ! string()"/>
+                                                <li><b><xsl:value-of select="current() ! string()"/>:</b> 
+                                                    <xsl:apply-templates select="root()/descendant::ab[@n='1']" mode="ab1">
+                                                        <xsl:with-param name="currentEd" as="node()" select="current()"/>
+                                                    </xsl:apply-templates></li>
+                                            </xsl:for-each>
+                                        </ul>
+                                </details></td>
+                            </tr>
+                        </xsl:for-each>
                         
                     </table>
                 </div>
