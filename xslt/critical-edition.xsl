@@ -94,11 +94,13 @@
                                     <!--WHC: the following for-loop creates one details/summary for each app-->
                                             <xsl:for-each select=".//app">
                                                 <details><summary>
-                                                        <sup><xsl:value-of select="count(preceding-sibling::app) + 1"/></sup>
-                                                        <span class="crit-variant"><xsl:apply-templates select="rdg[@wit[contains(., 'Z')]]"/></span></summary> <ul class="crit-variant">
+                                                        <sup><xsl:value-of select="count(preceding-sibling::app) + 1"/></sup><!--WHC: this assigns sequential  numbers to each app for easier cross-reference between text and apparatus-->
+                                                        <span class="crit-variant"><xsl:apply-templates select="rdg[@wit[contains(., 'Z')]]"/></span></summary> 
+                                                    <ul class="crit-variant">
                                     <!--WHC: the following for-loop generates one li for every rdg-->
                                                     <xsl:for-each select=".//rdg">
-                                                        <li><xsl:value-of select="@wit"/>: <xsl:apply-templates/></li>
+         <!--WHC: the following function sequence tokenizes the @wit string, then does an alphabetical sort of the tokens, then removes the hashes and string-joins the remaining letters with no space separator-->
+                                                        <li><xsl:value-of select="string-join(sort(tokenize(@wit) ! translate(., '#', '')), '')"/>: <xsl:apply-templates/></li>
                                                     </xsl:for-each></ul>
                                                     </details>
                                             </xsl:for-each>

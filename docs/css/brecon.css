@@ -150,9 +150,10 @@ ul.comp-links{
 .content{
     display: flex;
     flex-direction: column;
-    width: 97vw;
+    margin-left: 10%;
+    margin-right:10%;
     justify-content: center;
-    margin: auto;
+
 }
 .comp{
     display: flex;
@@ -494,13 +495,13 @@ td, th{
 td.crit-variant{
   padding-top: 10px;
   padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
   width:50%;
 }
 table.crit-variant{
     margin-left:20%;
-   /* margin-right:20%;*/
+   margin-right:5%;
 }
 span.crit-variant{
       text-decoration-line: underline;
