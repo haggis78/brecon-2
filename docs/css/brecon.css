@@ -488,3 +488,21 @@ above { vertical-align: super; }
     width: 100%;
     justify-content: center;
 }
+td, th{
+    vertical-align: top;
+}
+td.crit-variant{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 0px;
+  width:50%;
+}
+table.crit-variant{
+    margin-left:20%;
+   /* margin-right:20%;*/
+}
+span.crit-variant{
+      text-decoration-line: underline;
+        text-decoration-style: dotted;
+}
