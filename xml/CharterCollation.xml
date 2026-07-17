@@ -462,7 +462,7 @@
          <ab n="1">
             <lb ed="#Z" n="1"/>
             <app>
-               <rdg wit="#I #C #O #D #B #Z">Henricus Octavus Dei gratia Angliæ et Franciæ Rex</rdg><!--WHC: Check all these: Octavus or Octavius?  -->
+               <rdg wit="#I #C #O #D #B #Z">Henricus octavus Dei gratia Angliæ et Franciæ Rex</rdg><!--WHC: Checked these: all read Octavus except Z which is unclear: NB some images of other issued letters patent of H8 say Octavius  -->
                <rdg wit="#W #R #S #J #Y"/>
             </app> <lb ed="#R" n="1"/> <app>
                <rdg wit="#I #C #O #B #Z">fidei Defensor</rdg>
